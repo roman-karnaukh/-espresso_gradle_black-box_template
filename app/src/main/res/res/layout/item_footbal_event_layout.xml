@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp">
+
+    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="Динамо - Днепр"
+        android:textColor="?attr/color6"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivLogo"
+            android:src="@mipmap/tmp_sport"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="2016-05-08 в 13.00"
+            android:textColor="@color/color16"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="Днепропетровск"
+            android:textColor="@color/color16"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvNameStructure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="Днепр-Арена"
+            android:textColor="@color/color16"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvAdressStructure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="ул. Херсонская, 7"
+            android:textColor="@color/color16"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivLogoGuest"
+            android:src="@mipmap/tmp_sport2"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="20dp"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_is_electronic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/you_buy_electronic_ticket"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tickets_step6_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true" />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tickets_step6_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/tickets_from" />
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tickets_step6_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text" />
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/tickets_to" />
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tickets_step6_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="?attr/common_text"
+                    android:singleLine="true" />
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/tickets_places" />
+
+            <LinearLayout
+                android:id="@+id/tickets_step6_places"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:text="@string/date_arr" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step6_date_arr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/text_western_gross" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step6_cost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="@color/archive_color_green"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFeeBank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#727272" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spCards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:enabled="true"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edit_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:enabled="true"
+            android:hint="@string/common_pay_pass"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="?attr/check_style"
+            android:paddingLeft="@dimen/padding_checkbox"
+            android:text="@string/show_password"
+            android:textColor="?attr/common_text" />
+
+        <!--<Button
+                android:id="@+id/tickets_step6_pay"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/common_pay"/>-->
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/tickets_step6_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="60dp"
+            p24:textSize="@dimen/text_size_button_next" />
+    </LinearLayout>
+
+</ScrollView>
+
+    <!--
+        <?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_is_electronic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/you_buy_electronic_ticket"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tickets_step6_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tickets_step6_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/tickets_from"/>
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tickets_step6_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/tickets_to"/>
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tickets_step6_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/tickets_places"/>
+
+            <LinearLayout
+                android:id="@+id/tickets_step6_places"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:text="@string/date_arr"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step6_date_arr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/text_western_gross"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step6_cost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="@color/archive_color_green"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llFeeBank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#727272"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spCards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+            android:id="@+id/edit_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:enabled="true"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+            android:id="@+id/edit_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:enabled="true"
+            android:hint="@string/common_pay_pass"
+            android:inputType="textPassword"/>
+
+        <CheckBox
+            android:id="@+id/checkPass"
+            android:button="?attr/check_style"
+            android:paddingLeft="13dp"
+            android:textColor="?attr/common_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"/>
+
+        &lt;!&ndash;<Button
+                android:id="@+id/tickets_step6_pay"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/common_pay"/>&ndash;&gt;
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/tickets_step6_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            p24:textSize="@dimen/text_size_button_next"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    </ScrollView>-->

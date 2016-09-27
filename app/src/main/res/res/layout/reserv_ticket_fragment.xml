@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+        android:id="@+id/tvNameEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/reserv_message"
+        android:textColor="?attr/color7"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <ListView
+        android:id="@+id/lvTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:headerDividersEnabled="false"
+        android:visibility="visible"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

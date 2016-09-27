@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_discound_add_first_card"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="gone"
+>
+
+    <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+            android:id="@+id/tvAddFirstAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Обьявлений в данной категории нет"
+            android:textColor="?attr/color5"
+            android:textSize="22sp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:src="@drawable/ads_empty_orders"/>
+</LinearLayout>

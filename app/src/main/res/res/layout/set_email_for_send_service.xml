@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="34dp"
+    android:paddingRight="34dp">
+
+    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Укажите электронный адрес для отправки услуги"
+        android:textColor="?attr/common_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        style="?attr/style_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:paddingTop="50dp"
+        android:textColor="?attr/common_text"
+        android:textSize="18sp" />
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="60dp"
+        p24:textSize="@dimen/text_size_button_next" />
+
+</LinearLayout>

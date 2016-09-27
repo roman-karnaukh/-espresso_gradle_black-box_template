@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:orientation="vertical"
+                >
+
+            <Spinner
+                    android:id="@+id/cardFromSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="18dp"
+                    android:layout_gravity="center">
+
+                <EditText
+                        android:id="@+id/eAmt"
+                        android:layout_width="wrap_content"
+                        android:minWidth="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="45"
+                        android:textColor="?attr/color7"
+                        style="?attr/style_edittext"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:textSize="@dimen/text_size_amt"
+                        android:textStyle="bold"/>
+
+                <TextView
+                        android:id="@+id/tvCcy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="0"
+                        android:gravity="bottom"
+                        android:text="@string/ccy_ua"
+                        android:textColor="?attr/common_text"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                    <Button
+                            android:id="@+id/btn1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/one_hundred_grivnas"
+                            android:textSize="20dp"/>
+
+
+                    <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/two_hundred_grivnas"
+                            android:textSize="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                    <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/five_hundred_grivnas"
+                            android:textSize="20dp"/>
+                    />
+
+                    <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/one_thousand_grivnas"
+                            android:textSize="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                    android:id="@+id/segment_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:orientation="vertical">
+
+                <RadioButton
+                        android:id="@+id/button_own"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:minHeight="33dip"
+                        android:minWidth="40dip"
+                        android:textColor="?attr/common_text"
+                        android:text="@string/send_a_code_to_your_phone"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                <RadioButton
+                        android:id="@+id/button_alien"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="33dip"
+                        android:minWidth="40dip"
+                        android:textColor="?attr/common_text"
+                        android:text="@string/send_a_code_to_another_phone"
+                        android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RadioGroup>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
+                    android:id="@+id/llPhone"
+                    android:orientation="horizontal">
+
+                <EditText
+                        android:id="@+id/phone1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/common_receivers_phone"
+                        style="?attr/style_edittext"
+                        android:textColor="?attr/common_text"
+                        android:textSize="@dimen/text_size_mob_pop"
+                        />
+
+                <ImageView
+                        android:id="@+id/choosePhone1"
+                        android:layout_weight="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="?attr/kontakt"
+                        android:textColor="?attr/common_text"/>
+
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    p24:textSize="@dimen/text_size_button_next"
+                    android:layout_gravity="right"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

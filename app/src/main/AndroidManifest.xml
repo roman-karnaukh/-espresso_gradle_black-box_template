@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.test.ceb.espressotest">
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:label="Tests"
+        android:targetPackage="your.package" />
+
+    <application></application>
+
+</manifest>

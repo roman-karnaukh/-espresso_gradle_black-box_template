@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/etGameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:hint="@string/game_login" />
+
+        <Spinner
+            android:id="@+id/cardFromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llGameCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etGameAmt"
+                style="?attr/style_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="70dp"
+                android:paddingBottom="0dp"
+                android:text="1"
+                android:textColor="?attr/color7"
+                android:textSize="@dimen/text_size_amt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCcyGameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:text="кредитов"
+                android:textColor="?attr/common_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etAmt"
+                style="?attr/style_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="70dp"
+                android:text="1"
+                android:textColor="?attr/color7"
+                android:textSize="@dimen/text_size_amt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:text="@string/ccy_ua"
+                android:textColor="?attr/common_text" />
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="60dp"
+            p24:text="@string/button_next"
+            p24:textSize="@dimen/text_size_button_next" />
+
+    </LinearLayout>
+
+</ScrollView>

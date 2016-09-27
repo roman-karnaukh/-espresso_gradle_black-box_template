@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/customActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:visibility="visible">
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/cardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="70dp"
+            android:text=""
+            android:textColor="?attr/bar_header_text_color"
+            android:textSize="32sp" />
+
+        <ua.privatbank.ap24.beta.utils.CustomSearchView
+            android:id="@+id/search_view_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:queryHint="@string/search_btn" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp">
+
+        <include
+            android:id="@+id/progr"
+            layout="@layout/progress_layout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fillLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selector_text_background"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/searchId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_up" />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/showAllRefills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Отобразить все пополнения"
+                android:textColor="?attr/color4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/findLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selector_text_background"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/searchId22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_down" />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/showAllExpenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Отобразить все траты"
+                android:textColor="?attr/color4" />
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/tvDost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/available"
+            android:textColor="?attr/common_text"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvAmtAvailable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/color7" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="bottom"
+                android:indeterminateDrawable="?attr/progress_"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUseOfCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/kreditCaption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/using_credit"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvAmtUseOfCredit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCreditLimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?selector_text_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/kreditLim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/credit_limit"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvAmtCreditLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTotalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvLabelAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/compulsory_payment"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:visibility="gone" />
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/btnCalculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:text="@string/taxi_calculate"
+                p24:textSize="@dimen/text_size_more_transfers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFullAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvFullLabelAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/amount_full_repayment"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvFullTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="350.21 грн." />
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/llResiduePayment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/residueCaption"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/residue"-->
+        <!--android:textColor="?attr/master_common_text"-->
+        <!--android:textSize="16sp"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<ua.privatbank.ap24.beta.apcore.components.TextSumView-->
+        <!--android:id="@+id/tvResiduePayment"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"/>-->
+        <!--</LinearLayout>-->
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/tvMsgFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/msg_full_payment_one"
+            android:textColor="?attr/master_common_text"
+            android:textSize="16sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" />
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            p24:iv_background="?attr/selector_button_next_small"
+            p24:text="@string/transfer"
+            p24:textSize="@dimen/text_size_more_transfers" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/emptyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/no_data_to_display"
+                android:textColor="?attr/color5" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Languages-->
+    <string-array name="listOfLangNames">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Українська</item>
+    </string-array>
+
+    <!--Themes-->
+    <string-array name="listThemeNames">
+        <item>Светлая тема</item>
+        <item>Темная тема</item>
+    </string-array>
+
+    <string-array name="listlangValues">
+        <item>ru</item>
+        <item>en</item>
+        <item>uk</item>
+    </string-array>
+
+    <string-array name="serviceoperators">
+        <item>Киевстар</item>
+        <item>Виасат</item>
+        <item>Пиплнет</item>
+        <item>"Фринет</item>
+        <item>Билинк</item>
+        <item>Воля кабель</item>
+        <item>Вега</item>
+        <item>Фрештел</item>
+        <item>Домашний телеком</item>
+        <item>Триолан</item>
+    </string-array>
+
+    <string-array name="valuesserviceoperators">
+        <item>kvinet</item>
+        <item>viasat</item>
+        <item>peoplenet</item>
+        <item>freeenet</item>
+        <item>bilink</item>
+        <item>"volya</item>
+        <item>vega</item>
+        <item>freshtel</item>
+        <item>hometel</item>
+        <item>triolan</item>
+    </string-array>
+
+    <string-array name="service1">
+        <item>Аналоговое ТВ</item>
+        <item>Цифровое ТВ</item>
+        <item>Интернет</item>
+        <item>ТВ и Интернет</item>
+    </string-array>
+
+    <string-array name="service2">
+        <item>Интернет</item>
+        <item>Телефония</item>
+        <item>Телефония-счет</item>
+    </string-array>
+
+    <string-array name="service3">
+        <item>Обычный аккаунт</item>
+        <item>Бизнес аккаунт</item>
+    </string-array>
+
+    <string-array name="service4">
+        <item>ТВ</item>
+        <item>Интернет</item>
+        <item>Телеком</item>
+    </string-array>
+    <string-array name="service5">
+        <item>Интернет</item>
+        <item>ТВ</item>
+    </string-array>
+    <string-array name="city">
+        <item>Алчевск</item>
+        <item>ВинницаТВ</item>
+        <item>Волочиск</item>
+        <item>Днепропетровск</item>
+        <item>Добротвор</item>
+        <item>Донецк</item>
+        <item>Запорожье</item>
+        <item>Запорожье (Одеко)</item>
+        <item>Киев</item>
+        <item>Кировоград</item>
+        <item>Краматорск</item>
+        <item>Кременец</item>
+        <item>Кривой Рог</item>
+        <item>Луцк</item>
+        <item>Львов</item>
+        <item>Львов (Одеко)</item>
+        <item>Макеевка</item>
+        <item>Новомосковск</item>
+        <item>Полтава</item>
+        <item>Ровно</item>
+        <item>Севастополь</item>
+        <item>Симферополь</item>
+        <item>Стебник</item>
+        <item>Сумы</item>
+        <item>Теребовля</item>
+        <item>Тернополь</item>
+        <item>Трускавец</item>
+        <item>Харьков</item>
+        <item>Херсон</item>
+        <item>Хмельницкий</item>
+        <item>Черкассы</item>
+        <item>Черновцы</item>
+        <item>Черновцы (Одеко)</item>
+        <item>Чортков</item>
+    </string-array>
+
+    <string-array name="TypeCard">
+        <item>Интернет карта"</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>Выберите страну</item>
+        <item>Абхазия</item>
+        <item>Австралия</item>
+        <item>Австрия</item>
+        <item>Азербайджан</item>
+        <item>Албания</item>
+        <item>Алжир</item>
+        <item>Американское Самоа</item>
+        <item>Ангилья</item>
+        <item>Ангола</item>
+        <item>Андорра</item>
+        <item>Антарктида</item>
+        <item>Антигуа и Барбуда</item>
+        <item>Аргентина</item>
+        <item>Армения</item>
+        <item>Аруба</item>
+        <item>Афганистан</item>
+        <item>Багамы</item>
+        <item>Бангладеш</item>
+        <item>Барбадос</item>
+        <item>Бахрейн</item>
+        <item>Беларусь</item>
+        <item>Белиз</item>
+        <item>Бельгия</item>
+        <item>Бенин</item>
+        <item>Бермуды</item>
+        <item>Болгария</item>
+        <item>Боливия, Многонациональное Государство</item>
+        <item>Бонайре, Саба и Синт-Эстатиус</item>
+        <item>Босния и Герцеговина</item>
+        <item>Ботсвана</item>
+        <item>Бразилия</item>
+        <item>Британская территория в Индийском океане</item>
+        <item>Бруней-Даруссалам</item>
+        <item>Буркина-Фасо</item>
+        <item>Бурунди</item>
+        <item>Бутан</item>
+        <item>Вануату</item>
+        <item>Венгрия</item>
+        <item>Венесуэла Боливарианская Республика</item>
+        <item>Виргинские острова, Британские</item>
+        <item>Виргинские острова, США</item>
+        <item>Вьетнам</item>
+        <item>Габон</item>
+        <item>Гаити</item>
+        <item>Гайана</item>
+        <item>Гамбия</item>
+        <item>Гана</item>
+        <item>Гваделупа</item>
+        <item>Гватемала</item>
+        <item>Гвинея</item>
+        <item>Гвинея-Бисау</item>
+        <item>Германия</item>
+        <item>Гернси</item>
+        <item>Гибралтар</item>
+        <item>Гондурас</item>
+        <item>Гонконг</item>
+        <item>Гренада</item>
+        <item>Гренландия</item>
+        <item>Греция</item>
+        <item>Грузия</item>
+        <item>Гуам</item>
+        <item>Дания</item>
+        <item>Джерси</item>
+        <item>Джибути</item>
+        <item>Доминика</item>
+        <item>Доминиканская Республика</item>
+        <item>Египет</item>
+        <item>Замбия</item>
+        <item>Западная Сахара</item>
+        <item>Зимбабве</item>
+        <item>Израиль</item>
+        <item>Индия</item>
+        <item>Индонезия</item>
+        <item>Иордания</item>
+        <item>Ирак</item>
+        <item>Иран, Исламская Республика</item>
+        <item>Ирландия</item>
+        <item>Исландия</item>
+        <item>Испания</item>
+        <item>Италия</item>
+        <item>Йемен</item>
+        <item>Кабо-Верде</item>
+        <item>Казахстан</item>
+        <item>Камбоджа</item>
+        <item>Камерун</item>
+        <item>Канада</item>
+        <item>Катар</item>
+        <item>Кения</item>
+        <item>Кипр</item>
+        <item>Киргизия</item>
+        <item>Кирибати</item>
+        <item>Китай</item>
+        <item>Кокосовые (Килинг) острова</item>
+        <item>Колумбия</item>
+        <item>Коморы</item>
+        <item>Конго</item>
+        <item>Конго, Демократическая Республика</item>
+        <item>Корея, Народно-Демократическая Республика</item>
+        <item>Корея, Республика</item>
+        <item>Коста-Рика</item>
+        <item>Кот д\'Ивуар</item>
+        <item>Куба</item>
+        <item>Кувейт</item>
+        <item>Кюрасао</item>
+        <item>Лаос</item>
+        <item>Латвия</item>
+        <item>Лесото</item>
+        <item>Ливан</item>
+        <item>Ливийская Арабская Джамахирия</item>
+        <item>Либерия</item>
+        <item>Лихтенштейн</item>
+        <item>Литва</item>
+        <item>Люксембург</item>
+        <item>Маврикий</item>
+        <item>Мавритания</item>
+        <item>Мадагаскар</item>
+        <item>Майотта</item>
+        <item>Макао</item>
+        <item>Малави</item>
+        <item>Малайзия</item>
+        <item>Мали</item>
+        <item>Малые Тихоокеанские отдаленные острова Соединенных Штатов</item>
+        <item>Мальдивы</item>
+        <item>Мальта</item>
+        <item>Марокко</item>
+        <item>Мартиника</item>
+        <item>Маршалловы острова</item>
+        <item>Мексика</item>
+        <item>Микронезия, Федеративные Штаты</item>
+        <item>Мозамбик</item>
+        <item>Молдова, Республика</item>
+        <item>Монако</item>
+        <item>Монголия</item>
+        <item>Монтсеррат</item>
+        <item>Мьянма</item>
+        <item>Намибия</item>
+        <item>Науру</item>
+        <item>Непал</item>
+        <item>Нигер</item>
+        <item>Нигерия</item>
+        <item>Нидерланды</item>
+        <item>Никарагуа</item>
+        <item>Ниуэ</item>
+        <item>Новая Зеландия</item>
+        <item>Новая Каледония</item>
+        <item>Норвегия</item>
+        <item>Объединенные Арабские Эмираты</item>
+        <item>Оман</item>
+        <item>Остров Буве</item>
+        <item>Остров Мэн</item>
+        <item>Остров Норфолк</item>
+        <item>Остров Рождества</item>
+        <item>Остров Херд и острова Макдональд</item>
+        <item>Острова Кайман</item>
+        <item>Острова Кука</item>
+        <item>Острова Теркс и Кайкос</item>
+        <item>Пакистан</item>
+        <item>Палау</item>
+        <item>Палестинская территория, оккупированная</item>
+        <item>Панама</item>
+        <item>Папский Престол</item>
+        <item>Папуа-Новая Гвинея</item>
+        <item>Парагвай</item>
+        <item>Перу</item>
+        <item>Питкерн</item>
+        <item>Польша</item>
+        <item>Португалия</item>
+        <item>Пуэрто-Рико</item>
+        <item>Республика Македония</item>
+        <item>Реюньон</item>
+        <item>Россия</item>
+        <item>Руанда</item>
+        <item>Румыния</item>
+        <item>Самоа</item>
+        <item>Сан-Марино</item>
+        <item>Сан-Томе и Принсипи</item>
+        <item>Саудовская Аравия</item>
+        <item>Свазиленд</item>
+        <item>Святая Елена, Остров вознесения, Тристан-да-Кунья</item>
+        <item>Северные Марианские острова</item>
+        <item>Сен-Бартельми</item>
+        <item>Сен-Мартен</item>
+        <item>Сенегал</item>
+        <item>Сент-Винсент и Гренадины</item>
+        <item>Сент-Люсия</item>
+        <item>Сент-Китс и Невис</item>
+        <item>Сент-Пьер и Микелон</item>
+        <item>Сербия</item>
+        <item>Сейшелы</item>
+        <item>Сингапур</item>
+        <item>Синт-Мартен</item>
+        <item>Сирийская Арабская Республика</item>
+        <item>Словакия</item>
+        <item>Словения</item>
+        <item>Соединенное Королевство</item>
+        <item>Соединенные Штаты</item>
+        <item>Соломоновы острова</item>
+        <item>Сомали</item>
+        <item>Судан</item>
+        <item>Суринам</item>
+        <item>Сьерра-Леоне</item>
+        <item>Таджикистан</item>
+        <item>Таиланд</item>
+        <item>Тайвань (Китай)</item>
+        <item>Танзания</item>
+        <item>Тимор-Лесте</item>
+        <item>Того</item>
+        <item>Токелау</item>
+        <item>Тонга</item>
+        <item>Тринидад и Тобаго</item>
+        <item>Тувалу</item>
+        <item>Тунис</item>
+        <item>Туркмения</item>
+        <item>Турция</item>
+        <item>Уганда</item>
+        <item>Узбекистан</item>
+        <item>Украина</item>
+        <item>Уоллис и Футуна</item>
+        <item>Уругвай</item>
+        <item>Фарерские острова</item>
+        <item>Фиджи</item>
+        <item>Филиппины</item>
+        <item>Финляндия</item>
+        <item>Фолклендские острова (Мальвинские)</item>
+        <item>Франция</item>
+        <item>Французская Гвиана</item>
+        <item>Французская Полинезия</item>
+        <item>Французские Южные территории</item>
+        <item>Хорватия</item>
+        <item>Центрально-Африканская Республика</item>
+        <item>Чад</item>
+        <item>Черногория</item>
+        <item>Чешская Республика</item>
+        <item>Чили</item>
+        <item>Швейцария</item>
+        <item>Швеция</item>
+        <item>Шпицберген и Ян Майен</item>
+        <item>Шри-Ланка</item>
+        <item>Эквадор</item>
+        <item>Экваториальная Гвинея</item>
+        <item>Эландские острова</item>
+        <item>Эль-Сальвадор</item>
+        <item>Эритрея</item>
+        <item>Эстония</item>
+        <item>Эфиопия</item>
+        <item>Южная Африка</item>
+        <item>Южная Джорджия и Южные Сандвичевы острова</item>
+        <item>Южная Осетия</item>
+        <item>Южный Судан</item>
+        <item>Ямайка</item>
+        <item>Япония</item>
+    </string-array>
+
+    <string-array name="VolyaTowns">
+        <item>Алчевск</item>
+        <item>Винница</item>
+        <item>Волочиск</item>
+        <item>Днепропетровск</item>
+        <item>Добротвор</item>
+        <item>Донецк</item>
+        <item>Запорожье</item>
+        <item>Запорожье (Одеко)</item>
+        <item>Киев</item>
+        <item>Кировоград</item>
+        <item>Краматорск</item>
+        <item>Кременец</item>
+        <item>Кривой Рог</item>
+        <item>Луцк</item>
+        <item>Львов</item>
+        <!--<item>Львов (Одеко)</item>-->
+        <item>Макеевка</item>
+        <item>Новомосковск</item>
+        <item>Полтава</item>
+        <item>Ровно</item>
+        <item>Севастополь</item>
+        <item>Симферополь</item>
+        <item>Стебник</item>
+        <item>Сумы</item>
+        <item>Теребовля</item>
+        <item>Тернополь</item>
+        <item>Трускавец</item>
+        <item>Харьков</item>
+        <item>Херсон</item>
+        <item>Хмельницкий</item>
+        <item>Черкассы</item>
+        <item>Черновцы</item>
+        <item>Черновцы (Одеко)</item>
+        <item>Чортков</item>
+    </string-array>
+    <string-array name="VolyaTypes">
+    <item>Аналоговое ТВ</item>
+    <item>Цифровое ТВ</item>
+    <item>Интернет</item>
+    <item>ТВ и/или интернет</item>
+    </string-array>
+    <string-array name="VegaTypes">
+        <item>Интернет</item>
+        <item>Телефония</item>
+        <item>Телефония - счет</item>
+    </string-array>
+    <string-array name="HomeTelecomTypes">
+        <item>ТВ</item>
+        <item>Интернет</item>
+        <item>Телефон</item>
+    </string-array>
+    <string-array name="TriolanTypes">
+        <item>Интернет</item>
+        <item>ТВ</item>
+    </string-array>
+    <string-array name="KUtelTypes">
+        <item>Номер телефона</item>
+        <item>Лицевой счет</item>
+    </string-array>
+
+
+    <string-array name="taxiPoints">
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+    </string-array>
+
+    <string-array name="taxiPoints2">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+    </string-array>
+
+    <!--gios-->
+    <string-array name="months">
+        <item>01 - Январь</item>
+        <item>02 - Февраль</item>
+        <item>03 - Март</item>
+        <item>04 - Апрель</item>
+        <item>05 - Май</item>
+        <item>06 - Июнь</item>
+        <item>07 - Июль</item>
+        <item>08 - Август</item>
+        <item>09 - Сентябрь</item>
+        <item>10 - Октябрь</item>
+        <item>11 - Ноябрь</item>
+        <item>12 - Декабрь</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/llNfc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/imageNfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="?attr/nfc"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/tvNfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:focusable="false"
+            android:paddingTop="10dp"
+            android:text="NFC"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="?attr/color2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llQr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/imageQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            android:src="?attr/qr"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/tvQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:focusable="false"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/authorization_and_payment"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="?attr/color2"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

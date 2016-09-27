@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--атрибуты "android:name" и "class" - по сути одно и то же, но не на всех устройствах оба они обрабатываются-->
+    <include layout="@layout/header_bonus_plus_fragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tvMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="КАРТА"
+            android:textColor="@color/color1_dark"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="СПИСОК"
+                android:textColor="@color/color16"
+                android:textSize="14sp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvForeingeCards"
+                style="@style/text_white_size_small_bg_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="1dp"
+                android:gravity="top|center"
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:singleLine="true"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

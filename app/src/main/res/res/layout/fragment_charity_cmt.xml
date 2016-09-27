@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textCardFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/from_card"
+            android:textColor="?attr/master_common_text"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvFromCardNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="?attr/common_text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="@string/sum"
+            android:textColor="?attr/master_common_text"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32"
+                android:textColor="?attr/color7"
+                android:textSize="44dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCcy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="bottom"
+                android:text="@string/biplan_ccy"
+                android:textColor="?attr/color7" />
+        </LinearLayout>
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            p24:iv_background="?attr/selector_button_next_small"
+            p24:text="@string/button_details"
+            p24:textSize="@dimen/text_size_more_transfers" />
+
+        <LinearLayout
+            android:id="@+id/llMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvDescript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="@string/description_info"
+                android:textColor="?attr/master_common_text"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="@string/default_description"
+                android:textColor="?attr/master_common_text"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editRecipientFio"
+            style="?attr/style_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/edit_recipient_fio"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/editPass"
+            style="?attr/style_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/checkPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:button="?attr/check_style"
+            android:paddingLeft="@dimen/padding_checkbox"
+            android:text="@string/show_password"
+            android:textColor="?attr/common_text"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editCvv"
+            style="?attr/style_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/cvv"
+            android:inputType="number|textPassword"
+            android:password="true"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="0"
+                p24:text="@string/button_confirm"
+                p24:textSize="28sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

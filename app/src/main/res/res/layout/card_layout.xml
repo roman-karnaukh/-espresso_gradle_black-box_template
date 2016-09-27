@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="7dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-5sp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/textCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="*1111"
+                android:textColor="@color/gray_99"
+                android:textSize="13dp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tvLastTransAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0"
+                android:textColor="@color/orange_wot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/textName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/card_for_payment"
+                android:textColor="?attr/color6"
+                android:textSize="20sp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0"
+                android:text="2000"
+                android:textColor="?attr/color3"
+                android:textSize="26sp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+                android:id="@+id/tvCcy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0"
+                android:text="грн"
+                android:textColor="?attr/color3"
+                android:textSize="16sp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

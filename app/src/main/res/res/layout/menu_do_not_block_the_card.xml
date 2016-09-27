@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/do_not_block_the_card"
+                        />
+
+            <ImageButton
+                    android:id="@+id/imageInfo"
+                    android:layout_weight="0"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/btn_info_ic"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+
+            <Spinner
+                    android:id="@+id/spinner_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/period_not_be_blocked"
+                    />
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:layout_weight="0"
+                    android:textSize="15sp"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/from_date"
+                    />
+
+            <Button
+                    android:id="@+id/button_date1"
+                    android:background="?attr/bg_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="?attr/common_text"
+                    android:text="@string/button_install"/>
+
+
+            <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0"
+                    android:textSize="15sp"
+                    android:textColor="?attr/common_text"
+                    android:text="@string/to_date"
+                    />
+
+            <Button
+                    android:id="@+id/button_date2"
+                    android:background="?attr/bg_time"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="?attr/common_text"
+                    android:text="@string/button_install"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/the_country_where_cards_should_not_be_blocked"
+                    />
+
+            <ImageButton
+                    android:id="@+id/imageButtonCountry"
+                    android:layout_weight="0"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="?attr/btn_info_ic"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/linearLayoutCountry">
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+            <Spinner
+                    android:id="@+id/spinnerCountry"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    />
+
+            <TextView
+                    android:id="@+id/textViewAddCountry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/add_another_country"
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/your_telephone_number_abroad"
+                    />
+
+            <ImageButton
+                    android:id="@+id/imageButtonPhone"
+                    android:layout_weight="0"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/btn_info_ic"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+            <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/style_edittext"
+                    android:layout_gravity="left|center_vertical"/>
+
+
+            <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginTop="15dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="15sp"
+                    android:button="?attr/check_style"
+                    android:paddingLeft="13dp"
+                    android:text="@string/responsibility_for_the_operation"/>
+
+        </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/button_ok2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    p24:textSize="@dimen/text_size_button_next"
+                    android:text="@string/new_order"
+                    android:layout_gravity="right"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

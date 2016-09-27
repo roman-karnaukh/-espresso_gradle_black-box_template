@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:padding="16dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvNumber1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:text="1"
+                    android:textColor="?attr/color7"
+                    android:layout_gravity="center"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvHeader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hw_spec_city"
+                    android:textColor="?attr/color6"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/textRates1"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/bar_header_text_color"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:text="@string/hw_spec_city_det"
+                    android:visibility="visible"
+                    android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <View android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_weight="1"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvNumber2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:text="2"
+                    android:textColor="?attr/color7"
+                    android:layout_gravity="center"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hw_choice_spec"
+                    android:textColor="?attr/color6"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/textRates2"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/bar_header_text_color"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:text="@string/hw_choice_spec_det"
+                    android:visibility="visible"
+                    android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <View android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_weight="1"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvNumber3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:text="3"
+                    android:textColor="?attr/color7"
+                    android:layout_gravity="center"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvHeader3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hw_task_comleted"
+                    android:textColor="?attr/color6"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/textRates3"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/bar_header_text_color"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:text="@string/hw_task_comleted_det"
+                    android:visibility="visible"
+                    android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <View android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_weight="1"/>
+    </LinearLayout>
+</ScrollView>

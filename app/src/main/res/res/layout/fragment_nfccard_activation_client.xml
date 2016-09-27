@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="?attr/color6"
+            android:text="@string/you_will_be_enabled_through_nfc_payment_service"
+            android:id="@+id/tvTextForClient"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/color1"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:id="@+id/textSpin"
+            android:text="@string/select_the_card_to_pay_via_nfc"/>
+
+        <Spinner
+            android:id="@+id/cardFromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="right"/>
+    </LinearLayout>
+</ScrollView>

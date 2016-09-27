@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:text="Концерт академического симфонического оркестра сол. Артем Полуденный"
+        android:textColor="?attr/color6"
+        android:textSize="20sp"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/tvData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:ellipsize="end"
+            android:text="27 апреля"
+            android:textColor="?attr/master_common_text"
+            android:textSize="16dp"
+            android:visibility="visible" />
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:textColor="?attr/master_common_text"
+            android:textSize="16dp"
+            android:visibility="visible" />
+    </LinearLayout>
+    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+        android:id="@+id/tvStructure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Днепропетровская филармония имени Б.Когана"
+        android:textColor="?attr/master_common_text"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp" />
+    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Спортивная площадь, 1"
+        android:textColor="?attr/master_common_text"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    >
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="false">
+
+        <Spinner
+            android:id="@+id/spinSoapHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:divider="@color/color15"
+            android:popupBackground="@color/color15"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <ImageView
+        android:id="@+id/imScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_qr_p24"
+        android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivSoapBasket"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/basket"
+            android:focusableInTouchMode="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right" />
+
+
+
+    </LinearLayout>
+
+        <ua.privatbank.ap24.beta.views.RobotoCondensedLightTextView
+            android:id="@+id/tvSoupTitle"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="?attr/bar_header_text_color"
+            android:gravity="center"
+            style="@style/singleLine"
+            android:textSize="@dimen/text_size_title"
+            android:text="@string/product"
+            android:visibility="visible" />
+
+    <!--</FrameLayout>-->
+
+    <TextView
+        android:id="@+id/tvSoapBasketCount"
+        style="@style/text_white_size_small_bg_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:minHeight="18dp"
+        android:minWidth="18dp"
+        android:text="0"
+        android:singleLine="true"
+        android:layout_gravity="right" />
+
+</RelativeLayout>

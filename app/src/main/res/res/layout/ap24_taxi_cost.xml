@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvAmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="75"
+                    android:textColor="?attr/color7"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:id="@+id/tvCcy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="bottom"
+                    android:text="@string/ccy_ua"
+                    android:textColor="?attr/color7"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="bottom"
+                        android:text="@string/add_plus"
+                        android:textColor="?attr/common_text"
+                        android:textSize="22sp"/>
+
+                <EditText
+                    android:id="@+id/addCostED"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?attr/style_edittext"
+                    android:minWidth="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/addCostTvCcy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="bottom"
+                    android:text="@string/ccy_ua"
+                    android:textColor="?attr/color2"
+                    android:textSize="22sp" />
+            </LinearLayout>
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:textColor="?attr/common_text"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_UAH_to_order_cost"
+            />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="?attr/horizontal_line" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="100">
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/taxi_bg_ab_archive"
+                        android:gravity="center"
+                        android:text="@string/taxi_point_A"
+                        android:textColor="?attr/taxi_ab_text"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvAddressFrom"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="90"
+                    android:text="Набережная Победы д 32 корп.1 под1"
+                    android:textColor="?attr/common_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dp">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/horizontal_line" />
+
+            <TextView
+                android:id="@+id/tvPaymentType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taxi_payment_type"
+                android:textColor="?attr/common_text" />
+
+            <LinearLayout
+                android:id="@+id/llButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+
+                android:paddingTop="5dp">
+
+                <Button
+                    android:id="@+id/btnCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_bt_active"
+                    android:text="@string/card"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btnCash"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_bt_inactive"
+                    android:text="@string/cash"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/cardFromSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvAttention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="false"
+                android:text="@string/taxi_attention"
+                android:textColor="?attr/common_text" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                        android:id="@+id/buttonNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left"
+                        android:layout_weight="0"
+                        p24:text="@string/card_order"
+                        p24:textSize="@dimen/text_size_button_next"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

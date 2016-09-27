@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:orientation="vertical">
+
+    <AutoCompleteTextView
+            android:id="@+id/fromPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:completionThreshold="1"
+            android:hint="@string/where_from"
+            android:singleLine="true"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/toPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:completionThreshold="1"
+            android:hint="@string/where_to"
+            android:singleLine="true"/>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/ctrlDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                p24:textColor="@color/color4"
+                p24:textSize="@dimen/text_size_more_transfers"
+                p24:iv_background="?attr/selector_button_next_small"/>
+
+    </RelativeLayout>
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/ctrlNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            p24:textSize="@dimen/text_size_button_next"
+            android:layout_gravity="right"/>
+</LinearLayout>

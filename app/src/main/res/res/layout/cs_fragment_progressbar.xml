@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/_add_user"/>
+    <ua.privatbank.ap24.beta.views.RobotoLightItalicTextView android:layout_width="wrap_content"
+                                                             android:layout_height="wrap_content"
+                                                             android:layout_marginTop="20dp"
+                                                             android:textSize="18dp"
+                                                             android:text="Определяется способ подтвержедния"/>
+</LinearLayout>

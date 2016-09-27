@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:scrollbars="none"
+            android:fillViewport="false">
+
+    <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_gravity="center_horizontal"
+                  android:padding="10dp">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/text_result"
+                    android:textColor="?attr/common_text"
+                    android:textSize="30sp"/>
+
+            <ImageView
+
+                    android:id="@+id/imageViewSmile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/smile"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvCarInWay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:text="@string/car_on_way"
+                    android:textColor="?attr/color2"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/tvCarFiled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:text="@string/car_filed"
+                android:textColor="?attr/color2"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/rlTime">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:indeterminateDrawable="?attr/big_progress_bar"
+                android:layout_centerInParent="true" />
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:text="00"
+                android:textColor="?attr/color7"
+                android:layout_centerInParent="true" />
+
+
+        </RelativeLayout>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/model_color_of_car_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_of_car_IV"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:text="Желтый Ford..."
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:id="@+id/carsNumberLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/model_color_of_car_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+            android:paddingBottom="15dp"
+                android:visibility="invisible"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/carNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AE 1324 HI"
+                    android:textColor="?attr/common_text"
+                    android:textSize="30sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/driverInformationLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_text_background_light"
+                android:paddingBottom="20dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/tvPhoneTax"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:text="@string/phone_driver"
+                android:textColor="?attr/color2"
+                android:textIsSelectable="false"
+                android:layout_weight="1" />
+                <TextView
+                        android:id="@+id/driverTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="?attr/color7"
+                        android:text="+380661234567"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageView
+                    android:id="@+id/call_to_driver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_call_taxi"
+                    android:paddingLeft="10dp" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="?attr/color2"
+                    android:text="@string/total_sum"
+                    android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tvCostTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75 грн..."
+            android:layout_gravity="center_horizontal"
+            android:textColor="?attr/color7"
+            android:textSize="20sp"
+             />
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                p24:textSize="@dimen/text_size_button_next"
+                p24:text="@string/button_to_menu"
+        />
+    </LinearLayout>
+</ScrollView>

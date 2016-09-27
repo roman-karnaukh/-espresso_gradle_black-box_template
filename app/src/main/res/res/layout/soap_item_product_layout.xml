@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivProductLogo"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:visibility="visible"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8">
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Шампунь WELLA густые и крепкие"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                    android:id="@+id/tvSumSoup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical" />
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tvOldPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="22.99 грн"
+                    android:textColor="?attr/color4"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

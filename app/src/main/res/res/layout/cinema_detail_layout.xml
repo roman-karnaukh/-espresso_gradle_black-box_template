@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ua.privatbank.ap24.beta.components.ImageSquareView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivProductLogo"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:visibility="visible"
+                android:scaleType="centerInside" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8">
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Книга Джунглей"
+                    android:textSize="20sp"
+                    android:layout_weight="1" />
+
+                    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvCountryYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="США, 2016"
+                        android:textColor="?attr/color4"
+                        android:textSize="16sp"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="visible" />
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="1 ч 45 мин"
+                    android:textColor="?attr/color4"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:padding="10dp">
+
+            <TextView
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="?attr/color7"
+                android:text="@string/add_ticket"
+                android:visibility="visible"
+                android:id="@+id/tvDescription" />
+
+        </LinearLayout>
+
+</LinearLayout>

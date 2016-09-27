@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+           android:id="@+id/typeOfPlace"
+           xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="8dp"
+           p24:text="49 мест Плацкарт"
+           android:textStyle="bold"
+           android:textColor="?attr/color6"
+           android:layout_marginTop="2dp"
+           p24:textSize="@dimen/text_size_more_transfers"
+           p24:iv_background="?attr/selector_button_next_small"
+           p24:textColor="?attr/color6"
+        />
+
+    <View android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"></View>
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/quantity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="245.45 грн"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="?attr/color7"
+        />
+
+</LinearLayout>

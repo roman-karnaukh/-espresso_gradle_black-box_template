@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ava_size">290px</dimen>
+    <dimen name="ava_size_global">360px</dimen>
+    <dimen name="padding_operator">-5dp</dimen>
+    <dimen name="padding_top_fragment_main">10dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="height_icons">120dp</dimen>
+    <dimen name="font_13">13sp</dimen>
+    <dimen name="font_medium">20sp</dimen>
+    <dimen name="font_medium2">16sp</dimen>
+    <dimen name="font_big">26sp</dimen>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10sp"
+                    android:textStyle="bold"
+                    android:text="@string/google_cash_get_way_money"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/buttonFast"
+                    android:layout_margin="10sp"
+                    android:padding="30sp"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:lines="2"
+                    android:textColor="@color/colorLightGreen"
+                    />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/buttonFast"
+                    android:layout_margin="10sp"
+                    android:padding="20sp"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:id="@+id/buttonLong"
+                    android:lines="2"
+                    />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

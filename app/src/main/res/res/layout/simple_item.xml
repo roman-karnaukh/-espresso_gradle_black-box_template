@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ua.privatbank.ap24.beta.views.RobotoMediumTextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/tvItem1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+

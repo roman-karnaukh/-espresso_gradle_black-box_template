@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layoutSwift"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="15dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="?attr/bg_deposit"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/recipient_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/recipient_name1"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/recipient_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/recipient_name2"
+                android:textColor="?attr/taxi_ab_text"
+                android:textSize="14sp"/>
+
+
+        <TextView
+                android:id="@+id/recipient_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+
+        <TextView
+                android:id="@+id/recipient_acc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/recipient_acc1"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/recipient_acc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/recipient_acc2"
+                android:textColor="?attr/taxi_ab_text"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/recipient_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+
+        <TextView
+                android:id="@+id/swift_bank_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_bank_name1"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/swift_bank_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_bank_name2"
+                android:textColor="?attr/taxi_ab_text"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/swift_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+
+        <TextView
+                android:id="@+id/swift_bnf_bank_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_bnf_bank_name1"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/swift_bnf_bank_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_bnf_bank_name2"
+                android:textColor="?attr/taxi_ab_text"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/swift_bnf_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+
+        <TextView
+                android:id="@+id/swift_correspondent_account1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_correspondent_account1"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/swift_correspondent_account2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/swift_correspondent_account2"
+                android:textColor="?attr/taxi_ab_text"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/swift_correspondent_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+
+        <LinearLayout
+                android:id="@+id/llForRUB"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/swift_code1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_code_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/swift_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_bik1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_bik_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_bik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+            <TextView
+                    android:id="@+id/bnf_inn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_inn_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_inn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+            <TextView
+                    android:id="@+id/bnf_kpp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_kpp_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_kpp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+            <TextView
+                    android:id="@+id/bnf_okto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_okpo_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_okto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+            <TextView
+                    android:id="@+id/bnf_okato1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/swift_okato_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_okato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/horizontal_line"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llIBAN"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/swift_iban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/swift_iban"
+                android:textColor="?attr/common_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+
+        <TextView
+                android:id="@+id/iban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llCorespAccForRus"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/bnf_corresp_acc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/swift_bnf_corresp_acc_ru"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+
+            <TextView
+                    android:id="@+id/bnf_corresp_acc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="20sp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

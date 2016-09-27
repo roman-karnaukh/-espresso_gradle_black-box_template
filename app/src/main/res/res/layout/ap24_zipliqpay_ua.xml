@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layoutUa"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="15dp"
+              android:orientation="vertical">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="?attr/bg_deposit"
+                android:paddingTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/recipient_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/recipient_info"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                <TextView
+                        android:id="@+id/editUaName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/horizontal_line"/>
+
+                <TextView
+                        android:id="@+id/account_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/card_number"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+
+                <TextView
+                        android:id="@+id/editUaAcc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/horizontal_line"/>
+
+                <TextView
+                        android:id="@+id/banking_institution"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/swift_banking_institution"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+
+                <TextView
+                        android:id="@+id/editBankingInstitution"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/horizontal_line"/>
+
+                <TextView
+                        android:id="@+id/bank_mfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/swift_bank_mfo"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+
+                <TextView
+                        android:id="@+id/editUaMFO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/horizontal_line"/>
+
+                <TextView
+                        android:id="@+id/common_okpo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/swift_common_okpo"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                <TextView
+                        android:id="@+id/editUaOKPO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/horizontal_line"/>
+
+                <TextView
+                        android:id="@+id/rec_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/swift_rec_account"
+                        android:textColor="?attr/common_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                <TextView
+                        android:id="@+id/editRecAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"/>
+
+
+</LinearLayout>
+</LinearLayout>

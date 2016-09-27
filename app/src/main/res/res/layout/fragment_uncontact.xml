@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textPhone"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="9dp"
+            android:textColor="?attr/common_text"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/codes"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <!--<ProgressBar-->
+                <!--android:id="@+id/progress"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:indeterminateDrawable="?attr/progress_"/>-->
+        <ImageView android:id="@+id/ivQr"
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:layout_gravity="center"
+        />
+       </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            p24:text="@string/button_scan"
+            p24:textSize="@dimen/text_size_button_next"/>
+    </LinearLayout>
+
+
+</LinearLayout>

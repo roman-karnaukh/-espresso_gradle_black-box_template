@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp">
+
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/From_card"
+                android:id="@+id/textView"
+                android:layout_gravity="left|center_vertical"/>
+
+        <Spinner
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardFromSpinner"
+                android:layout_gravity="left|center_vertical"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/editAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:text="@string/amt_uah_"
+                    android:textSize="20dp"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                    android:id="@+id/eAmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/color7"
+                    android:gravity="center"
+                    android:minWidth="200dp"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/pin_buttons"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                    <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                            android:id="@+id/btn1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/one_hundred_grivnas"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:textSize="18dp"/>
+
+                    <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                            android:id="@+id/btn2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:text="@string/two_hundred_grivnas"
+                            android:textSize="18dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                    <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                            android:id="@+id/btn3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/five_hundred_grivnas"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:textSize="18dp"/>
+
+                    <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                            android:id="@+id/btn4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/one_thousand_grivnas"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:textSize="18dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--<ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:id="@+id/buttonNext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:text="@string/next"/>-->
+            <!--<ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonNext"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="50dp"
+                    p24:text="@string/next"
+                    p24:textSize="@dimen/text_size_button_next"/>-->
+
+                <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                        android:id="@+id/buttonNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        p24:text="@string/common_continue"
+                        p24:textSize="@dimen/text_size_button_next"
+                        android:layout_gravity="right"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

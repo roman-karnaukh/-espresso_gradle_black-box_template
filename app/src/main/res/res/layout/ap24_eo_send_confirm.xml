@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="35dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:id="@+id/tvSum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textColor="?attr/master_common_text"
+                android:text="@string/sum"
+                android:textSize="14dp"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                    android:id="@+id/tvAmt"
+                    android:textSize="@dimen/text_size_amt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/color7"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tvTitleFee"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="?attr/master_common_text"
+                android:text="@string/eo_fee"
+                android:textSize="14dp"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/tvFee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="?attr/common_text"
+                    android:textSize="16dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+            <Spinner
+                    android:id="@+id/spinner_from_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+
+            <EditText
+                    android:id="@+id/editPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="@string/pass"
+                    style="?attr/style_edittext"
+                    android:inputType="textPassword">
+            </EditText>
+            <CheckBox
+                android:id="@+id/checkPass"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:layout_marginTop="10dp"
+                android:textColor="?attr/common_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_password"
+                />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_gravity="right">
+                <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                        android:id="@+id/nextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_gravity="right"
+                        p24:textSize="@dimen/text_size_button_next"
+                        p24:text="@string/button_confirm"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

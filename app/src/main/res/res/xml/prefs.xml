@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   
+     <PreferenceCategory
+        android:summary="common"
+        android:title="@string/total">
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:summary="Sms"
+        android:title="@string/auth">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="key_sms_always"
+            android:summary="@string/sms_password"
+            android:title="@string/strong_authentication"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/Heah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/ticket_information"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="5dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="1">
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+
+                <TextView
+                        android:id="@+id/stadiumTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color4"
+                        android:text="@string/stadium"/>
+
+                <TextView
+                        android:id="@+id/tvStadium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:textColor="?attr/color4"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/matchTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:textColor="?attr/color4"
+                        android:gravity="right"
+                        android:text="@string/match"/>
+
+                <TextView
+                        android:id="@+id/tvMatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/dateTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/date_"/>
+
+                <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+
+            </TableRow>
+            <TableRow
+                    android:id="@+id/tableRowCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/startTimeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/start_time"/>
+
+                <TextView
+                        android:id="@+id/tvStartTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/tableRowCcy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/placesTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/tickets_places"/>
+
+                <TextView
+                        android:id="@+id/tvPlaces"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+
+            </TableRow>
+        </TableLayout>
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/getPDFButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                p24:textSize="@dimen/text_size_button_next"
+                p24:text="@string/get_a_ticket"
+                android:layout_gravity="right"/>
+    </LinearLayout>
+
+</ScrollView>

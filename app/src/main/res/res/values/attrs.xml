@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--HorizontalPicker-->
+    <declare-styleable name="HorizontalPicker">
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="values" format="reference" />
+        <attr name="android:ellipsize" />
+        <attr name="android:marqueeRepeatLimit" />
+        <attr name="dividerSize" format="dimension" />
+        <attr name="sideItems" format="integer" />
+    </declare-styleable>
+    <attr name="horizontalPickerStyle" format="reference" />
+
+    <attr name="color_background_card_item" format="color"/>
+    <attr name="flowers" format="color"/>
+    <attr name="color_tabs" format="color"/>
+    <attr name="color_card_on_main_screen" format="color"/>
+    <attr name="selector_text_background" format="reference" />
+    <attr name="selector_button_background" format="reference" />
+    <attr name="chart" format="reference" />
+    <attr name="credit_history" format="reference" />
+    <attr name="credit_rating" format="reference" />
+    <attr name="status_control" format="reference" />
+    <attr name="kaban" format="reference" />
+
+    <attr name="selector_horizontal_picker" format="reference" />
+    <attr name="chat" format="reference" />
+    <attr name="mail" format="reference" />
+    <attr name="markets" format="reference" />
+    <attr name="stock" format="reference" />
+    <attr name="gift_card" format="reference"/>
+
+    <attr name="btn_date_picker" format="reference"/>
+    <attr name="boar" format="reference"/>
+    <attr name="ic_tickets" format="reference"/>
+    <attr name="ic_all_services" format="reference"/>
+    <attr name="ic_info" format="reference"/>
+    <attr name="ic_tickets_bus" format="reference"/>
+    <attr name="ic_tickets_plane" format="reference"/>
+    <attr name="ic_geoloc" format="reference"/>
+    <attr name="ic_visaandmc" format="reference"/>
+    <attr name="like_active" format="reference" />
+    <attr name="like_unactive" format="reference" />
+    <attr name="ic_archive" format="reference"/>
+    <attr name="ic_business" format="reference"/>
+    <attr name="ic_cash" format="reference"/>
+    <attr name="ic_commun" format="reference"/>
+    <attr name="ic_gios" format="reference"/>
+    <attr name="map_ic_auth" format="reference"/>
+    <attr name="p24_ic_header" format="reference"/>
+    <attr name="add_avatar_p24" format="reference"/>
+    <attr name="push" format="reference"/>
+    <attr name="privat_ic_header" format="reference"/>
+    <attr name="ic_documents" format="reference"/>
+    <attr name="ic_cosmetics" format="reference"/>
+    <attr name="ic_deposit" format="reference"/>
+    <attr name="ic_details" format="reference"/>
+    <attr name="ic_soilent" format="reference"/>
+    <attr name="ic_extra_money" format="reference"/>
+    <attr name="ic_google_checks" format="reference"/>
+    <attr name="ic_management_cards" format="reference"/>
+    <attr name="ic_management_cards_archive" format="reference"/>
+    <attr name="ic_taxi_home_archive" format="reference"/>
+    <attr name="gift_card_archive" format="reference"/>
+    <attr name="flowers_archive" format="reference"/>
+    <attr name="game_archive" format="reference"/>
+    <attr name="ticket_football_archive" format="reference"/>
+    <attr name="photokassa_archive" format="reference"/>
+    <attr name="kaban_archive" format="reference"/>
+    <attr name="kaban2" format="reference"/>
+    <attr name="kaban3" format="reference"/>
+    <attr name="ic_money_plus" format="reference"/>
+    <attr name="ic_money" format="reference"/>
+    <attr name="ic_money_box" format="reference"/>
+    <attr name="ic_new" format="reference"/>
+    <attr name="ic_petrol" format="reference"/>
+    <attr name="ic_phone_number" format="reference"/>
+    <attr name="_101" format="reference"/>
+    <attr name="_102" format="reference"/>
+    <attr name="_103" format="reference"/>
+    <attr name="_104" format="reference"/>
+    <attr name="_112" format="reference"/>
+    <attr name="ic_com_archive" format="reference"/>
+    <attr name="ic_tickets_bus_big_archive" format="reference"/>
+    <attr name="ic_tickets_train_big_archive" format="reference"/>
+    <attr name="ic_tickets_plane_big_archive" format="reference"/>
+    <attr name="food_archive" format="reference"/>
+    <attr name="ic_swift_archive" format="reference"/>
+    <attr name="ic_swift" format="reference"/>
+    <attr name="ic_vk" format="reference"/>
+    <attr name="ic_yandex_money" format="reference"/>
+    <attr name="ic_communication_services" format="reference"/>
+    <attr name="ic_communication_all_services" format="reference"/>
+    <attr name="ic_exchange" format="reference"/>
+    <attr name="ic_discount" format="reference"/>
+    <attr name="ic_communication_services_circle" format="reference"/>
+    <attr name="ic_charity" format="reference"/>
+    <attr name="ic_prapor" format="reference"/>
+    <attr name="ic_google_cash" format="reference"/>
+    <attr name="ic_faq" format="reference"/>
+    <attr name="ic_map" format="reference"/>
+    <attr name="ic_sms_contact" format="reference"/>
+    <attr name="ic_call_to_bank" format="reference"/>
+    <attr name="ic_password" format="reference"/>
+    <attr name="ic_archive_taxi" format="reference"/>
+    <attr name="bg_discount_item" format="reference"/>
+    <attr name="expand" format="reference"/>
+    <attr name="bg_round_sides" format="reference"/>
+
+    <attr name="arrow_p_activ_dark" format="reference"/>
+    <attr name="open" format="reference"/>
+    <attr name="refresh" format="reference"/>
+    <attr name="smile" format="reference"/>
+    <attr name="error_smile" format="reference"/>
+    <attr name="progress_" format="reference"/>
+    <attr name="kontakt" format="reference"/>
+    <attr name="paypass" format="reference"/>
+    <attr name="popol" format="reference"/>
+    <attr name="mob_popol" format="reference"/>
+    <attr name="perevod" format="reference"/>
+    <attr name="archive_all_serv" format="reference"/>
+    <attr name="perevod_ar_circle" format="reference"/>
+    <attr name="popolni" format="reference"/>
+    <attr name="popol_ar" format="reference"/>
+    <attr name="kommunalka" format="reference"/>
+    <attr name="airplane" format="reference"/>
+    <attr name="qr" format="reference"/>
+    <attr name="spinner_dropdown_item" format="reference"/>
+    <attr name="perevod_master" format="reference"/>
+    <attr name="operator_chat" format="reference"/>
+    <attr name="bonus_plus" format="reference"/>
+
+    <attr name="style_edittext1" format="reference"/>
+    <attr name="style_edittext" format="reference"/>
+    <attr name="style_textview" format="reference"/>
+    <attr name="selector_button_next" format="reference"/>
+    <attr name="selector_button_next_gray" format="reference"/>
+    <attr name="selector_button_next_small" format="reference"/>
+    <attr name="refresh_image" format="reference"/>
+    <attr name="ic_content_message_head_left" format="reference"/>
+    <attr name="splash" format="reference"/>
+    <attr name="ic_chat" format="reference"/>
+
+
+    <attr name="background_groupIndicator" format="reference"/>
+
+    <attr name="changecard" format="reference"/>
+    <attr name="dosh" format="reference"/>
+    <attr name="how" format="reference"/>
+    <attr name="nfc" format="reference"/>
+    <attr name="ncpu" format="reference"/>
+    <attr name="pin" format="reference"/>
+    <attr name="entertainment" format="reference"/>
+
+    <attr name="football" format="reference"/>
+    <attr name="star" format="reference"/>
+    <attr name="wu" format="reference"/>
+    <attr name="inet" format="reference"/>
+    <attr name="ap24_timesheet" format="reference"/>
+    <attr name="beer_shop" format="reference"/>
+    <attr name="divantv" format="reference"/>
+    <attr name="soap" format="reference"/>
+    <attr name="soap_archive" format="reference"/>
+    <attr name="fast_payments" format="reference"/>
+    <attr name="call_to_bank_operator" format="reference"/>
+
+    <attr name="ic_game" format="reference"/>
+    <attr name="ic_donate" format="reference"/>
+    <attr name="ic_cal" format="reference"/>
+    <attr name="ic_cos" format="reference"/>
+    <attr name="ic_gift" format="reference"/>
+    <attr name="ic_ua" format="reference"/>
+    <attr name="payments" format="reference"/>
+    <attr name="ic_op" format="reference"/>
+    <attr name="ic_tank" format="reference"/>
+    <attr name="ic_gamepad" format="reference"/>
+    <attr name="ic_orif" format="reference"/>
+    <attr name="ic_avon" format="reference"/>
+    <attr name="ic_eye" format="reference"/>
+    <attr name="categories_indicator_on" format="reference"/>
+    <attr name="categories_indicator_off" format="reference"/>
+    <attr name="shablon1" format="reference"/>
+    <attr name="shablon2" format="reference"/>
+    <attr name="contact_template" format="reference"/>
+    <attr name="gallery_template" format="reference"/>
+    <attr name="add_img" format="reference" />
+    <attr name="nfc_" format="reference" />
+    <attr name="home" format="reference" />
+    <attr name="home_archive" format="reference" />
+    <attr name="beer_archive" format="reference" />
+    <attr name="flags_main" format="reference" />
+
+    <attr name="ic_airpay" format="reference"/>
+    <attr name="ic_azs" format="reference"/>
+    <attr name="ic_bus" format="reference"/>
+    <attr name="ic_comun" format="reference"/>
+    <attr name="ic_depoz1" format="reference"/>
+    <attr name="ic_depoz2" format="reference"/>
+    <attr name="ic_pig" format="reference"/>
+    <attr name="ic_qr" format="reference"/>
+    <attr name="ic_shablon" format="reference"/>
+    <attr name="ic_train" format="reference"/>
+      <attr name="push_hist" format="reference"/>
+
+    <attr name="ic_exit" format="reference"/>
+    <attr name="ic_temp" format="reference"/>
+    <attr name="chat_bubble_big" format="reference"/>
+    <attr name="sender" format="reference"/>
+    <attr name="temp_add" format="reference"/>
+    <attr name="tem_pay_big" format="reference"/>
+    <attr name="temp_pay" format="reference"/>
+    <attr name="temp_tel_big" format="reference"/>
+    <attr name="ic_taxi_home" format="reference"/>
+    <attr name="tem_tel" format="reference"/>
+    <attr name="map_bank" format="reference"/>
+    <attr name="map_bonus" format="reference"/>
+    <attr name="map_bankomat" format="reference"/>
+    <attr name="map_self" format="reference"/>
+    <attr name="ap_success" format="reference"/>
+
+    <attr name="block_card" format="reference"/>
+    <attr name="unblock_card" format="reference"/>
+    <attr name="default_card" format="reference"/>
+    <attr name="delete_card" format="reference"/>
+    <attr name="internet_card" format="reference"/>
+    <attr name="limit_card" format="reference"/>
+    <attr name="new_card" format="reference"/>
+    <attr name="order_card" format="reference"/>
+    <attr name="release_card" format="reference"/>
+    <attr name="menu_card" format="reference"/>
+    <attr name="menu_currency_rates" format="reference"/>
+    <attr name="menu_extra_money" format="reference"/>
+    <attr name="receive_eo" format="reference"/>
+    <attr name="send_eo" format="reference"/>
+    <attr name="map1" format="reference"/>
+    <attr name="map2" format="reference"/>
+    <attr name="map3" format="reference"/>
+    <attr name="map4" format="reference"/>
+    <attr name="map5" format="reference"/>
+    <attr name="btn_info_ic" format="reference"/>
+
+
+    <attr name="ic_kyivstar_big" format="reference"/>
+    <attr name="ic_mts_big" format="reference"/>
+    <attr name="ic_life_big" format="reference"/>
+    <attr name="ic_people_big" format="reference"/>
+    <attr name="ic_inter_big" format="reference"/>
+    <attr name="ic_utel_big" format="reference"/>
+    <attr name="ic_telecom_big" format="reference"/>
+    <attr name="ic_beeline_big" format="reference"/>
+    <attr name="ic_geocell_big" format="reference"/>
+    <attr name="ic_megafon_big" format="reference"/>
+    <attr name="ic_farmasi" format="reference"/>
+    <attr name="ic_other_cosmetics" format="reference"/>
+
+
+    <attr name="ic_amvay_big" format="reference"/>
+    <attr name="ic_fb_big" format="reference"/>
+    <attr name="eo_privatmoney_big" format="reference"/>
+    <attr name="eo_western_union_big" format="reference"/>
+    <attr name="eo_coinstar_big" format="reference"/>
+    <attr name="eo_migom_big" format="reference"/>
+    <attr name="eo_moneygram_big" format="reference"/>
+    <attr name="eo_golden_crown_big" format="reference"/>
+    <attr name="eo_unistream_big" format="reference"/>
+    <attr name="eo_contact_big" format="reference"/>
+    <attr name="eo_anelik_big" format="reference"/>
+
+    <attr name="ic_tickets_train_big" format="reference"/>
+    <attr name="ic_tickets_bus_big" format="reference"/>
+    <attr name="ic_tickets_plane_history" format="reference"/>
+    <attr name="ic_tickets_plane_big" format="reference"/>
+    <attr name="ic_tickets_plane_to" format="reference"/>
+    <attr name="ic_tickets_plane_from" format="reference"/>
+     <attr name="card_" format="reference"/>
+          <attr name="fire" format="reference"/>
+    <attr name="buttonPin" format="reference"/>
+    <attr name="communal_search" format="reference"/>
+    <attr name="communal_rec" format="reference"/>
+    <attr name="telecom_kyivstar" format="reference"/>
+    <attr name="telecom_bilink" format="reference"/>
+    <attr name="telecom_domtelecom" format="reference"/>
+    <attr name="telecom_freenet" format="reference"/>
+    <attr name="telecom_giraffe" format="reference"/>
+    <attr name="telecom_peoplenet" format="reference"/>
+    <attr name="telecom_ukrtelecom" format="reference"/>
+    <attr name="telecom_vega" format="reference"/>
+    <attr name="telecom_viasat" format="reference"/>
+    <attr name="telecom_volya" format="reference"/>
+    <attr name="deposit_left_bt" format="reference"/>
+    <attr name="deposit_right_bt" format="reference"/>
+    <attr name="deposit_center_bt" format="reference"/>
+    <attr name="minus_docs" format="reference"/>
+    <attr name="plus_docs" format="reference"/>
+    <attr name="plus_docs_m" format="reference"/>
+    <attr name="info" format="reference"/>
+
+    <attr name="right_bt_active" format="reference"/>
+    <attr name="right_bt_inactive" format="reference"/>
+    <attr name="left_bt_active" format="reference"/>
+    <attr name="left_bt_inactive" format="reference"/>
+    <attr name="center_bt_active" format="reference"/>
+    <attr name="center_bt_inactive" format="reference"/>
+    <attr name="new_deposit" format="reference"/>
+    <attr name="horizontal_line" format="reference"/>
+    <attr name="taxi_bg_ab" format="reference"/>
+    <attr name="taxi_bg_ab_archive" format="reference"/>
+    <attr name="taxi_ab_text" format="reference"/>
+    <attr name="add_point" format="reference"/>
+    <attr name="big_progress_bar" format="reference"/>
+    <attr name="ic_sad" format="reference"/>
+    <attr name="ic_car" format="reference"/>
+    <attr name="ic_call_taxi" format="reference"/>
+    <attr name="all_tickets" format="reference"/>
+    <attr name="deposit_check" format="reference"/>
+    <attr name="bg_deposit" format="reference"/>
+
+    <attr name="custom_search" format="reference" />
+    <attr name="deposit_button_next" format="reference"/>
+    <attr name="bg_time" format="reference"/>
+    <attr name="ic_marker" format="reference"/>
+    <attr name="ic_pin" format="reference"/>
+    <attr name="ap_gas" format="reference"/>
+    <attr name="menu_gas" format="reference"/>
+    <attr name="gas_hand" format="reference"/>
+    <attr name="gas_map_a" format="reference"/>
+    <attr name="gas_map_point" format="reference"/>
+    <attr name="world" format="reference"/>
+    <attr name="barcode_more_wot" format="reference"/>
+    <attr name="barcode_circle" format="reference"/>
+    <attr name="discount_cards" format="reference"/>
+    <attr name="plus_akciya" format="reference"/>
+    <attr name="default_icon_logo" format="reference"/>
+    <attr name="discount_done" format="reference"/>
+    <attr name="my_requisite" format="reference"/>
+    <attr name="fotocassa" format="reference"/>
+    <attr name="nfc_menu" format="reference"/>
+    <attr name="food" format="reference"/>
+    <attr name="camera" format="reference"/>
+    <attr name="gallery_kassa" format="reference"/>
+    <attr name="kaban1" format="reference"/>
+
+    <attr name="bg_taxi_progres" format="reference"/>
+
+    <declare-styleable name="ButtonNextView">
+        <attr name="iv_background" format="reference"/>
+        <attr name="textColor" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="showImage" format="boolean"/>
+        <attr name="setLines" format="integer"/>
+    </declare-styleable>
+
+   <!-- <declare-styleable name="SearchView">
+        &lt;!&ndash; The layout to use for the search view. &ndash;&gt;
+        todo rename       <attr name="layout" format="reference" />
+        &lt;!&ndash;
+             The default state of the SearchView. If true, it will be iconified when not in
+             use and expanded when clicked.
+        &ndash;&gt;
+        todo rename      <attr name="iconifiedByDefault" format="boolean" />
+        &lt;!&ndash; An optional maximum width of the SearchView. &ndash;&gt;
+        <attr name="android:maxWidth" />
+        &lt;!&ndash; An optional query hint string to be displayed in the empty query field. &ndash;&gt;
+        todo rename      <attr name="queryHint" format="string" />
+        &lt;!&ndash; The IME options to set on the query text field. &ndash;&gt;
+        <attr name="android:imeOptions" />
+        &lt;!&ndash; The input type to set on the query text field. &ndash;&gt;
+        <attr name="android:inputType" />
+        &lt;!&ndash; Close button icon &ndash;&gt;
+        todo rename     <attr name="closeIcon" format="reference" />
+        &lt;!&ndash; Go button icon &ndash;&gt;
+        todo rename      <attr name="goIcon" format="reference" />
+        &lt;!&ndash; Search icon &ndash;&gt;
+        todo rename    <attr name="searchIcon" format="reference" />
+        &lt;!&ndash; Voice button icon &ndash;&gt;
+        todo rename    <attr name="voiceIcon" format="reference" />
+        &lt;!&ndash; Commit icon shown in the query suggestion row &ndash;&gt;
+        todo rename     <attr name="commitIcon" format="reference" />
+        &lt;!&ndash; Layout for query suggestion rows &ndash;&gt;
+        todo rename   <attr name="suggestionRowLayout" format="reference" />
+        &lt;!&ndash; Background for the section containing the search query &ndash;&gt;
+        todo rename     <attr name="queryBackground" format="reference" />
+        &lt;!&ndash; Background for the section containing the action (e.g. voice search) &ndash;&gt;
+        todo rename   <attr name="submitBackground" format="reference" />
+        <attr name="android:focusable" />
+    </declare-styleable>-->
+
+
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color"/>
+        <attr name="inactiveColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="centered" format="boolean"/>
+        <attr name="fadeOut" format="integer"/>
+        <attr name="inactiveType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="snap" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Message">
+
+        <attr name="message_client_head_left" format="reference"/>
+        <attr name="message_client_tail_left" format="reference"/>
+        <attr name="message_client_error_left" format="reference"/>
+        <attr name="message_server_head_right" format="reference"/>
+        <attr name="message_server_tail_right" format="reference"/>
+        <attr name="message_server_error_right" format="reference"/>
+        <attr name="edit_style" format="reference"/>
+        <attr name="radio_style" format="reference"/>
+        <attr name="spinner_style" format="reference"/>
+        <attr name="check_style" format="reference"/>
+        <attr name="checkbox_of_settings" format="reference"/>
+        <attr name="error_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="time_color" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="Console">
+
+        <attr name="console_separator" format="color"/>
+        <attr name="console_background" format="color"/>
+        <attr name="console_spiner" format="color"/>
+        <attr name="action" format="reference"/>
+        <attr name="search" format="reference"/>
+        <attr name="send" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
+
+

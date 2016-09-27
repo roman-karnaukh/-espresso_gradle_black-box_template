@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llMore"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/infoText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical|center_horizontal"/>-->
+
+    <LinearLayout
+        android:id="@+id/loadNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMoreCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:text="@string/core_week_earlier"
+            android:textColor="?attr/master_common_text"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="?attr/open">
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

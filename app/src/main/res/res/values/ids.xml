@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <item type="id" name="bannerText"/>
+    <item type="id" name="bannerAction"/>
+
+    <item type="id" name="bplan_key"/>
+    <item type="id" name="bplan_value"/>
+    <item type="id" name="macros_key"/>
+
+</resources>

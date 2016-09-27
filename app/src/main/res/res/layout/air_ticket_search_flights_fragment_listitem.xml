@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:background="@drawable/selector_airtickets_list">
+
+<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="?attr/ic_tickets_plane_to"/>
+
+            <TextView android:id="@+id/text_airport_city_forward"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp"
+                      android:gravity="center|left"
+                      android:textSize="18sp"
+                      android:textColor="?attr/color6"
+                      android:layout_gravity="center"
+                      android:text=""/>
+        </LinearLayout>
+        <TextView android:id="@+id/text_company_forward"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="3dp"
+                  android:textSize="18sp"
+                  android:textColor="?attr/color2"
+                  android:text=""/>
+
+        <LinearLayout
+                android:id="@+id/ll_flightBackward"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center"
+                           android:src="?attr/ic_tickets_plane_from"/>
+
+                <TextView android:id="@+id/text_airport_city_backward"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="5dp"
+                          android:gravity="center|left"
+                          android:textSize="18sp"
+                          android:textColor="?attr/color6"
+                          android:layout_gravity="center"
+                          android:text=""/>
+            </LinearLayout>
+            <TextView android:id="@+id/text_company_backward"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="3dp"
+                      android:textSize="18sp"
+                      android:textColor="?attr/color2"
+                      android:text=""/>
+
+        </LinearLayout>
+
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="1">
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/textview_title_amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textColor="?attr/color4"
+                        android:text="@string/common_price"/>
+
+                <TextView
+                        android:id="@+id/textview_amt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color6"
+                        android:text=""/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                <!--<TextView
+                        android:id="@+id/textview_title_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textColor="?attr/color4"
+                        android:text="@string/type_"/>
+
+                <TextView
+                        android:id="@+id/textview_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color3"
+                        android:text=""/>-->
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                <TextView
+                        android:id="@+id/textview_title_forward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textColor="?attr/color4"
+                        android:text="@string/ticket_there"/>
+
+                <TextView
+                        android:id="@+id/textview_forward"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color6"
+                        android:text=""/>
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/table_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                <TextView
+                        android:id="@+id/textview_title_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textColor="?attr/color4"
+                        android:text="@string/ticket_from"/>
+
+                <TextView
+                        android:id="@+id/textview_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color6"
+                        android:text=""/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/textview_title_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="0"
+                    android:gravity="left"
+                    android:textColor="?attr/color4"
+                    android:text="@string/time_ticket_there"/>
+
+                <TextView
+                    android:id="@+id/textview_total_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="?attr/color6"
+                    android:text=""/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tablerow_total_backward_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/textview_title_total_backward_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="0"
+                    android:gravity="left"
+                    android:textColor="?attr/color4"
+                    android:text="@string/time_ticket_from"/>
+
+                <TextView
+                    android:id="@+id/textview_total_backward_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="?attr/color6"
+                    android:text=""/>
+            </TableRow>
+
+            <LinearLayout
+                    android:id="@+id/ll_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp">
+
+                    <TextView
+                            android:id="@+id/textview_title_class"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="0"
+                            android:gravity="left"
+                            android:textColor="?attr/color4"
+                            android:text="@string/class_ticket"/>
+
+                    <TextView
+                            android:id="@+id/textview_class"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="?attr/color6"
+                            android:text=""/>
+                </TableRow>
+
+
+
+                <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp">
+
+                    <TextView
+                            android:id="@+id/textview_title_city_transfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="0"
+                            android:gravity="left"
+                            android:textColor="?attr/color4"
+                            android:text="@string/transfer_plane_there"/>
+
+                    <TextView
+                            android:id="@+id/textview_city_transfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="?attr/color6"
+                            android:text=""/>
+                </TableRow>
+
+                <TableRow
+                        android:id="@+id/tablerow_city_transfer_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp">
+
+                    <TextView
+                            android:id="@+id/textview_title_backward_city_transfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="0"
+                            android:gravity="left"
+                            android:textColor="?attr/color4"
+                            android:text="@string/transfer_plane_from"/>
+
+                    <TextView
+                            android:id="@+id/textview_backward_city_transfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="?attr/color6"
+                            android:text=""/>
+                </TableRow>
+
+
+            </LinearLayout>
+
+        </TableLayout>
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:textSize="@dimen/text_size_more_transfers"
+                p24:text="@string/button_details"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

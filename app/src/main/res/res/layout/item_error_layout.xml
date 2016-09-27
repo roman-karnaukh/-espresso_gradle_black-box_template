@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+        android:id="@+id/tvField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/color6"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Ошибка в поле: "
+        android:visibility="visible"
+        android:layout_marginTop="15dp"
+        />
+    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+        android:id="@+id/tvError"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/bar_header_text_color"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="@string/hw_spec_city_det"
+        android:visibility="visible" />
+</LinearLayout>

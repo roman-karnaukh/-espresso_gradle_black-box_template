@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+            android:id="@+id/tickets_step4_table_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_delete"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/tickets_step4_table_delete"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/passenger"/>
+
+            <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tickets_step4_table_fio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/tickets_train"/>
+
+            <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tickets_step4_table_train"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/tickets_from"/>
+
+            <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tickets_step4_table_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/tickets_to"/>
+
+            <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tickets_step4_table_to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/tickets_places"/>
+
+            <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tickets_step4_table_places"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#727272">
+    </LinearLayout>
+
+</RelativeLayout>

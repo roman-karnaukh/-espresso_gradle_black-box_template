@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="34dp"
+                android:paddingRight="34dp"
+                android:gravity="top">
+
+    <LinearLayout
+            android:id="@+id/layout_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/card_to_receive"/>
+
+        <Spinner
+                android:id="@+id/cardSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <!--<ua.privatbank.ap24.beta.views.RobotoMediumButton
+            android:id="@+id/buttonOk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:lines="2"
+            android:text="@string/get_money"
+            android:textSize="18sp"
+            android:textStyle="bold"/>-->
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_card"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentRight="true"
+            p24:text="@string/get_money"
+            p24:textSize="@dimen/text_size_button_next"
+            android:layout_gravity="right"/>
+
+</RelativeLayout>

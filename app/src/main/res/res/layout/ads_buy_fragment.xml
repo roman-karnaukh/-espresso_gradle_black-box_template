@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+
+        <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                android:id="@+id/etName"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:hint="@string/first_name"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                android:id="@+id/etPhone"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/phone_number"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"/>
+
+
+        <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                android:id="@+id/etEmail"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/email"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"/>
+
+        <Spinner
+                android:id="@+id/cardFromSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+                android:id="@+id/llButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btnDelivery"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_bt_active"
+                    android:text="@string/delivery"
+                    android:textSize="14sp"/>
+
+            <Button
+                    android:id="@+id/btnPickup"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_bt_inactive"
+                    android:text="@string/pickup"
+                    android:textColor="?attr/color6"
+                    android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llDelivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+
+        >
+            <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                    android:id="@+id/etCityDelivery"
+                    style="?attr/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/city"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                    android:id="@+id/etNewPostDelivery"
+                    style="?attr/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/new_post"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text"/>
+
+
+        </LinearLayout>
+
+
+        <ua.privatbank.ap24.beta.views.RobotoLightItalicEditText
+                android:id="@+id/etRemark"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/comment_to_the_order"
+                android:textColor="?attr/common_text"/>
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                p24:text="@string/checkout_"
+                p24:textSize="@dimen/text_size_button_next"/>
+
+    </LinearLayout>
+</ScrollView>

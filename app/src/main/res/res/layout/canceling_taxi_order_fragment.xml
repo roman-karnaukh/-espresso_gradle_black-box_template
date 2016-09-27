@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/smileImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/statusOrderTV"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="50dp"
+            android:src="?attr/ic_sad" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/statusOrderTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/order_canceling"
+            android:textSize="22sp" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/weDidNotFindACar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/statusOrderTV"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/we_didnt_find_a_car"
+            android:textSize="18sp" />
+
+        <!--<ua.privatbank.ap24.beta.views.RobotoLightTextView
+            android:id="@+id/canYouWaitElseMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weDidNotFindACar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/can_you_wait_more"
+            android:textSize="18sp" />
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+            android:id="@+id/quantityOfTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/canYouWaitElseMore"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="10 мин"
+            android:textSize="25sp" />-->
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            android:id="@+id/new_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp" />
+
+        <include android:id="@+id/llAddCost"
+                 layout="@layout/taxi_add_cost"
+        />
+
+        <!--<LinearLayout
+            android:id="@+id/cancel_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_close" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="0dp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textColor="?attr/color4"
+                android:textSize="30sp" />
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+</ScrollView>

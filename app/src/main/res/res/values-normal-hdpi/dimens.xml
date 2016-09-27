@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ava_size">80dp</dimen>
+    <dimen name="ava_size_global">95dp</dimen>
+    <dimen name="padding_top_fragment_main">3dp</dimen>
+    <dimen name="padding_operator">-8dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="height_icons">120dp</dimen>
+</resources>

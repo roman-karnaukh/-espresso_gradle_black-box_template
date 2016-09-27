@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scView" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:weightSum="1">
+        <Spinner
+            android:id="@+id/soapTypeDeliverySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/tvSummFreeShipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:singleLine="false"
+            android:textColor="?attr/color2"
+            android:textSize="12sp"
+            android:text="@string/amount"
+            android:paddingTop="3dp"
+            android:layout_weight="0.11" />
+
+        <EditText
+                style="?attr/style_edittext"
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:textColor="?attr/common_text"
+            android:textSize="@dimen/text_size_more_transfers"
+            android:layout_margin="5dp" />
+        <EditText
+                style="?attr/style_edittext"
+            android:id="@+id/etAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:textColor="?attr/common_text"
+            android:textSize="@dimen/text_size_more_transfers"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+                style="?attr/style_edittext"
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="?attr/common_text"
+            android:textSize="@dimen/text_size_more_transfers"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp" />
+
+        <Spinner
+            android:id="@+id/cardSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="3dp"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="?attr/color2"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:text="@string/amount" />
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvAmountDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:singleLine="true"
+                    android:textColor="?attr/color2"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:text="@string/amount_delivery"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvSumDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="60dp"
+            p24:text="@string/checkout"
+            p24:textSize="@dimen/text_size_button_next"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+    </ScrollView>
+<!--</LinearLayout>-->

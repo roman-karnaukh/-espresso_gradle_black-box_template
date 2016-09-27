@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <mobi.sender.widgets.CircularImageView
+        android:id="@+id/imAva"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/contact_info_add_photo_sender"
+        android:visibility="gone"
+        android:layout_gravity="center"
+       />
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etMiddleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/middle_name"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_email"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true" />
+    <Button
+        android:id="@+id/btnDateBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/bg_time"
+        android:textColor="?attr/common_text"
+        android:textSize="18sp"
+        android:text="21.02.2016"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+    <Spinner
+        android:id="@+id/spinGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+    <EditText
+        android:id="@+id/etNumberPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_series_pass"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/etRegistrAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address_registr"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:visibility="visible" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="?attr/check_style"
+        android:paddingLeft="@dimen/padding_checkbox"
+        android:id="@+id/cbAddress"
+        android:text="@string/your_adress_resid"
+        android:textSize="16dp"
+        android:textColor="?attr/color6"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp" />
+    <EditText
+        android:id="@+id/etResidentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/residence_address"
+        android:textColor="?attr/common_text"
+        android:textSize="@dimen/text_size_more_transfers"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:visibility="gone" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="?attr/check_style"
+        android:paddingLeft="@dimen/padding_checkbox"
+        android:id="@+id/cbCrim"
+        android:text="@string/crim_record"
+        android:textSize="16dp"
+        android:textColor="?attr/color6"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp" />
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        p24:text="@string/further"
+        p24:textSize="@dimen/text_size_button_next"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp" />
+</LinearLayout>
+    </ScrollView>

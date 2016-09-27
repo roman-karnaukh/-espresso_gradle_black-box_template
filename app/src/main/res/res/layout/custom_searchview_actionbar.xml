@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!--<ImageView
+        android:id="@+id/chart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:src="?attr/chart"
+        android:layout_marginRight="48dp"
+        android:layout_alignParentRight="true"
+        android:background="?selector_text_background"/>-->
+
+    <ImageView
+        android:id="@+id/open_button"
+        android:layout_width="wrap_content"
+        android:src="?attr/custom_search"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:background="?selector_text_background"
+        />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:background="?selector_text_background"
+        />
+
+    <ImageView
+        android:id="@+id/imageFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="?custom_search"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:background="?selector_text_background"
+        />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+        android:id="@+id/editFind"
+        style="?attr/style_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_btn"
+        android:textColor="?attr/common_text"
+        android:inputType="textVisiblePassword"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="50dp"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:imeOptions="actionSearch"
+        android:textSize="15sp" />
+
+</RelativeLayout>

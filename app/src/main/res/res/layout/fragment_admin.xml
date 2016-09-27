@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="?attr/common_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:lines="1"
+            android:text="Сервер"
+            android:textSize="14dp"/>
+        <!--
+        <Spinner
+            android:id="@+id/paymentType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+        -->
+
+        <RadioGroup
+            android:id="@+id/segment_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginTop="20dp"
+            android:checkedButton="@+id/button_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/button_real"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:minHeight="33dip"
+                android:minWidth="40dip"
+                android:text="Боевой"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <RadioButton
+                android:id="@+id/button_test"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="33dip"
+                android:minWidth="40dip"
+                android:text="Тест"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <RadioButton
+                android:id="@+id/button_before_real"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="33dip"
+                android:minWidth="40dip"
+                android:text="before_real_sever"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</ScrollView>

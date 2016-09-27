@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+
+>
+    <!--android:paddingTop="50dp"
+    android:paddingLeft="34dp"
+    android:paddingRight="34dp"-->
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/numberOfCarAndPlace"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Вагон №"/>
+        <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+        />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/costOfTicket"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16sp"
+                android:textColor="@color/archive_color_green"
+                android:text="257 UAH"/>
+    </LinearLayout>
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tvInfoPrice"
+            android:layout_width="match_parent"
+            tools:text="Бла бла бла гладиолус"
+            android:maxLines="3"
+            android:visibility="gone"
+            android:textColor="@color/archive_color_green"
+            android:layout_marginBottom="30dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"/>
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passenger_name"/>
+
+    <EditText
+            android:id="@+id/editName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+    />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/passenger_surname"/>
+
+    <EditText
+            android:id="@+id/editSurname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+        <CheckBox
+                android:id="@+id/checkBoxChildTicket"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:textColor="?attr/common_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/child_ticket"/>
+
+        <LinearLayout
+                android:id="@+id/llDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_birth"/>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/tickets_step4_date_child"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="8dp"
+                    p24:text="@string/establish"
+                    p24:textSize="@dimen/text_size_more_transfers"
+                    p24:iv_background="?attr/selector_button_next_small"/>
+            <!--<Button
+                    android:id="@+id/tickets_step4_date_child"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Установить"/>-->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+        <CheckBox
+                android:id="@+id/checkBoxStudentTicket"
+                android:button="?attr/check_style"
+                android:textColor="?attr/common_text"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stud_ticket"/>
+
+        <LinearLayout
+                android:id="@+id/llSeriesStudCard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/series_stud_card"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                    android:id="@+id/editSeriesStudCard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="16"
+                    android:inputType="textCapSentences"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

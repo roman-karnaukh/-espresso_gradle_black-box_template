@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_button_next">32sp</dimen>
+    <dimen name="text_size_more_transfers">16sp</dimen>
+    <dimen name="text_size_mob_pop">25sp</dimen>
+    <dimen name="text_size_description">18sp</dimen>
+    <dimen name="text_size_info">16sp</dimen>
+    <dimen name="text_size_amt">44sp</dimen>
+    <dimen name="marginTop_payStatus">10dp</dimen>
+</resources>

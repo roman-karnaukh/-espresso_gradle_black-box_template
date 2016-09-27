@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pull_to_refresh_header_vertical_padding_top_bottop">5dp</dimen>
+    <dimen name="ava_size">36dp</dimen>
+    <dimen name="ava_size_global">36dp</dimen>
+    <!--<dimen name="usd_textsize">10sp</dimen>-->
+    <dimen name="small_text">11sp</dimen>
+    <dimen name="height_icons">60dp</dimen>
+    <dimen name="font_13">9sp</dimen>
+    <dimen name="font_medium">20sp</dimen>
+    <dimen name="font_medium2">12sp</dimen>
+    <dimen name="font_big">17sp</dimen>
+</resources>

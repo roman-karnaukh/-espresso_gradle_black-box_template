@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Строки-ключи для работы с преференсами. Не локализовывать!!!-->
+<resources>
+
+    <string name="parent_type_view_tag">PARENT_TYPE_VIEW_TAG</string>
+    <string name="alternate_type_view_tag">ALTERNATE_TYPE_VIEW_TAG</string>
+    <string name="dialog_object_view_tag">DIALOG_OBJECT_VIEW_TAG</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/common_background"
+              android:padding="10dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_notifications"
+                android:textSize="18sp"
+                android:textColor="?attr/color6"
+                android:id="@+id/textViewNewTransaction"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textColor="?attr/color6"
+                android:id="@+id/sumTransaction"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+
+                android:text="@string/no_data_to_display"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textColor="?attr/color4"
+                android:id="@+id/empty"/>
+        <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="0dp"
+                android:divider="@null"
+                android:id="@+id/listView"/>
+    </LinearLayout>
+
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                p24:text="@string/button_close"
+                android:layout_margin="5dp"
+                p24:textSize="@dimen/text_size_button_next"
+                android:layout_gravity="right"/>
+
+</LinearLayout>

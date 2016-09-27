@@ -1,0 +1,433 @@
+<resources>
+    <string-array name="TypeCard">
+        <item>Інтернет карта</item>
+    </string-array>
+
+    <string-array name="listThemeNames">
+        <item>Світла тема</item>
+        <item>Темна тема</item>
+    </string-array>
+
+    <string-array name="serviceoperators">
+        <item>Київстар</item>
+        <item>Віасат</item>
+        <item>Піплнет</item>
+        <item>Фрінет</item>
+        <item>Білінк</item>
+        <item>Воля кабель</item>
+        <item>Вега</item>
+        <item>Фрештел</item>
+        <item>Домашній телеком</item>
+        <item>Тріолан</item>
+    </string-array>
+
+    <string-array name="valuesserviceoperators">
+        <item>kvinet</item>
+        <item>viasat</item>
+        <item>peoplenet</item>
+        <item>freeenet</item>
+        <item>bilink</item>
+        <item>Volya</item>
+        <item>vega</item>
+        <item>freshtel</item>
+        <item>hometel</item>
+        <item>triolan</item>
+    </string-array>
+
+    <string-array name="service1">
+        <item>Аналогове ТБ</item>
+        <item>Цифрове ТБ</item>
+        <item>Інтернет</item>
+        <item>ТБ та Інтернет</item>
+    </string-array>
+
+    <string-array name="service2">
+        <item>Інтернет</item>
+        <item>Телефонія</item>
+        <item>Телефонія-рахунок</item>
+    </string-array>
+
+    <string-array name="service3">
+        <item>Звичайний аккаунт</item>
+        <item>Бізнес аккаунт </item>
+    </string-array>
+
+    <string-array name="service4">
+        <item>ТБ</item>
+        <item>Інтернет</item>
+        <item>Телеком</item>
+    </string-array>
+    <string-array name="service5">
+        <item>Інтернет</item>
+        <item>ТБ</item>
+    </string-array>
+    <string-array name="city">
+        <item>Алчевськ</item>
+        <item>ВінніцаТБ</item>
+        <item>Волочиськ</item>
+        <item>Дніпропетровськ</item>
+        <item>Добротвір</item>
+        <item>Донецьк</item>
+        <item>Запоріжжя</item>
+        <item>Запоріжжя (Одеко)</item>
+        <item>Київ</item>
+        <item>Кіровоград</item>
+        <item>Краматорськ</item>
+        <item>Кременець</item>
+        <item>Кривий Ріг</item>
+        <item>Луцьк</item>
+        <item>Львів</item>
+        <item>Львів (Одеко)</item>
+        <item>Макіївка </item>
+        <item>Новомосковськ</item>
+        <item>Полтава</item>
+        <item>Рівне</item>
+        <item>Севастополь</item>
+        <item>Сімферополь</item>
+        <item>Стебник</item>
+        <item>Суми</item>
+        <item>Теребовля</item>
+        <item>Тернопіль</item>
+        <item>Трускавець</item>
+        <item>Харків</item>
+        <item>Херсон</item>
+        <item>Хмельницький</item>
+        <item>Черкаси</item>
+        <item>Чернівці</item>
+        <item>Чернівці (Одеко)</item>
+        <item>Чортків</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>Виберіть країну</item>
+        <item>Абхазія</item>
+        <item>Австралія</item>
+        <item>Австрія</item>
+        <item>Азербайджан</item>
+        <item>Албанія</item>
+        <item>Алжир</item>
+        <item>Американське Самоа</item>
+        <item>Ангілья</item>
+        <item>Ангола</item>
+        <item>Андорра</item>
+        <item>Антарктида</item>
+        <item>Антигуа і Барбуда</item>
+        <item>Аргентина</item>
+        <item>Вірменія</item>
+        <item>Аруба</item>
+        <item>Афганістан</item>
+        <item>Багами</item>
+        <item>Бангладеш</item>
+        <item>Барбадос</item>
+        <item>Бахрейн</item>
+        <item>Білорусь</item>
+        <item>Беліз</item>
+        <item>Бельгія</item>
+        <item>Бенін</item>
+        <item>Бермуди</item>
+        <item>Болгарія</item>
+        <item>Болівія, Багатонаціональне Держава</item>
+        <item>Бонайре, Саба і Сінт-Естатіус</item>
+        <item>Боснія і Герцеговина</item>
+        <item>Ботсвана</item>
+        <item>Бразилія</item>
+        <item>Британська територія в Індійському океані</item>
+        <item>Бруней-Даруссалам</item>
+        <item>Буркіна-Фасо</item>
+        <item>Бурунді</item>
+        <item>Бутан</item>
+        <item>Вануату</item>
+        <item>Угорщина</item>
+        <item>Венесуела Боліваріанська Республіка</item>
+        <item>Віргінські острови, Британські</item>
+        <item>Віргінські острови, США</item>
+        <item>В\'єтнам</item>
+        <item>Габон</item>
+        <item>Гаїті</item>
+        <item>Гайана</item>
+        <item>Гамбія</item>
+        <item>Гана</item>
+        <item>Гваделупа</item>
+        <item>Гватемала</item>
+        <item>Гвінея</item>
+        <item>Гвінея-Бісау</item>
+        <item>Німеччина</item>
+        <item>Гернсі</item>
+        <item>Гібралтар</item>
+        <item>Гондурас</item>
+        <item>Гонконг</item>
+        <item>Гренада</item>
+        <item>Гренландія</item>
+        <item>Греція</item>
+        <item>Грузія</item>
+        <item>Гуам</item>
+        <item>Данія</item>
+        <item>Джерсі</item>
+        <item>Джібуті</item>
+        <item>Домініка</item>
+        <item>Домініканська Республіка</item>
+        <item>Єгипет</item>
+        <item>Замбія</item>
+        <item>Західна Сахара</item>
+        <item>Зімбабве</item>
+        <item>Ізраїль</item>
+        <item>Індія</item>
+        <item>Індонезія</item>
+        <item>Йорданія</item>
+        <item>Ірак</item>
+        <item>Іран, Ісламська Республіка</item>
+        <item>Ірландія</item>
+        <item>Ісландія</item>
+        <item>Іспанія</item>
+        <item>Італія</item>
+        <item>Ємен</item>
+        <item>Кабо-Верде</item>
+        <item>Казахстан</item>
+        <item>Камбоджа</item>
+        <item>Камерун</item>
+        <item>Канада</item>
+        <item>Катар</item>
+        <item>Кенія</item>
+        <item>Кіпр</item>
+        <item>Киргизія</item>
+        <item>Кірібаті</item>
+        <item>Китай</item>
+        <item>Кокосові (Кілінг) острови</item>
+        <item>Колумбія</item>
+        <item>Комори</item>
+        <item>Конго</item>
+        <item>Конго, Демократична Республіка</item>
+        <item>Корея, Народно-Демократична Республіка</item>
+        <item>Корея, Республіка</item>
+        <item>Коста-Ріка</item>
+        <item>Кот д\'Івуар</item>
+        <item>Куба</item>
+        <item>Кувейт</item>
+        <item>Кюрасао</item>
+        <item>Лаос</item>
+        <item>Латвія</item>
+        <item>Лесото</item>
+        <item>Ліван</item>
+        <item>Лівійська Арабська Джамахірія</item>
+        <item>Ліберія</item>
+        <item>Ліхтенштейн</item>
+        <item>Литва</item>
+        <item>Люксембург</item>
+        <item>Маврикій</item>
+        <item>Мавританія</item>
+        <item>Мадагаскар</item>
+        <item>Майотта</item>
+        <item>Макао</item>
+        <item>Малаві</item>
+        <item>Малайзія</item>
+        <item>Малі</item>
+        <item>Малі Тихоокеанські віддалені острови Сполучених Штатів</item>
+        <item>Мальдіви</item>
+        <item>Мальта</item>
+        <item>Марокко</item>
+        <item>Мартиніка</item>
+        <item>Маршаллові острови</item>
+        <item>Мексика</item>
+        <item>Мікронезія, Федеративні Штати</item>
+        <item>Мозамбік</item>
+        <item>Республiка Молдова</item>
+        <item>Монако</item>
+        <item>Монголія</item>
+        <item>Монтсеррат</item>
+        <item>М\'янма</item>
+        <item>Намібія</item>
+        <item>Науру</item>
+        <item>Непал</item>
+        <item>Нігер</item>
+        <item>Нігерія</item>
+        <item>Нідерланди</item>
+        <item>Нікарагуа</item>
+        <item>Ніуе</item>
+        <item>Нова Зеландія</item>
+        <item>Нова Каледонія</item>
+        <item>Норвегія</item>
+        <item>Об\'єднані Арабські Емірати</item>
+        <item>Оман</item>
+        <item>Острів Буве</item>
+        <item>Острів Мен</item>
+        <item>Острів Норфолк</item>
+        <item>Острів Різдва</item>
+        <item>Острів Херд і острови Макдональд</item>
+        <item>Острови Кайман</item>
+        <item>Острови Кука</item>
+        <item>Острови Теркс і Кайкос</item>
+        <item>Пакистан</item>
+        <item>Палау</item>
+        <item>Палестинська територія, окупована</item>
+        <item>Панама</item>
+        <item>Папський Престол</item>
+        <item>Папуа-Нова Гвінея</item>
+        <item>Парагвай</item>
+        <item>Перу</item>
+        <item>Піткерн</item>
+        <item>Польща</item>
+        <item>Португалія</item>
+        <item>Пуерто-Ріко</item>
+        <item>Республіка Македонія</item>
+        <item>Реюньйон</item>
+        <item>Росія</item>
+        <item>Руанда</item>
+        <item>Румунія</item>
+        <item>Самоа</item>
+        <item>Сан-Марино</item>
+        <item>Сан-Томе і Прінсіпі</item>
+        <item>Саудівська Аравія</item>
+        <item>Свазіленд</item>
+        <item>Свята Олена, Острів вознесіння, Трістан-да-Кунья</item>
+        <item>Північні Маріанські острови</item>
+        <item>Сен-Бартельмі</item>
+        <item>Сен-Мартен</item>
+        <item>Сенегал</item>
+        <item>Сент-Вінсент і Гренадіни</item>
+        <item>Сент-Люсія</item>
+        <item>Сент-Кітс і Невіс</item>
+        <item>Сент-П\'єр і Мікелон</item>
+        <item>Сербія</item>
+        <item>Сейшели</item>
+        <item>Сінгапур</item>
+        <item>Сінт-Мартен</item>
+        <item>Сирійська Арабська Республіка</item>
+        <item>Словаччина</item>
+        <item>Словенія</item>
+        <item>Сполучене Королівство</item>
+        <item>Сполучені Штати</item>
+        <item>Соломонові острови</item>
+        <item>Сомалі</item>
+        <item>Судан</item>
+        <item>Суринам</item>
+        <item>Сьєра-Леоне</item>
+        <item>Таджикистан</item>
+        <item>Таїланд</item>
+        <item>Тайвань (Китай)</item>
+        <item>Танзанія</item>
+        <item>Тимор-Лешті</item>
+        <item>Того</item>
+        <item>Токелау</item>
+        <item>Тонга</item>
+        <item>Тринідад і Тобаго</item>
+        <item>Тувалу</item>
+        <item>Туніс</item>
+        <item>Туркменія</item>
+        <item>Туреччина</item>
+        <item>Уганда</item>
+        <item>Узбекистан</item>
+        <item>Україна</item>
+        <item>Уолліс Футуна</item>
+        <item>Уругвай</item>
+        <item>Фарерські острови</item>
+        <item>Фіджі</item>
+        <item>Філіпіни</item>
+        <item>Фінляндія</item>
+        <item>Фолклендські острови (Мальвінські)</item>
+        <item>Франція</item>
+        <item>Французька Гвіана</item>
+        <item>Французька Полінезія</item>
+        <item>Французькі Південні території</item>
+        <item>Хорватія</item>
+        <item>Центрально-Африканська Республіка</item>
+        <item>Чад</item>
+        <item>Чорногорія</item>
+        <item>Чеська Республіка</item>
+        <item>Чилі</item>
+        <item>Швейцарія</item>
+        <item>Швеція</item>
+        <item>Шпіцберген і Ян Майєн</item>
+        <item>Шрі-Ланка</item>
+        <item>Еквадор</item>
+        <item>Екваторіальна Гвінея</item>
+        <item>Еландском острови</item>
+        <item>Ель-Сальвадор</item>
+        <item>Еритрея</item>
+        <item>Естонія</item>
+        <item>Ефіопія</item>
+        <item>Південна Африка</item>
+        <item>Південна Джорджія та Південні Сандвічеві острови</item>
+        <item>Південна Осетія</item>
+        <item>Південний Судан</item>
+        <item>Ямайка</item>
+        <item>Японія</item>
+    </string-array>
+
+    <string-array name="VolyaTowns">
+        <item>Алчевськ</item>
+        <item>Вінниця</item>
+        <item>Волочиськ</item>
+        <item>Дніпропетровськ</item>
+        <item>Добротвір</item>
+        <item>Донецьк</item>
+        <item>Запоріжжя</item>
+        <item>Запоріжжя («Одеко»)</item>
+        <item>Київ</item>
+        <item>Кіровоград</item>
+        <item>Краматорськ</item>
+        <item>Кременець</item>
+        <item>Кривий Ріг</item>
+        <item>Луцьк</item>
+        <item>Львів</item>
+        <item>Макіївка</item>
+        <item>Новомосковськ</item>
+        <item>Полтава</item>
+        <item>Рівне</item>
+        <item>Севастополь</item>
+        <item>Сімферополь</item>
+        <item>Стебник</item>
+        <item>Суми</item>
+        <item>Теребовля</item>
+        <item>Тернопіль</item>
+        <item>Трускавець</item>
+        <item>Харків</item>
+        <item>Херсон</item>
+        <item>Хмельницький</item>
+        <item>Черкаси</item>
+        <item>Чернівці</item>
+        <item>Чернівці («Одеко»)</item>
+        <item>Чортків</item>
+    </string-array>
+    <string-array name="VolyaTypes">
+        <item>Аналогове ТБ</item>
+        <item>Цифрове ТБ</item>
+        <item>Інтернет</item>
+        <item>ТБ та/або Інтернет</item>
+    </string-array>
+    <string-array name="VegaTypes">
+        <item>Інтернет</item>
+        <item>Телефонія</item>
+        <item>Телефонія (рахунок)</item>
+    </string-array>
+    <string-array name="HomeTelecomTypes">
+        <item>ТБ</item>
+        <item>Інтернет</item>
+        <item>Телефон</item>
+    </string-array>
+    <string-array name="TriolanTypes">
+        <item>Інтернет</item>
+        <item>ТБ</item>
+    </string-array>
+    <string-array name="KUtelTypes">
+        <item>Номер телефону</item>
+        <item>Особовий рахунок</item>
+    </string-array>
+
+
+    <!--gios-->
+    <string-array name="months">
+        <item>01 - Січень</item>
+        <item>02 - Лютий</item>
+        <item>03 - Березень</item>
+        <item>04 - Квітень</item>
+        <item>05 - Травень</item>
+        <item>06 - Червень</item>
+        <item>07 - Липень</item>
+        <item>08 - Серпень</item>
+        <item>09 - Вересень</item>
+        <item>10 - Жовтень</item>
+        <item>11 - Листопад</item>
+        <item>12 - Грудень</item>
+    </string-array>
+
+</resources>

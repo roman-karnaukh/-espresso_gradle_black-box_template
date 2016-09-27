@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/llLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/color8">
+        <View android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.15"/>
+        <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+        <View android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.15"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="2"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:orientation="vertical">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+            <EditText
+                    android:id="@+id/etBarCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_your_card_number"
+                    android:paddingRight="40dp"/>
+            <ImageView
+                    android:id="@+id/ivScan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/_qr"/>
+        </RelativeLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="60dp"
+                p24:textSize="@dimen/text_size_button_next"/>
+    </LinearLayout>
+</LinearLayout>

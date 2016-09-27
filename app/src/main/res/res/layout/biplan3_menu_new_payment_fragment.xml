@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+
+    <LinearLayout
+            android:id="@+id/llFindCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?selector_text_background">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat_bubble_big">
+        </ImageView>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:gravity="center_horizontal"
+                android:text="@string/find_company"
+                android:textSize="16sp"
+                android:textColor="?attr/listOper"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/llFotokassa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?selector_text_background">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fotocassa">
+        </ImageView>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:gravity="center_horizontal"
+                android:text="@string/photocassa"
+                android:textSize="16sp"
+                android:textColor="?attr/listOper"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/llFillRequisites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?selector_text_background">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat_bubble_big">
+        </ImageView>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:gravity="center_horizontal"
+                android:text="@string/fill_requisites"
+                android:textSize="16sp"
+                android:textColor="?attr/listOper"/>
+    </LinearLayout>
+</LinearLayout>

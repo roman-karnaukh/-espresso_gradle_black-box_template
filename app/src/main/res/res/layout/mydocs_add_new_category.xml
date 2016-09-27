@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:padding="20dp"
+              android:minWidth="250dp"
+              android:background="?attr/common_background"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="?attr/color6"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/new_group"
+            android:id="@+id/tvNewGroup"
+            android:layout_gravity="center_horizontal"/>
+    
+    <EditText
+            android:id="@+id/etName"
+            style="?attr/style_edittext"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:hint="@string/name_group"
+            android:textColor="?attr/common_text"/>
+
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            p24:text="@string/add_group"
+            p24:textSize="@dimen/text_size_button_next"/>
+</LinearLayout>

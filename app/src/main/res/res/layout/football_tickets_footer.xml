@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llFooter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/llAddTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/ivAddRemoveTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:src="?attr/plus_docs_m" />
+
+        <TextView
+            android:id="@+id/addTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:text="@string/add_ticket"
+            android:textColor="?attr/color7"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:ellipsize="end"
+            android:text="@string/in_total"
+            android:textColor="?attr/master_common_text"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+            android:id="@+id/tvTotalPriceTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingLeft="10dp"
+            android:textColor="?attr/color7"
+            android:textSize="20sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llViewSheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:id="@+id/tvShowScheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:text="@string/show_sheme_stad"
+            android:textColor="?attr/color7"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:id="@+id/ivLogo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/scheme" />
+
+    </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            p24:text="@string/further"
+            p24:textSize="@dimen/text_size_button_next" />
+
+</LinearLayout>

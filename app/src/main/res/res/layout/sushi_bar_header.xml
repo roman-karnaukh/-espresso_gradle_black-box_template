@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/ivMenuGag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings"
+                android:visibility="invisible"
+        />
+        <ImageView
+                android:id="@+id/ivBasketGag"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/basket"
+                android:visibility="invisible"
+        />
+
+        <ua.privatbank.ap24.beta.views.RobotoCondensedLightTextView
+                android:id="@+id/tvTitle"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="?attr/bar_header_text_color"
+                android:gravity="center"
+                style="@style/singleLine"
+                android:textSize="@dimen/text_size_title"
+
+        />
+
+        <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/settings"
+        />
+
+        <ImageView
+                android:id="@+id/ivBasket"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0"
+                android:src="@drawable/basket"
+        />
+    </LinearLayout>
+    <TextView
+            android:id="@+id/tvBasketCount"
+            style="@style/text_white_size_small_bg_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:minHeight="18dp"
+            android:minWidth="18dp"
+            android:text="0"
+            android:singleLine="true"/>
+</RelativeLayout>
+
+

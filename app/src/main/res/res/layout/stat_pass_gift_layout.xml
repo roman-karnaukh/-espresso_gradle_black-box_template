@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:padding="16dp">
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/tvConfirm"
+            android:paddingLeft="10dp"
+            android:text="@string/confirm_pay_gift"
+            android:textColor="?attr/common_text"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+        <Spinner
+            android:id="@+id/cardToSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/editPass"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="@string/pass"
+                android:inputType="textPassword">
+               </EditText>
+
+            <CheckBox
+                android:id="@+id/checkPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/show_password"
+                android:textColor="?attr/common_text"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:visibility="visible">
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonSoap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            p24:text="@string/button_confirm"
+            p24:textSize="@dimen/text_size_button_next"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

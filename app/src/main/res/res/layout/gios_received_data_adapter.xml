@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1"
+            android:stretchColumns="1"
+            android:layout_margin="5dp">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/textViewType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_util_type"/>
+
+            <TextView
+                    android:id="@+id/givc_select_window_text_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    />
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/trArrears"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/textViewFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_fee"/>
+
+            <TextView
+                    android:id="@+id/givc_select_window_text_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    />
+        </TableRow>
+
+
+        <TableRow
+                android:id="@+id/tableRowTariff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_tariff"/>
+
+            <TextView
+                    android:id="@+id/tvTariff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    />
+
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRowPrevValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_prev_value"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/edit_prev_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:inputType="numberDecimal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:hint="0"
+                        />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRowNewValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_new_value"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/edit_new_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:inputType="numberDecimal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:hint="0"
+                        />
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/textViewSum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/text_givc_select_window_to_pay"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/givc_select_window_edit_to_pay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:inputType="numberDecimal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:hint="0.00"
+                        />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

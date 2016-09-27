@@ -1,0 +1,1051 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="P24Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--color-->
+        <item name="color1">@color/color1</item>
+        <item name="color2">@color/color2</item>
+        <item name="color3">@color/color3</item>
+        <item name="color4">@color/color4</item>
+        <item name="color5">@color/color5</item>
+        <item name="color6">@color/color6</item>
+        <item name="color7">@color/color7</item>
+        <item name="color8">@color/color8</item>
+        <item name="color9">@color/color9</item>
+        <item name="color11">@color/color11</item>
+        <item name="color12">@color/color12</item>
+        <item name="color13">@color/color13</item>
+        <item name="color14">@color/color14</item>
+        <item name="color15">@color/color15</item>
+        <item name="color16">@color/color16</item>
+        <item name="color17">@color/color17</item>
+
+        <!--<item name="colorAccent">@color/color3</item>-->
+
+        <item name="color_hint">@color/color_hint</item>
+        <item name="console_spiner">@color/color9</item>
+        <item name="bar_header_color">@color/background_light</item>
+        <item name="text_chathint_buble">@color/text_chathint_buble_light</item>
+        <item name="master_ccy">@color/master_ccy</item>
+        <item name="card_group_text">@color/card_group_text_light</item>
+        <item name="common_background">@color/background_light</item>
+        <item name="dialog_background">@color/background_light</item>
+        <item name="background_groupIndicator">@color/background_light</item>
+        <item name="bar_header_text_color">@color/bar_header_text_light</item>
+        <item name="master_bottom_background_end">@color/master_bottom_background_end_light</item>
+        <item name="master_history_cards">@color/master_history_cards</item>
+        <item name="master_common_text">@color/master_common_text</item>
+        <item name="master_bottom_line">@color/master_bottom_line</item>
+        <item name="listOper">@color/listOper</item>
+        <item name="common_text">@color/common_text_light</item>
+        <item name="spinner_dropdown_item">@color/spinner_dropdown_item_dark</item>
+        <item name="error_color">@color/error</item>
+        <item name="text_color">@color/text</item>
+        <item name="time_color">@color/time</item>
+        <item name="console_separator">@color/color8</item>
+        <item name="console_background">@color/master_bottom_background_end_light</item>
+        <item name="horizontal_line">@color/horizontal_line</item>
+        <item name="taxi_ab_text">@color/taxi_ab_text</item>
+        <item name="color_card_on_main_screen">@color/color14</item>
+        <item name="color_background_card_item">@color/background_card_item</item>
+        <item name="color_tabs">@color/white_wot</item>
+
+
+
+        <!--style-->
+        <item name="android:buttonStyle">@style/ButtonRegularStyle</item>
+        <item name="style_edittext">@style/EditText</item>
+        <item name="style_textview">@style/TextViewLight</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal.Light</item>
+        <item name="spinnerStyle">@style/SpinnerLight</item>
+        <item name="editTextStyle">@style/EditText</item>
+        <item name="radioButtonStyle">@style/RadioButtonTaxiLight</item>
+        <item name="autoCompleteTextViewStyle">@style/EditText</item>
+
+
+        <!--drawable-->
+        <item name="selector_text_background">@drawable/selector_text_background_light</item>
+        <item name="ic_soilent">@drawable/soilent</item>
+        <item name="selector_horizontal_picker">@drawable/selector_hp_light</item>
+        <item name="ic_exchange">@drawable/exchange</item>
+        <item name="fotocassa">@drawable/fotocassa</item>
+        <item name="ic_google_cash">@drawable/light_ap24_googlecash</item>
+        <item name="ic_faq">@drawable/light_faq_big</item>
+        <item name="ic_map">@drawable/light_map_big</item>
+        <item name="ic_password">@drawable/light_password</item>
+        <item name="ic_sms_contact">@drawable/sms_to_bank</item>
+        <item name="ic_call_to_bank">@drawable/call_to_bank</item>
+        <item name="call_to_bank_operator">@drawable/operator</item>
+        <item name="selector_button_background">@drawable/selector_button_background_light</item>
+        <item name="ic_geoloc">@drawable/ic_location</item>
+        <item name="ic_visaandmc">@drawable/ic_visaandmc</item>
+        <item name="bg_discount_item">@drawable/bg_discount_item</item>
+        <item name="expand">@drawable/expand</item>
+        <item name="credit_history">@drawable/credit_history</item>
+        <item name="credit_rating">@drawable/credit_rating</item>
+        <item name="status_control">@drawable/status_control</item>
+        <item name="home">@drawable/home</item>
+        <item name="home_archive">@drawable/home_archive</item>
+        <item name="beer_archive">@drawable/beer_shop_archive</item>
+        <item name="minus_docs">@drawable/minus_docs</item>
+        <item name="plus_docs">@drawable/plus_docs</item>
+        <item name="flowers">@drawable/flower</item>
+        <item name="kaban">@drawable/kaban</item>
+        <item name="boar">@drawable/kaban</item>
+        <item name="photokassa_archive">@drawable/photokassa_archive</item>
+        <item name="ic_tickets">@drawable/light_tickets_big</item>
+        <!--<item name="ic_all_services">@drawable/plus</item>-->
+        <item name="ic_info">@drawable/map</item>
+        <item name="ic_tickets_bus">@drawable/light_tickets_bus_big</item>
+        <item name="ic_tickets_plane">@drawable/light_tickets_bus_big</item>
+        <item name="ic_charity">@drawable/light_blag_big</item>
+        <item name="ic_prapor">@drawable/light_prapor_big</item>
+        <item name="custom_search">@drawable/ic_search</item>
+        <item name="chart">@drawable/ic_stat</item>
+        <item name="chat">@drawable/chat_bubble</item>
+        <item name="mail">@drawable/mail</item>
+        <item name="flowers_archive">@drawable/flower_archive</item>
+        <item name="kaban_archive">@drawable/kaban1_archive</item>
+        <item name="kaban2">@drawable/kaban2</item>
+        <item name="kaban3">@drawable/kaban3</item>
+        <item name="_101">@drawable/_101</item>
+        <item name="_102">@drawable/_102</item>
+        <item name="_103">@drawable/_103</item>
+        <item name="_104">@drawable/_104</item>
+        <item name="_112">@drawable/_112</item>
+        <item name="ic_archive">@drawable/light_archive_big</item>
+        <item name="ic_business">@drawable/light_busines_big</item>
+        <item name="ic_cash">@drawable/cash</item>
+        <item name="ic_commun">@drawable/communal</item>
+        <item name="ic_gios">@drawable/jkh</item>
+        <item name="ic_cosmetics">@drawable/cosmetics</item>
+        <item name="ic_deposit">@drawable/deposit</item>
+        <item name="ic_details">@drawable/light_details_big</item>
+        <item name="ic_extra_money">@drawable/light_extra_money_big</item>
+        <item name="ic_google_checks">@drawable/light_google_check_big</item>
+        <item name="ic_management_cards">@drawable/card</item>
+        <item name="ic_money_plus">@drawable/light_money__big</item>
+        <item name="ic_money">@drawable/light_money_big</item>
+        <item name="ic_money_box">@drawable/light_money_box_big</item>
+        <item name="ic_new">@drawable/entertainment_archive</item>
+        <item name="ic_petrol">@drawable/light_petrol_big</item>
+        <item name="ic_phone_number">@drawable/smarphone_archive</item>
+        <item name="ic_swift">@drawable/light_swift_big</item>
+        <item name="ic_vk">@drawable/light_vk_big</item>
+        <item name="ic_yandex_money">@drawable/light_yandex_money_big</item>
+        <item name="ic_communication_services">@drawable/popolni_archive</item>
+        <item name="ic_communication_all_services">@drawable/refill_all_serv</item>
+        <item name="ic_communication_services_circle">@drawable/refill_in_circle</item>
+        <item name="fast_payments">@drawable/fast_paymentys</item>
+        <item name="markets">@drawable/markets</item>
+        <item name="ic_documents">@drawable/documents</item>
+        <item name="plus_docs_m">@drawable/plus_docs_m</item>
+        <item name="arrow_p_activ_dark">@drawable/arrow_p_activ_dark</item>
+        <item name="operator_chat">@drawable/operator_chat</item>
+        <item name="bonus_plus">@drawable/bonus_plus</item>
+        <item name="flags_main">@drawable/flag_main</item>
+
+
+        <item name="perevod_ar_circle">@drawable/transfer_circle</item>
+        <item name="popol_ar">@drawable/stmt_mobile</item>
+        <item name="smile">@drawable/smile</item>
+        <item name="error_smile">@drawable/errorsmile</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <item name="open">@drawable/open</item>
+        <item name="progress_">@drawable/progress</item>
+        <item name="big_progress_bar">@drawable/progress_big</item>
+        <item name="kontakt">@drawable/ic_action_choose_list_light</item>
+        <item name="kommunalka">@drawable/stmt_kommunalka</item>
+        <item name="refresh">@drawable/refresh_down</item>
+        <item name="popol">@drawable/popolni</item>
+        <item name="paypass">@drawable/paypass_wot</item>
+        <item name="perevod">@drawable/perevod_master_archive</item>
+        <item name="payments">@drawable/payments</item>
+        <item name="archive_all_serv">@drawable/archive_all_serv</item>
+        <item name="qr">@drawable/qr_p24</item>
+
+        <item name="style_edittext1">@drawable/edit_chat_light</item>
+
+        <item name="btn_date_picker">@style/ButtonDatePickerLight</item>
+
+        <item name="selector_button_next">@drawable/selector_button_next_light</item>
+        <item name="selector_button_next_gray">@drawable/selector_button_next_gray_light</item>
+        <item name="selector_button_next_small">@drawable/selector_button_next_small_light</item>
+        <item name="refresh_image">@drawable/refresh</item>
+
+        <item name="ic_content_message_head_left">@drawable/ic_content_message_head_left</item>
+        <item name="splash">@drawable/splash</item>
+        <item name="ic_chat">@drawable/ic_chat</item>
+        <item name="ic_ua">@drawable/ic_ua_dark</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="selector_button_options">@drawable/selector_button_options_dark</item>
+
+
+        <item name="message_client_head_left">@drawable/ic_content_message_head_left</item>
+        <item name="message_client_tail_left">@drawable/ic_content_message_tail_left</item>
+        <item name="message_client_error_left">@drawable/ic_content_message_error_left</item>
+        <item name="message_server_head_right">@drawable/ic_content_message_head_right</item>
+        <item name="message_server_tail_right">@drawable/ic_content_message_tail_right</item>
+        <item name="message_server_error_right">@drawable/ic_content_message_error_right</item>
+        <item name="edit_style">@drawable/edit_text</item>
+        <item name="radio_style">@drawable/radio_light</item>
+        <item name="spinner_style">@drawable/spinner_background</item>
+        <item name="check_style">@drawable/check_light</item>
+        <item name="checkbox_of_settings">@drawable/checkbox_of_settings</item>
+
+        <item name="action">@drawable/ic_console_down</item>
+        <item name="search">@drawable/style_edittext1_light</item>
+        <item name="send">@drawable/ic_chat</item>
+        <item name="ic_tickets_plane_to">@drawable/plane_big_green</item>
+        <item name="ic_tickets_plane_from">@drawable/plane_big_green_back</item>
+        <item name="changecard">@drawable/changecard</item>
+        <item name="dosh">@drawable/dosh</item>
+        <item name="how">@drawable/how</item>
+        <item name="nfc">@drawable/qr</item>
+        <item name="nfc_">@drawable/nfc</item>
+        <item name="gift_card">@drawable/gift_card</item>
+        <item name="ncpu">@drawable/ic_ukraine</item>
+        <item name="pin">@drawable/pin</item>
+        <item name="stock">@drawable/akciya</item>
+        <item name="airplane">@drawable/stmt_airplane</item>
+        <item name="ap_success">@drawable/ap_success</item>
+        <item name="football">@drawable/football</item>
+        <item name="star">@drawable/star</item>
+        <item name="wu">@drawable/we</item>
+        <item name="inet">@drawable/stmt_internet</item>
+
+        <item name="ic_game">@drawable/game</item>
+        <item name="game_archive">@drawable/game_archive</item>
+        <item name="ticket_football_archive">@drawable/archive_ticket_football</item>
+        <item name="ap24_timesheet">@drawable/ap24_timesheet</item>
+        <item name="ic_donate">@drawable/donate2</item>
+        <item name="ic_cal">@drawable/ic_cal</item>
+        <item name="ic_cos">@drawable/ic_cos</item>
+        <item name="ic_gift">@drawable/ic_gift</item>
+        <item name="ic_op">@drawable/config</item>
+        <item name="like_active">@drawable/like_hover</item>
+        <item name="like_unactive">@drawable/like</item>
+        <item name="ic_tank">@drawable/ic_tank</item>
+        <item name="ic_gamepad">@drawable/ic_gamepad</item>
+        <item name="ic_orif">@drawable/ic_orif</item>
+        <item name="beer_shop">@drawable/beer_shop</item>
+        <item name="ic_avon">@drawable/ic_avon</item>
+        <item name="entertainment">@drawable/entertainment</item>
+
+        <item name="ic_eye">@drawable/ic_eye</item>
+        <item name="categories_indicator_on">@drawable/categories_indicator_on</item>
+        <item name="categories_indicator_off">@drawable/categories_indicator_off</item>
+        <item name="shablon1">@drawable/shablon1</item>
+        <item name="shablon2">@drawable/shablon2</item>
+        <item name="contact_template">@drawable/contakt</item>
+        <item name="gallery_template">@drawable/p24_gallery</item>
+
+        <item name="ic_airpay">@drawable/ic_airpay</item>
+        <item name="ic_azs">@drawable/ic_azs</item>
+        <item name="ic_bus">@drawable/ic_bus</item>
+        <item name="ic_comun">@drawable/ic_comun</item>
+        <item name="ic_depoz1">@drawable/ic_depoz1</item>
+        <item name="ic_depoz2">@drawable/depos</item>
+        <item name="ic_pig">@drawable/moneybox</item>
+        <item name="ic_qr">@drawable/ic_qr</item>
+        <item name="ic_shablon">@drawable/ic_shablon</item>
+        <item name="ic_train">@drawable/ic_train</item>
+
+        <item name="ic_exit">@drawable/light_exit_big</item>
+        <item name="ic_temp">@drawable/template</item>
+        <item name="temp_add">@drawable/temp_add</item>
+        <item name="popolni">@drawable/popolni</item>
+        <item name="tem_pay_big">@drawable/tem_pay_big</item>
+        <item name="temp_pay">@drawable/temp_pay</item>
+        <item name="temp_tel_big">@drawable/temp_tel_big</item>
+        <item name="tem_tel">@drawable/tem_tel</item>
+        <item name="add_img">@drawable/add_img</item>
+        <item name="map_bank">@drawable/ap24_map_bank</item>
+        <item name="map_bonus">@drawable/ap24_map_bonus</item>
+        <item name="map_bankomat">@drawable/ap24_map_bankomat</item>
+        <item name="map_self">@drawable/ap24_map_self</item>
+        <item name="info">@drawable/ap24_info_app</item>
+
+
+        <item name="block_card">@drawable/dark_block_card</item>
+        <item name="unblock_card">@drawable/unblock_card</item>
+        <item name="default_card">@drawable/dark_default_card</item>
+        <item name="delete_card">@drawable/dark_delete_card</item>
+        <item name="internet_card">@drawable/dark_internet_card</item>
+        <item name="limit_card">@drawable/dark_limit_card</item>
+        <item name="new_card">@drawable/dark_new_card</item>
+        <item name="order_card">@drawable/dark_order_card</item>
+        <item name="release_card">@drawable/dark_release_card</item>
+        <item name="menu_card">@drawable/dark_managment_cards_big</item>
+        <item name="menu_currency_rates">@drawable/dark_extra_money_big</item>
+        <item name="menu_extra_money">@drawable/dark_money_big</item>
+        <item name="receive_eo">@drawable/receive_eo</item>
+        <item name="send_eo">@drawable/send_eo</item>
+        <item name="map1">@drawable/map1</item>
+        <item name="map2">@drawable/map2</item>
+        <item name="map3">@drawable/map3</item>
+        <item name="map4">@drawable/map4</item>
+        <item name="map5">@drawable/map5</item>
+        <item name="btn_info_ic">@drawable/btn_info_ic</item>
+        <item name="bg_round_sides">@drawable/bg_round_sides</item>
+        <item name="ic_kyivstar_big">@drawable/ic_kyivstar_big</item>
+        <item name="ic_mts_big">@drawable/ic_mts_big</item>
+        <item name="ic_life_big">@drawable/ic_life_big</item>
+        <item name="ic_people_big">@drawable/ic_people_big</item>
+        <item name="ic_inter_big">@drawable/ic_inter_big</item>
+        <item name="ic_utel_big">@drawable/ic_utel_big</item>
+        <item name="ic_telecom_big">@drawable/ic_telecom_big</item>
+        <item name="ic_beeline_big">@drawable/beeline_big</item>
+        <item name="ic_geocell_big">@drawable/geocell_big</item>
+        <item name="ic_megafon_big">@drawable/megafon_big</item>
+        <item name="ic_amvay_big">@drawable/ic_amvay_big</item>
+        <item name="ic_fb_big">@drawable/ic_fb_big</item>
+        <item name="ic_farmasi">@drawable/ic_farmasi</item>
+        <item name="ic_other_cosmetics">@drawable/ic_other_cosmetics</item>
+
+        <item name="eo_privatmoney_big">@drawable/eo_privatmoney_big</item>
+        <item name="eo_western_union_big">@drawable/eo_western_union</item>
+        <item name="eo_coinstar_big">@drawable/eo_coinstar_big</item>
+        <item name="eo_migom_big">@drawable/eo_migom_big</item>
+        <item name="eo_moneygram_big">@drawable/eo_moneygram_big</item>
+        <item name="eo_golden_crown_big">@drawable/eo_golden_crown_big</item>
+        <item name="eo_unistream_big">@drawable/eo_unistream_big</item>
+        <item name="eo_contact_big">@drawable/eo_contact_big</item>
+        <item name="eo_anelik_big">@drawable/eo_anelik_big</item>
+        <item name="ic_tickets_train_big">@drawable/ic_tickets_train_big</item>
+        <item name="all_tickets">@drawable/all_tickets</item>
+        <item name="ic_tickets_bus_big">@drawable/ic_tickets_bus_big</item>
+        <item name="ic_tickets_plane_big">@drawable/ic_tickets_plane_big</item>
+        <item name="ic_tickets_plane_history">@drawable/ic_tickets_plane_history</item>
+        <item name="card_">@drawable/card_</item>
+        <item name="fire">@drawable/fire_white</item>
+         <item name="buttonPin">@drawable/button_for_artem</item>
+        <item name="push_hist">@drawable/push_hist_white</item>
+        <item name="communal_search">@drawable/search</item>
+        <item name="communal_rec">@drawable/light_communal_rec</item>
+        <item name="mob_popol">@drawable/popol</item>
+        <item name="telecom_kyivstar">@drawable/kyivstar</item>
+        <item name="telecom_bilink">@drawable/bilink</item>
+        <item name="telecom_domtelecom">@drawable/domtele</item>
+        <item name="telecom_freenet">@drawable/freenet</item>
+        <item name="telecom_giraffe">@drawable/giraffe</item>
+        <item name="telecom_peoplenet">@drawable/peoplenet</item>
+        <item name="telecom_ukrtelecom">@drawable/ukrtelecom</item>
+        <item name="telecom_vega">@drawable/vega</item>
+        <item name="telecom_viasat">@drawable/viasat</item>
+        <item name="telecom_volya">@drawable/volya</item>
+        <item name="map_ic_auth">@drawable/map_ic</item>
+        <item name="p24_ic_header">@drawable/p_24</item>
+        <item name="privat_ic_header">@drawable/privat</item>
+        <item name="add_avatar_p24">@drawable/add_avatar_p24</item>
+        <item name="push">@drawable/push</item>
+        <item name="deposit_button_next">@drawable/litarrowactiv</item>
+        <item name="deposit_check">@drawable/ic_check</item>
+        <item name="deposit_left_bt">@drawable/left_btn_deposit_curr_light</item>
+        <item name="deposit_right_bt">@drawable/right_btn_deposit_curr_light</item>
+        <item name="deposit_center_bt">@drawable/center_btn_deposit_curr_light</item>
+        <item name="right_bt_active">@drawable/right_bt_active</item>
+        <item name="right_bt_inactive">@drawable/right_bt_inactive</item>
+        <item name="left_bt_active">@drawable/left_bt_active</item>
+        <item name="left_bt_inactive">@drawable/left_bt_inactive</item>
+        <item name="center_bt_active">@drawable/center_bt_active</item>
+        <item name="center_bt_inactive">@drawable/center_bt_inactive</item>
+        <item name="new_deposit">@drawable/new_deposit</item>
+        <item name="bg_deposit">@drawable/bg_deposit3</item>
+
+        <item name="ic_taxi_home">@drawable/ic_taxi_home</item>
+        <item name="taxi_bg_ab">@drawable/bg_pin_ab</item>
+        <item name="taxi_bg_ab_archive">@drawable/bg_ab_archive</item>
+
+        <item name="ic_sad">@drawable/ic_sad</item>
+        <item name="ic_car">@drawable/ic_car</item>
+        <item name="ic_call_taxi">@drawable/ic_call_taxi</item>
+        <item name="add_point">@drawable/add_point</item>
+        <item name="bg_time">@drawable/bg_time</item>
+        <item name="ic_marker">@drawable/bg_address</item>
+        <item name="soap">@drawable/home</item>
+        <item name="soap_archive">@drawable/home_archive</item>
+        <item name="divantv">@drawable/divantv</item>
+        <item name="ic_archive_taxi">@drawable/ic_archive_taxi</item>
+        <item name="ic_pin">@drawable/ic_pin</item>
+        <item name="ap_gas">@drawable/gas</item>
+        <item name="gas_hand">@drawable/gas_hand</item>
+        <item name="gas_map_a">@drawable/gas_map_a</item>
+        <item name="gas_map_point">@drawable/gas_map_point</item>
+        <item name="world">@drawable/world</item>
+        <item name="menu_gas">@drawable/menu_gas</item>
+        <item name="barcode_circle">@drawable/barcode</item>
+        <item name="sender">@drawable/sender</item>
+        <item name="chat_bubble_big">@drawable/chat_bubble_big</item>
+        <item name="ic_discount">@drawable/akciya</item>
+        <item name="barcode_more_wot">@drawable/barcode_more_wot</item>
+        <item name="discount_cards">@drawable/discount_cards</item>
+        <item name="plus_akciya">@drawable/plus_akciya</item>
+        <item name="default_icon_logo">@drawable/default_icon_logo</item>
+        <item name="discount_done">@drawable/discount_done</item>
+        <item name="my_requisite">@drawable/my_requisite</item>
+        <item name="nfc_menu">@drawable/nfc_menu</item>
+        <item name="food">@drawable/food</item>
+        <item name="bg_menu_profile_button">@drawable/bg_menu_profile_button</item>
+        <item name="bg_contacts_ring">@drawable/bg_contacts_ring_white</item>
+        <item name="camera">@drawable/camera</item>
+        <item name="gallery_kassa">@drawable/gallery_kassa</item>
+        <item name="ic_com_archive">@drawable/communal_archive</item>
+        <item name="ic_tickets_bus_big_archive">@drawable/ic_tickets_bus_big_archive</item>
+        <item name="ic_tickets_train_big_archive">@drawable/ic_tickets_train_big_archive</item>
+        <item name="ic_tickets_plane_big_archive">@drawable/ic_tickets_plane_big_archive</item>
+        <item name="food_archive">@drawable/food_archive</item>
+        <item name="ic_swift_archive">@drawable/light_swift_big_archive</item>
+        <item name="ic_management_cards_archive">@drawable/card_archive</item>
+        <item name="ic_taxi_home_archive">@drawable/ic_taxi_home_archive</item>
+        <item name="gift_card_archive">@drawable/gift_card_archive</item>
+        <item name="perevod_master">@drawable/perevod_master</item>
+        <item name="bg_taxi_progres">@style/ProgressBarTaxi.Horizontal.Ligth</item>
+        <item name="kaban1">@drawable/kaban1</item>
+        <item name="sender_search_header_background">@color/grean</item>
+        <item name="sender_content_background">@color/grean_light</item>
+        <item name="sender_tabhost_background">@color/status_text</item>
+         <item name="ads">@drawable/ads</item>
+    </style>
+
+    <style name="P24Dark" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--color-->
+        <item name="color1">@color/color1_dark</item>
+        <item name="color2">@color/color2_dark</item>
+        <item name="color3">@color/color3_dark</item>
+        <item name="color4">@color/color4_dark</item>
+        <item name="color5">@color/color5_dark</item>
+        <item name="color6">@color/color6_dark</item>
+        <item name="color7">@color/color7_dark</item>
+        <item name="color8">@color/color8_dark</item>
+        <item name="color9">@color/color9_dark</item>
+        <item name="color11">@color/color11_dark</item>
+        <item name="color12">@color/color12_dark</item>
+        <item name="color13">@color/color13_dark</item>
+        <item name="color14">@color/color14_dark</item>
+        <item name="color15">@color/color15_dark</item>
+        <item name="color16">@color/color16_dark</item>
+        <item name="color17">@color/color17_dark</item>
+
+        <!--<item name="colorAccent">@color/color3</item>-->
+
+        <item name="color_card_on_main_screen">@color/status_text</item>
+        <item name="color_hint">@color/color_hint</item>
+        <item name="console_spiner">@color/card_group_text_light</item>
+        <item name="bar_header_color">@color/background_dark</item>
+        <item name="text_chathint_buble">@color/text_chathint_buble_dark</item>
+        <item name="master_ccy">@color/common_text_dark</item>
+        <item name="card_group_text">@color/card_group_text_dark</item>
+        <item name="common_background">@color/background_dark</item>
+        <item name="dialog_background">@color/background_dark</item>
+        <item name="background_groupIndicator">@color/background_dark</item>
+        <item name="bar_header_text_color">@color/bar_header_text_dark</item>
+        <item name="master_bottom_background_end">@color/background_dark</item>
+        <item name="master_history_cards">@color/master_history_cards_dark</item>
+        <item name="master_common_text">@color/master_common_text_dark</item>
+        <item name="master_bottom_line">@color/master_bottom_line_dark</item>
+        <item name="listOper">@color/listOper_dark</item>
+        <item name="common_text">@color/common_text_dark</item>
+        <item name="spinner_dropdown_item">@color/spinner_dropdown_item_dark</item>
+        <item name="error_color">@color/error</item>
+        <item name="text_color">@color/common_text_dark</item>
+        <item name="time_color">@color/tim<item name="ic_pin">@drawable/ic_pin</item>e</item>
+        <item name="console_separator">@color/color8_dark</item>
+        <item name="console_background">@color/background_dark</item>
+        <item name="horizontal_line">@color/horizontal_line_dark</item>
+        <item name="taxi_ab_text">@color/taxi_ab_text_dark</item>
+
+        <item name="color_background_card_item">@color/background_card_item_night</item>
+        <item name="color_tabs">@color/background_card_item_night</item>
+
+
+        <!--style-->
+        <item name="radioButtonStyle">@style/RadioButtonTaxiDark</item>
+        <item name="editTextStyle">@style/EditTextDark</item>
+        <item name="style_textview">@style/TextViewDark</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHolo.Horizontal.Dark</item>
+        <item name="spinnerStyle">@style/SpinnerDark</item>
+        <item name="autoCompleteTextViewStyle">@style/EditTextDark</item>
+
+
+        <!--drawable-->
+        <item name="ic_taxi_home">@drawable/ic_taxi_home</item>
+        <item name="all_tickets">@drawable/all_tickets</item>
+        <item name="soap_archive">@drawable/home_archive</item>
+        <item name="popolni">@drawable/popolni</item>
+        <item name="ic_tickets_train_big_archive">@drawable/ic_tickets_train_big_archive</item>
+        <item name="ic_taxi_home_archive">@drawable/ic_taxi_home_archive</item>
+        <item name="gift_card_archive">@drawable/gift_card_archive</item>
+        <item name="expand">@drawable/expand</item>
+        <item name="selector_text_background">@drawable/selector_text_background_light</item>
+        <item name="selector_horizontal_picker">@drawable/selector_hp_light</item>
+        <item name="ic_exchange">@drawable/exchange</item>
+        <item name="ic_google_cash">@drawable/light_ap24_googlecash</item>
+        <item name="ic_faq">@drawable/light_faq_big</item>
+        <item name="ic_map">@drawable/light_map_big</item>
+        <item name="ic_password">@drawable/light_password</item>
+        <item name="ic_sms_contact">@drawable/sms_to_bank</item>
+        <item name="ic_call_to_bank">@drawable/call_to_bank</item>
+        <item name="call_to_bank_operator">@drawable/operator</item>
+        <item name="selector_button_background">@drawable/selector_button_background_dark</item>
+        <item name="ic_geoloc">@drawable/ic_location</item>
+        <item name="ic_visaandmc">@drawable/ic_visaandmc</item>
+        <item name="bg_round_sides">@drawable/bg_round_sides_dark</item>
+        <item name="ic_swift_archive">@drawable/light_swift_big_archive</item>
+        <item name="operator_chat">@drawable/operator_chat</item>
+        <item name="ic_tickets">@drawable/light_tickets_big</item>
+        <!--<item name="ic_all_services">@drawable/plus</item>-->
+        <item name="ic_info">@drawable/map</item>
+        <item name="beer_shop">@drawable/beer_shop</item>
+        <item name="soap">@drawable/home</item>
+        <item name="ic_tickets_bus">@drawable/light_tickets_bus_big</item>
+        <item name="ic_tickets_plane">@drawable/light_tickets_bus_big</item>
+        <item name="ic_charity">@drawable/light_blag_big</item>
+        <item name="ic_prapor">@drawable/light_prapor_big</item>
+        <item name="custom_search">@drawable/ic_search</item>
+        <item name="chart">@drawable/ic_stat</item>
+        <item name="chat">@drawable/chat_bubble</item>
+        <item name="mail">@drawable/mail</item>
+        <item name="credit_history">@drawable/credit_history</item>
+        <item name="credit_rating">@drawable/credit_rating</item>
+        <item name="status_control">@drawable/status_control</item>
+        <item name="ic_archive">@drawable/light_archive_big</item>
+        <item name="ic_business">@drawable/light_busines_big</item>
+        <item name="ic_cash">@drawable/cash</item>
+        <item name="ic_commun">@drawable/communal</item>
+        <item name="ic_gios">@drawable/jkh</item>
+        <item name="ic_cosmetics">@drawable/cosmetics</item>
+        <item name="ic_deposit">@drawable/deposit</item>
+        <item name="ic_details">@drawable/light_details_big</item>
+        <item name="ic_extra_money">@drawable/light_extra_money_big</item>
+        <item name="ic_google_checks">@drawable/light_google_check_big</item>
+        <item name="ic_management_cards">@drawable/card</item>
+        <item name="ic_management_cards_archive">@drawable/card_archive</item>
+        <item name="ic_money_plus">@drawable/light_money__big</item>
+        <item name="ic_money">@drawable/light_money_big</item>
+        <item name="ic_money_box">@drawable/light_money_box_big</item>
+        <item name="ic_new">@drawable/entertainment_archive</item>
+        <item name="ic_petrol">@drawable/light_petrol_big</item>
+        <item name="ic_phone_number">@drawable/smarphone_archive</item>
+        <item name="ic_swift">@drawable/light_swift_big</item>
+        <item name="ic_vk">@drawable/light_vk_big</item>
+        <item name="ic_yandex_money">@drawable/light_yandex_money_big</item>
+        <item name="ic_communication_services">@drawable/popolni_archive</item>
+        <item name="ic_communication_all_services">@drawable/refill_all_serv</item>
+        <item name="ic_communication_services_circle">@drawable/refill_in_circle</item>
+        <item name="fast_payments">@drawable/fast_paymentys</item>
+        <item name="markets">@drawable/markets</item>
+        <item name="beer_archive">@drawable/beer_shop_archive</item>
+        <item name="minus_docs">@drawable/minus_docs</item>
+        <item name="arrow_p_activ_dark">@drawable/arrow_p_activ_dark</item>
+        <item name="plus_docs">@drawable/plus_docs</item>
+        <item name="plus_docs_m">@drawable/plus_docs_m</item>
+        <item name="kaban">@drawable/kaban</item>
+        <item name="ic_com_archive">@drawable/communal_archive</item>
+        <item name="perevod_ar_circle">@drawable/transfer_circle</item>
+        <item name="popol_ar">@drawable/stmt_mobile</item>
+        <item name="smile">@drawable/smile_dark</item>
+        <item name="error_smile">@drawable/errorsmile_dark</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="flowers_archive">@drawable/flower_archive</item>
+        <item name="kaban_archive">@drawable/kaban1_archive</item>
+        <item name="kaban2">@drawable/kaban2</item>
+        <item name="kaban3">@drawable/kaban3</item>
+        <item name="open">@drawable/open</item>
+        <item name="progress_">@drawable/progress</item>
+        <item name="big_progress_bar">@drawable/progress_big</item>
+        <item name="kontakt">@drawable/ic_action_choose_list_light</item>
+        <item name="kommunalka">@drawable/stmt_kommunalka</item>
+        <item name="refresh">@drawable/refresh_down</item>
+        <item name="popol">@drawable/popolni</item>
+        <item name="paypass">@drawable/paypass_wot</item>
+        <item name="perevod">@drawable/perevod_master_archive</item>
+        <item name="payments">@drawable/payments</item>
+        <item name="archive_all_serv">@drawable/archive_all_serv</item>
+        <item name="qr">@drawable/qr_p24</item>
+        <item name="info">@drawable/ap24_i_icon_active</item>
+
+        <item name="style_edittext1">@drawable/edit_chat_light</item>
+
+        <item name="btn_date_picker">@style/ButtonDatePickerLight</item>
+
+        <item name="selector_button_next">@drawable/selector_button_next_light</item>
+        <item name="selector_button_next_gray">@drawable/selector_button_next_gray_light</item>
+        <item name="selector_button_next_small">@drawable/selector_button_next_small_light</item>
+        <item name="refresh_image">@drawable/refresh</item>
+
+        <item name="ic_content_message_head_left">@drawable/ic_content_message_head_left</item>
+        <item name="splash">@drawable/splash_dark</item>
+        <item name="ic_chat">@drawable/ic_chat</item>
+        <item name="ic_ua">@drawable/ic_ua_dark</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="selector_button_options">@drawable/selector_button_options_dark</item>
+
+
+        <item name="message_client_head_left">@drawable/ic_content_message_head_left</item>
+        <item name="message_client_tail_left">@drawable/ic_content_message_tail_left</item>
+        <item name="message_client_error_left">@drawable/ic_content_message_error_left</item>
+        <item name="message_server_head_right">@drawable/ic_content_message_head_right</item>
+        <item name="message_server_tail_right">@drawable/ic_content_message_tail_right</item>
+        <item name="message_server_error_right">@drawable/ic_content_message_error_right</item>
+        <item name="edit_style">@drawable/edit_text</item>
+        <item name="radio_style">@drawable/radio_light</item>
+        <item name="spinner_style">@drawable/spinner_background</item>
+        <item name="check_style">@drawable/check_light</item>
+        <item name="checkbox_of_settings">@drawable/checkbox_of_settings</item>
+
+        <item name="action">@drawable/ic_console_down</item>
+        <item name="search">@drawable/style_edittext1_light</item>
+        <item name="send">@drawable/ic_chat</item>
+        <item name="ic_tickets_plane_to">@drawable/plane_big_green</item>
+        <item name="ic_tickets_plane_from">@drawable/plane_big_green_back</item>
+        <item name="changecard">@drawable/changecard</item>
+        <item name="dosh">@drawable/dosh_dark</item>
+        <item name="how">@drawable/how</item>
+        <item name="nfc">@drawable/qr</item>
+        <item name="nfc_">@drawable/nfc</item>
+        <item name="gift_card">@drawable/gift_card</item>
+        <item name="ncpu">@drawable/ic_ukraine</item>
+        <item name="pin">@drawable/pin</item>
+        <item name="stock">@drawable/akciya</item>
+        <item name="airplane">@drawable/stmt_airplane</item>
+        <item name="ap_success">@drawable/ap_success</item>
+        <item name="football">@drawable/football</item>
+        <item name="star">@drawable/star</item>
+        <item name="wu">@drawable/we</item>
+        <item name="inet">@drawable/stmt_internet</item>
+
+        <item name="ic_game">@drawable/game</item>
+        <item name="ap24_timesheet">@drawable/ap24_timesheet</item>
+        <item name="ic_donate">@drawable/donate2</item>
+        <item name="ic_cal">@drawable/ic_cal</item>
+        <item name="ic_cos">@drawable/ic_cos</item>
+        <item name="ic_gift">@drawable/ic_gift</item>
+        <item name="ic_op">@drawable/config</item>
+        <item name="like_active">@drawable/like_hover</item>
+        <item name="like_unactive">@drawable/like</item>
+        <item name="ic_tank">@drawable/ic_tank</item>
+        <item name="ic_gamepad">@drawable/ic_gamepad</item>
+        <item name="ic_orif">@drawable/ic_orif</item>
+        <item name="ic_avon">@drawable/ic_avon</item>
+        <item name="entertainment">@drawable/entertainment</item>
+
+        <item name="ic_eye">@drawable/ic_eye</item>
+        <item name="categories_indicator_on">@drawable/categories_indicator_on</item>
+        <item name="categories_indicator_off">@drawable/categories_indicator_off</item>
+        <item name="shablon1">@drawable/shablon1</item>
+        <item name="shablon2">@drawable/shablon2</item>
+        <item name="divantv">@drawable/divantv_dark</item>
+        <item name="contact_template">@drawable/contakt</item>
+        <item name="gallery_template">@drawable/p24_gallery</item>
+
+        <item name="ic_airpay">@drawable/ic_airpay</item>
+        <item name="ic_azs">@drawable/ic_azs</item>
+        <item name="ic_bus">@drawable/ic_bus</item>
+        <item name="ic_comun">@drawable/ic_comun</item>
+        <item name="ic_depoz1">@drawable/ic_depoz1</item>
+        <item name="ic_depoz2">@drawable/depos</item>
+        <item name="ic_pig">@drawable/moneybox</item>
+        <item name="ic_qr">@drawable/ic_qr</item>
+        <item name="ic_shablon">@drawable/ic_shablon</item>
+        <item name="ic_train">@drawable/ic_train</item>
+        <item name="ic_exit">@drawable/light_exit_big</item>
+        <item name="ic_temp">@drawable/template</item>
+        <item name="temp_add">@drawable/temp_add_dark</item>
+        <item name="tem_pay_big">@drawable/tem_pay_big</item>
+        <item name="temp_pay">@drawable/temp_pay</item>
+        <item name="temp_tel_big">@drawable/temp_tel_big</item>
+        <item name="tem_tel">@drawable/tem_tel</item>
+        <item name="add_img">@drawable/add_img</item>
+        <item name="map_bank">@drawable/ap24_map_bank</item>
+        <item name="map_bonus">@drawable/ap24_map_bonus</item>
+        <item name="map_bankomat">@drawable/ap24_map_bankomat</item>
+        <item name="map_self">@drawable/ap24_map_self</item>
+
+
+        <item name="block_card">@drawable/dark_block_card</item>
+        <item name="unblock_card">@drawable/unblock_card</item>
+        <item name="default_card">@drawable/dark_default_card</item>
+        <item name="delete_card">@drawable/dark_delete_card</item>
+        <item name="internet_card">@drawable/dark_internet_card</item>
+        <item name="limit_card">@drawable/dark_limit_card</item>
+        <item name="new_card">@drawable/dark_new_card</item>
+        <item name="order_card">@drawable/dark_order_card</item>
+        <item name="release_card">@drawable/dark_release_card</item>
+        <item name="menu_card">@drawable/dark_managment_cards_big</item>
+        <item name="menu_currency_rates">@drawable/dark_extra_money_big</item>
+        <item name="menu_extra_money">@drawable/dark_money_big</item>
+        <item name="receive_eo">@drawable/receive_eo</item>
+        <item name="send_eo">@drawable/send_eo</item>
+        <item name="map1">@drawable/map1</item>
+        <item name="map2">@drawable/map2</item>
+        <item name="map3">@drawable/map3</item>
+        <item name="map4">@drawable/map4</item>
+        <item name="map5">@drawable/map5</item>
+        <item name="btn_info_ic">@drawable/btn_info_ic</item>
+        <item name="home">@drawable/home</item>
+        <item name="home_archive">@drawable/home_archive</item>
+        <item name="ic_kyivstar_big">@drawable/ic_kyivstar_big</item>
+        <item name="ic_mts_big">@drawable/ic_mts_big</item>
+        <item name="ic_life_big">@drawable/ic_life_big</item>
+        <item name="ic_people_big">@drawable/ic_people_big</item>
+        <item name="ic_inter_big">@drawable/ic_inter_big</item>
+        <item name="ic_utel_big">@drawable/ic_utel_big</item>
+        <item name="ic_telecom_big">@drawable/ic_telecom_big</item>
+        <item name="ic_beeline_big">@drawable/beeline_big</item>
+        <item name="ic_geocell_big">@drawable/geocell_big</item>
+        <item name="ic_megafon_big">@drawable/megafon_big</item>
+        <item name="ic_amvay_big">@drawable/ic_amvay_big</item>
+        <item name="ic_fb_big">@drawable/ic_fb_big</item>
+        <item name="ic_farmasi">@drawable/ic_farmasi</item>
+        <item name="ic_other_cosmetics">@drawable/ic_other_cosmetics</item>
+        <item name="bg_discount_item">@drawable/bg_discount_item_menu</item>
+        <item name="eo_privatmoney_big">@drawable/eo_privatmoney_big</item>
+        <item name="eo_western_union_big">@drawable/eo_western_union</item>
+        <item name="eo_coinstar_big">@drawable/eo_coinstar_big</item>
+        <item name="eo_migom_big">@drawable/eo_migom_big</item>
+        <item name="eo_moneygram_big">@drawable/eo_moneygram_big</item>
+        <item name="eo_golden_crown_big">@drawable/eo_golden_crown_big</item>
+        <item name="eo_unistream_big">@drawable/eo_unistream_big</item>
+        <item name="eo_contact_big">@drawable/eo_contact_big</item>
+        <item name="eo_anelik_big">@drawable/eo_anelik_big</item>
+        <item name="ic_tickets_train_big">@drawable/ic_tickets_train_big</item>
+        <item name="ic_tickets_bus_big">@drawable/ic_tickets_bus_big</item>
+        <item name="ic_tickets_bus_big_archive">@drawable/ic_tickets_bus_big_archive_dark</item>
+        <item name="ic_tickets_plane_big">@drawable/ic_tickets_plane_big</item>
+        <item name="ic_tickets_plane_big_archive">@drawable/ic_tickets_plane_big_archive</item>
+        <item name="ic_tickets_plane_history">@drawable/ic_tickets_plane_history</item>
+        <item name="_101">@drawable/_101</item>
+        <item name="_102">@drawable/_102</item>
+        <item name="_103">@drawable/_103</item>
+        <item name="_104">@drawable/_104</item>
+        <item name="_112">@drawable/_112</item>
+        <item name="card_">@drawable/card_</item>
+        <item name="fire">@drawable/fire_white</item>
+        <item name="fotocassa">@drawable/fotocassa</item>
+        <item name="buttonPin">@drawable/button_for_artem</item>
+        <item name="push_hist">@drawable/push_hist_white</item>
+        <item name="communal_search">@drawable/search</item>
+        <item name="communal_rec">@drawable/light_communal_rec</item>
+        <item name="mob_popol">@drawable/popol</item>
+        <item name="telecom_kyivstar">@drawable/kyivstar</item>
+        <item name="telecom_bilink">@drawable/bilink</item>
+        <item name="bonus_plus">@drawable/bonus_plus</item>
+        <item name="telecom_domtelecom">@drawable/domtele</item>
+        <item name="telecom_freenet">@drawable/freenet</item>
+        <item name="telecom_giraffe">@drawable/giraffe</item>
+        <item name="telecom_peoplenet">@drawable/peoplenet</item>
+        <item name="telecom_ukrtelecom">@drawable/ukrtelecom</item>
+        <item name="telecom_vega">@drawable/vega</item>
+        <item name="telecom_viasat">@drawable/viasat</item>
+        <item name="telecom_volya">@drawable/volya</item>
+        <item name="map_ic_auth">@drawable/map_ic</item>
+        <item name="p24_ic_header">@drawable/p24_dark</item>
+        <item name="privat_ic_header">@drawable/privat_dark</item>
+        <item name="add_avatar_p24">@drawable/add_avatar_p24</item>
+        <item name="push">@drawable/push</item>
+        <item name="deposit_button_next">@drawable/litarrowactiv</item>
+        <item name="deposit_check">@drawable/ic_check</item>
+        <item name="deposit_left_bt">@drawable/left_btn_deposit_curr_light</item>
+        <item name="deposit_right_bt">@drawable/right_btn_deposit_curr_light</item>
+        <item name="deposit_center_bt">@drawable/center_btn_deposit_curr_light</item>
+        <item name="right_bt_active">@drawable/right_bt_active</item>
+        <item name="right_bt_inactive">@drawable/right_bt_inactive</item>
+        <item name="left_bt_active">@drawable/left_bt_active</item>
+        <item name="left_bt_inactive">@drawable/left_bt_inactive</item>
+        <item name="center_bt_active">@drawable/center_bt_active</item>
+        <item name="center_bt_inactive">@drawable/center_bt_inactive</item>
+        <item name="new_deposit">@drawable/new_deposit</item>
+        <item name="bg_deposit">@drawable/bg_deposit3</item>
+        <item name="perevod_master">@drawable/perevod_master</item>
+        <item name="flowers">@drawable/flower</item>
+        <item name="taxi_bg_ab">@drawable/bg_pin_ab</item>
+        <item name="taxi_bg_ab_archive">@drawable/bg_ab_archive</item>
+        <item name="ic_documents">@drawable/documents</item>
+        <item name="ic_sad">@drawable/ic_sad</item>
+        <item name="ic_car">@drawable/ic_car</item>
+        <item name="ic_call_taxi">@drawable/ic_call_taxi</item>
+        <item name="add_point">@drawable/add_point</item>
+        <item name="bg_time">@drawable/bg_time</item>
+        <item name="ic_marker">@drawable/bg_address</item>
+        <item name="ic_archive_taxi">@drawable/ic_archive_taxi</item>
+        <item name="flags_main">@drawable/flag_main</item>
+        <item name="ic_pin">@drawable/ic_pin</item>
+        <item name="ticket_football_archive">@drawable/archive_ticket_football</item>
+        <item name="ap_gas">@drawable/gas</item>
+        <item name="gas_hand">@drawable/gas_hand</item>
+        <item name="gas_map_a">@drawable/gas_map_a</item>
+        <item name="gas_map_point">@drawable/gas_map_point</item>
+        <item name="world">@drawable/world</item>
+        <item name="menu_gas">@drawable/menu_gas</item>
+        <item name="barcode_circle">@drawable/barcode</item>
+        <item name="sender">@drawable/sender</item>
+        <item name="boar">@drawable/kaban_dark</item>
+        <item name="ic_soilent">@drawable/soilent</item>
+        <item name="chat_bubble_big">@drawable/chat_bubble_big</item>
+        <item name="ic_discount">@drawable/akciya</item>
+        <item name="barcode_more_wot">@drawable/barcode_more_wot</item>
+        <item name="discount_cards">@drawable/discount_cards</item>
+        <item name="plus_akciya">@drawable/plus_akciya</item>
+        <item name="default_icon_logo">@drawable/default_icon_logo</item>
+        <item name="discount_done">@drawable/discount_done</item>
+        <item name="my_requisite">@drawable/my_requisite</item>
+        <item name="nfc_menu">@drawable/nfc_menu</item>
+        <item name="food">@drawable/food</item>
+        <item name="game_archive">@drawable/game_archive</item>
+        <item name="photokassa_archive">@drawable/photokassa_archive</item>
+        <item name="food_archive">@drawable/food_archive</item>
+        <item name="bg_menu_profile_button">@drawable/bg_menu_profile_button_dark</item>
+        <item name="bg_contacts_ring">@drawable/bg_contacts_ring_dark</item>
+        <item name="camera">@drawable/camera</item>
+        <item name="gallery_kassa">@drawable/gallery_kassa</item>
+        <item name="bg_taxi_progres">@style/ProgressBarTaxi.Horizontal.Dark</item>
+        <item name="kaban1">@drawable/kaban1</item>
+        <item name="sender_search_header_background">@color/grean</item>
+        <item name="sender_tabhost_background">@color/sender_tabhost_background_dark</item>
+        <item name="sender_content_background">@color/background_dark</item>
+        <item name="ads">@drawable/ads</item>
+    </style>
+
+
+    <style name="Flag" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+    <style name="SpinnerItemSearchCommun">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="EditTextStyleLight" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/common_text_light</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+    </style>
+
+    <style name="EditTextStyleDark" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/common_text_dark</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+    </style>
+
+    <style name="ProgressBarHolo.Horizontal.Light" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="ProgressBarTaxi.Horizontal.Ligth" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/taxi_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">35dip</item>
+
+    </style>
+
+    <style name="ProgressBarTaxi.Horizontal.Dark" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/taxi_progress_horizontal_dark</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">35dip</item>
+
+    </style>
+
+    <style name="ProgressBarHolo.Horizontal.Dark" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="SpinnerLight" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <!-- <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item> -->
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
+    </style>
+
+    <style name="SpinnerDark" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_dark</item>
+        <!-- <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item> -->
+    </style>
+
+
+    <style name="EditText" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <!-- <item name="android:textColor">#ffffff</item> -->
+    </style>
+
+    <style name="EditTextDark" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text_dark</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:colorActivatedHighlight">@color/white</item>
+    </style>
+
+    <style name="TextViewLight" parent="android:style/Widget.TextView">
+        <item name="android:background">@@android:color/transparent</item>
+        <item name="android:textColor">@color/common_text_light</item>
+    </style>
+
+    <style name="TextViewDark" parent="android:style/Widget.TextView">
+        <item name="android:background">@@android:color/transparent</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="TextViewWot" parent="android:style/Widget.TextView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ButtonDatePickerLight" parent="android:style/Widget.Button">
+        <item name="android:background">@color/background_light</item>
+        <item name="android:textColor">@color/common_text_light</item>
+    </style>
+
+    <style name="ButtonRegularStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/button_regular_selector</item>
+    </style>
+
+    <style name="ButtonStyleNext" parent="android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">?attr/selector_button_next</item>
+        <item name="android:textColor">?attr/color7</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textSize">@dimen/text_size_button_next</item>
+        <item name="android:layout_gravity">right</item>
+
+    </style>
+
+    <style name="WindowLayoutMargins">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+    </style>
+
+    <style name="TicketsListElementsPaddings">
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+
+    <style name="TicketsListElementsAllPaddingsTypeOfCar">
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="TicketsListElementsAllPaddings">
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color"/>
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color"/>
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color"/>
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color"/>
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean"/>
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference"/>
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference"/>
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference"/>
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean"/>
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference"/>
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference"/>
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean"/>
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean"/>
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean"/>
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color"/>
+        <attr name="ptrDrawableTop" format="reference"/>
+        <attr name="ptrDrawableBottom" format="reference"/>
+    </declare-styleable>
+
+    <item name="scrollview" type="id"/>
+
+    <style name="text_white_size_small_bg_green">
+        <item name="android:textColor">@color/color9</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:background">@drawable/sushi_basket_bg</item>
+    </style>
+    <style name="singleLine">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="RadioButtonTaxiLight" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <!--<item name="android:background">@drawable/selector_radio_green_light</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@drawable/selector_radio_taxi_text</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="RadioButtonTaxiDark" parent="@style/RadioButtonTaxiLight">
+        <!--<item name="android:background">@drawable/selector_radio_green_dark</item>-->
+    </style>
+</resources>

@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tickets_step4_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+<LinearLayout
+android:id="@+id/servicesViewGroup"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+<ua.privatbank.ap24.beta.views.RobotoMediumTextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:textSize="18sp"
+    android:paddingBottom="10dp"
+    android:text="@string/services"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/lingerie"
+    android:button="?attr/check_style"
+    android:paddingLeft="@dimen/padding_checkbox"
+    android:checked="true"
+    android:textColor="?attr/common_text"
+    android:id="@+id/tickets_step4_linen_checkbox"
+    />
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tea"
+    android:button="?attr/check_style"
+    android:paddingLeft="@dimen/padding_checkbox"
+    android:textColor="?attr/common_text"
+    android:id="@+id/tickets_step4_one_tea_checkbox"/>
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/two_tea"
+    android:button="?attr/check_style"
+    android:paddingLeft="@dimen/padding_checkbox"
+    android:textColor="?attr/common_text"
+    android:id="@+id/tickets_step4_two_tea_checkbox"/>
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="?attr/check_style"
+    android:paddingLeft="@dimen/padding_checkbox"
+    android:textColor="?attr/common_text"
+    android:text="@string/meal"
+    android:id="@+id/tickets_step4_food_checkbox"/>
+</LinearLayout>
+    <!--<Button
+            android:id="@+id/tickets_step4_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/common_continue"/>-->
+<ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+android:id="@+id/tickets_step4_next"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+android:layout_marginBottom="50dp"
+p24:textSize="@dimen/text_size_button_next"
+android:layout_gravity="right"/>
+
+</LinearLayout>

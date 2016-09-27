@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingRight="10dp">
+
+    <LinearLayout
+            android:id="@+id/llStatement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:id="@+id/llMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:id="@+id/imegeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp">
+            </ImageView>
+
+            <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/commission"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                    android:id="@+id/sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"/>
+
+            <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="07.28.2013 11:31"
+                    android:textColor="@color/master_head_ccy_value"
+                    android:textSize="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

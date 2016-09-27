@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/dialog_background">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_margin="15dp">
+
+        <TextView
+                android:id="@+id/textCaption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:gravity="center_horizontal"
+                android:text="@string/enter_static_pass"
+                android:textColor="?attr/color6"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="#5d7b09">
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/baseReg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tvNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="?attr/color3"
+                        android:textSize="18sp"
+                        android:text="@string/button_confirm"/>
+
+                <LinearLayout
+                        android:id="@+id/viewOkCancel"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:visibility="visible">
+
+                    <TextView
+                            android:id="@+id/tvCancel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textColor="?attr/color3"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+
+                            android:paddingBottom="5dp"
+                            android:text="@string/button_cancel"/>
+
+                    <TextView
+                            android:id="@+id/tvOk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingBottom="5dp"
+                            android:textColor="?attr/color3"
+                            android:textSize="18sp"
+                            android:text="@string/button_confirm"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

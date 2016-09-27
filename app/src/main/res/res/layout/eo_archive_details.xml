@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:orientation="vertical">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="5dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="1">
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvSysTypeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="?attr/color4"
+                        android:text="@string/monetary_system"/>
+
+                <TextView
+                        android:id="@+id/tvSysType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:textColor="?attr/color4"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvStrategyTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:textColor="?attr/color4"
+                        android:gravity="right"
+                        android:text="@string/type_transfer_"/>
+
+                <TextView
+                        android:id="@+id/tvStrategy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvDataTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/data_transfer"/>
+
+                <TextView
+                        android:id="@+id/tvData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvDateTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/common_date"/>
+
+                <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvStateTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/common_state"/>
+
+                <TextView
+                        android:id="@+id/tvState"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvSenderTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/text_western_sender"/>
+
+                <TextView
+                        android:id="@+id/tvSender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                <TextView
+                        android:id="@+id/tvReceiverTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/text_western_receiver"/>
+
+                <TextView
+                        android:id="@+id/tvReceiver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="?attr/color4"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                p24:textSize="@dimen/text_size_button_next"
+                p24:text="@string/button_back"
+                android:layout_gravity="right"/>
+    </LinearLayout>
+
+</ScrollView>

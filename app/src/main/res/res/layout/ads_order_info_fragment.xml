@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/llIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ua.privatbank.ap24.beta.components.DynamicImageView
+                android:id="@+id/ivImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dog_disappoint" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvNameAds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IPhone 6 64GB neverlock СРОЧНО как новый"
+                        android:textColor="?attr/color6"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="IPhone 6 64GB neverlock, работает идеально. Телефон полностью чистый. Работает со всеми операторами. Гарантия. Есть другие айфоны"
+                android:textColor="?attr/color6"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <mobi.sender.widgets.CircularImageView
+                    android:id="@+id/civAvatar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/contact_info_add_photo_sender"
+                    android:layout_weight=".5" />
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tvSaller"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Продавец:"
+                    android:textColor="?attr/color6"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvSallerName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Игорь Верник"
+                    android:textColor="?attr/color6"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="?attr/horizontal_line"/>
+            <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvSumSoup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                p24:text="Торги"
+                p24:textSize="@dimen/text_size_button_next" />
+
+</LinearLayout>
+     </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ava_size">170px</dimen>
+    <dimen name="ava_size_global">210px</dimen>
+    <dimen name="padding_operator">5dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+</resources>

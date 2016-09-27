@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_gravity="right">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvGiftTitle"-->
+            <!--android:ellipsize="end"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:textColor="?attr/bar_header_text_color"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:textSize="32sp"-->
+            <!--android:text=""-->
+            <!--android:visibility="visible"-->
+            <!--android:layout_weight="1" />-->
+
+
+        <ImageView
+            android:id="@+id/ivGiftArchive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_archive_taxi"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/ivGiftBasket"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/basket"
+            android:visibility="visible" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvGiftBasketCount"
+        style="@style/text_white_size_small_bg_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:minHeight="18dp"
+        android:minWidth="18dp"
+        android:text="0"
+        android:singleLine="true"/>
+</RelativeLayout>
+
+    <ua.privatbank.ap24.beta.views.RobotoCondensedLightTextView
+        android:id="@+id/tvGiftTitle"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="?attr/bar_header_text_color"
+        android:gravity="center"
+        style="@style/singleLine"
+        android:textSize="@dimen/text_size_title"
+        android:text="@string/product"
+        android:layout_gravity="center_vertical|left" />
+</FrameLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:orientation="vertical"
+                >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <EditText
+                        android:id="@+id/editPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/to_phone"
+                        style="?attr/style_edittext"
+                        android:textColor="?attr/common_text"
+                        android:textSize="@dimen/text_size_mob_pop"
+                        />
+
+                <ImageView
+                        android:id="@+id/choosePhone"
+                        android:layout_weight="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:background="?attr/kontakt"
+                        android:textColor="?attr/common_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="18dp"
+                    android:layout_gravity="right">
+
+                <EditText
+                        android:id="@+id/etAmt"
+                        android:layout_width="wrap_content"
+                        android:minWidth="70dp"
+                        android:textColor="?attr/color7"
+                        style="?attr/style_edittext"
+                        android:layout_height="wrap_content"
+                        android:text="100"
+                        android:layout_weight="1"
+                        android:paddingBottom="0dp"
+                        android:textSize="@dimen/text_size_amt"/>
+
+
+                <Spinner
+                        android:id="@+id/ccySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="25dp"
+                        android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                <Spinner
+                        android:id="@+id/cardFromSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    p24:textSize="@dimen/text_size_button_next"
+                    android:layout_gravity="right"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

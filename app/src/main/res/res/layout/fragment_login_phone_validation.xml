@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:measureWithLargestChild="false">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="10sp"
+                    android:textColor="?attr/color6"
+                    android:text="@string/approve_acton"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="?attr/color6"
+                android:text="@string/phone_validation_msg"
+                android:gravity="center"
+                android:layout_marginBottom="5sp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="?attr/color6"
+                android:textStyle="bold"
+                android:text="+380 00 000 00 00"
+                android:id="@+id/tvPhone"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textSize="@dimen/text_size_button_next"
+                p24:text="@string/button_next"
+
+                android:layout_gravity="right"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/llRestorePassword"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:textSize="20sp"
+                p24:text="@string/change"
+                />
+
+        </LinearLayout>
+</FrameLayout>

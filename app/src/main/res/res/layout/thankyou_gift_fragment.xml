@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageThankyou"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/fun_smile" />
+
+        <TextView
+            android:id="@+id/tvThanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thanks"
+            android:textColor="?attr/color6"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_gift_cards"
+            android:textColor="?attr/color6"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+             />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                    android:id="@+id/tvSummThanks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llOneCertificate"
+            android:visibility="visible"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/llImageSertif">
+                <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                    android:id="@+id/tvCertificat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/your_certificate"
+                    android:textColor="?attr/color5"
+                    android:textSize="25sp"
+                    android:layout_gravity="center_horizontal" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/color6"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <ua.privatbank.ap24.beta.components.DynamicImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/default_gift_icon" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/email_to_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_to_send"
+                style="?attr/style_edittext"
+                android:textColor="?attr/common_text"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:inputType="textWebEditText|textEmailAddress" />
+
+            <EditText
+                android:id="@+id/name_reciver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/eo_receiver.firstName"
+                style="?attr/style_edittext"
+                android:textColor="?attr/common_text"
+                android:textSize="20dp"
+                android:layout_margin="10dp" />
+
+            <EditText
+                android:id="@+id/text_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_message"
+                style="?attr/style_edittext"
+                android:textColor="?attr/common_text"
+                android:textSize="20dp"
+                android:layout_margin="10dp" />
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/butMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="60dp"
+                p24:text="@string/button_to_menu"
+                p24:textSize="@dimen/text_size_button_next"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone" />
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                p24:text="@string/common_send"
+                p24:textSize="@dimen/text_size_button_next"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvGift"
+        android:divider="?attr/color5"
+        android:dividerHeight="0.5dp"
+        android:drawSelectorOnTop="false"
+        android:visibility="gone"
+    />
+</LinearLayout>

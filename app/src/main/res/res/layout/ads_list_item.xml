@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+
+              android:padding="7dp">
+
+    <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/color12"
+            android:scaleType="centerCrop"/>
+
+    <LinearLayout
+            android:id="@+id/llContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:background="?attr/color12"
+            android:padding="5dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="horizontal"
+        >
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="?attr/color6"
+                    android:maxLines="2"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="16sp"
+                    android:textColor="?attr/color3"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="?attr/color8"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tvCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/color6"
+                android:textSize="12sp"/>
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/tvExtra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="?attr/color6"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+
+            <ua.privatbank.ap24.beta.views.RobotoBoldTextView
+                    android:id="@+id/tvAmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="?attr/color3"
+            />
+
+
+            <ua.privatbank.ap24.beta.views.RobotoItalicTextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textSize="12sp"
+                    android:textColor="?attr/color6"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

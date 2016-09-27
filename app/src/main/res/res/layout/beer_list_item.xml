@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?attr/bg_discount_item"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.components.DynamicImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ivTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:text="Eng описание"
+                android:textColor="?attr/color6"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvRusDescr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Русское описание"
+                android:textColor="?attr/color6" />
+
+            <TextView
+                android:id="@+id/ivPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:text="82"
+                android:textColor="?attr/color3"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

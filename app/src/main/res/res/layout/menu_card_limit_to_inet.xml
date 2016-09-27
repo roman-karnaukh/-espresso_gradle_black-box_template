@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                >
+
+
+            <Spinner
+                    android:id="@+id/spinner_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:lines="1"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="@string/set_limit"
+                    android:textColor="?attr/master_common_text"
+                    />
+
+            <EditText
+                    android:id="@+id/edit_limit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="?attr/style_edittext"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="?attr/color7"
+                    android:textSize="@dimen/text_size_amt"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    android:text=""/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+
+            <EditText
+                    android:id="@+id/edit_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pass"
+                    style="?attr/style_edittext"
+                    android:layout_marginTop="30dp"
+                    android:inputType="textPassword"/>
+
+            <CheckBox
+                android:id="@+id/checkPass"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:layout_marginTop="10dp"
+                android:textColor="?attr/common_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_password"/>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/button_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    p24:text="@string/common_execute"
+                    p24:textSize="@dimen/text_size_button_next"
+                    android:layout_gravity="right"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

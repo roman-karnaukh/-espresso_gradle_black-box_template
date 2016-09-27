@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="5dp"
+              android:orientation="vertical">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:stretchColumns="1">
+
+        <TableRow>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tickets_step3_name"
+                    style="@style/TicketsListElementsPaddings"
+                    android:text="1234"
+                    android:textColor="?attr/color6"
+                    android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tickets_step3_from"
+                    style="@style/TicketsListElementsPaddings"
+                    android:text="Севастополь - "
+                    android:textColor="?attr/color6"
+                    android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tickets_step3_to"
+                    style="@style/TicketsListElementsPaddings"
+                    android:text="Киев-Пассажирский"
+                    android:textColor="?attr/color6"
+                    android:textStyle="bold"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvInfo"
+            android:visibility="gone"
+            android:paddingTop="8dp"
+            style="@style/TicketsListElementsPaddings"
+            tools:text="Акция - билет за 100 грн "
+            android:textColor="@color/red_ultra"
+            android:textStyle="italic"/>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingTop="8dp"
+            android:textColor="?attr/color6">
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/departureId"
+                style="@style/TicketsListElementsPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/departures"
+                android:textColor="?attr/color6"
+
+        />
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/arrivalId"
+                style="@style/TicketsListElementsPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/arrivals"
+                android:textColor="?attr/color6"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/timeDepartureId"
+                style="@style/TicketsListElementsAllPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/departureId"
+                android:text="07:18"
+                android:textColor="?attr/color6"
+                android:textSize="35sp"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/timeArrivalId"
+                style="@style/TicketsListElementsAllPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/departureId"
+                android:text="07:18"
+                android:textColor="?attr/color6"
+                android:textSize="35sp"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step3_from_time"
+                style="@style/TicketsListElementsPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeDepartureId"
+                android:gravity="right"
+                android:text="18.05.2015"
+                android:textColor="?attr/color6"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tickets_step3_to_time"
+                style="@style/TicketsListElementsPaddings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/timeDepartureId"
+                android:gravity="right"
+                android:text="18.05.2015"
+                android:textColor="?attr/color6"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+    <LinearLayout
+            android:id="@+id/carTypeLayout"
+            style="@style/TicketsListElementsAllPaddingsTypeOfCar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="usd_textsize">22dp</dimen>
+    <dimen name="auth_margin_top">20dp</dimen>
+    <dimen name="padding_in_settings">70dp</dimen>
+    <dimen name="padding_top_fragment_main">150dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <integer name="stock_size">200</integer>
+</resources>

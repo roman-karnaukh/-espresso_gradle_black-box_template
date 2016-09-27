@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/bus_"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="?attr/color6" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_places_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="?attr/color6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/from"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_from"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:singleLine="false"
+            android:textColor="?attr/color6" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_from_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/to"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_to"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:singleLine="false"
+            android:textColor="?attr/color6" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_to_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/common_price"
+            android:textColor="?attr/color5"
+            android:textStyle="bold" />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/tickets_step3_cost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="?attr/color6" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    style="@style/TicketsListElementsPaddings"
+                    android:id="@+id/tickets_step3_name"
+                    android:textStyle="bold"
+                    android:textColor="?attr/color4"
+                    android:text="1234"
+                    />
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:text="Севастополь - "
+                    android:textStyle="bold"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tickets_step3_from"
+                    style="@style/TicketsListElementsPaddings"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=""
+                    style="@style/TicketsListElementsPaddings"/>
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:text="Киев-Пассажирский"
+                    android:textStyle="bold"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tickets_step3_to"
+                    style="@style/TicketsListElementsPaddings"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=""
+                    style="@style/TicketsListElementsPaddings"/>
+                <TableLayout
+                    android:stretchColumns="1"
+                    android:paddingRight="15dp"
+                    style="@style/TicketsListElementsPaddings">
+                    <TableRow>
+                        <TextView android:text="@string/departures"
+                            android:textColor="?attr/color5"/>
+                        <TextView
+                            android:gravity="right"
+                            android:textColor="?attr/color5"
+                            android:id="@+id/tickets_step3_from_time"
+                            android:text="пн, 28 марта"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/arrivals"
+                            android:textColor="?attr/color5"/>
+                        <TextView
+                            android:gravity="right"
+                            android:textColor="?attr/color5"
+                            android:id="@+id/tickets_step3_to_time"
+                            android:text="пн, 28 марта"/>
+                    </TableRow>
+                    <TableRow>
+                        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                            android:textColor="?attr/color5"
+                            android:text="@string/places"/>
+                        <TextView
+                            android:gravity="right"
+                            android:textColor="?attr/color5"
+                            android:id="@+id/tickets_step3_places_count"
+                            android:textStyle="bold"
+                            android:text="68"/>
+                    </TableRow>
+
+            </TableLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>-->

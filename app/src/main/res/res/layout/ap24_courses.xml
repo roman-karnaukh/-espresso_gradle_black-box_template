@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:text="@string/exchange_course_pb"
+        android:textColor="?attr/color7"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/buyExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="?attr/color4"
+            android:inflatedId="@+id/inflate"
+             />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/exchangeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="?attr/color4"
+            android:inflatedId="@+id/inflate"
+             />
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+            android:id="@+id/exchangeSale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/color4"
+            android:layout_alignParentRight="true"
+            android:inflatedId="@+id/inflate"
+             />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/eurExchangeLayour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ViewStub
+            android:id="@+id/eurExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/inflate"
+
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/usdExchangeLayour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ViewStub
+            android:id="@+id/usdExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/inflate"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rurExchangeLayour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ViewStub
+            android:id="@+id/rurExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/inflate"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/exchange_course_nbu"
+        android:textColor="?attr/color4"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/csList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+
+
+        android:divider="@color/transparent" />
+
+</LinearLayout>

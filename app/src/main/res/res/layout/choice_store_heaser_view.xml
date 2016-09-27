@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp">
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/btnAddNewStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="left"
+            p24:iv_background="?attr/selector_button_next_small"
+            p24:text="@string/other_shop"
+            p24:textSize="20dp"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:layout_marginBottom="5dp"
+              android:textColor="@color/color8"
+              android:text="@string/popular"/>
+</LinearLayout>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+            <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                <ImageView
+                        android:id="@+id/ivIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                />
+
+                <TextView
+                        android:id="@+id/call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/ivIcon"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:textColor="?attr/common_text"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:layout_marginBottom="120dp"
+                        android:text="@string/Privatbank_causes"
+                />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="?attr/color6"
+                    android:id="@+id/tvTitle"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/actionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    p24:textSize="@dimen/text_size_button_next"
+                    p24:text="Включить"
+                    android:layout_gravity="right"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonDecline"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:text="Отказаться от передачи координат"
+                p24:textSize="@dimen/text_size_more_transfers"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/dialog_background">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_margin="15dp">
+
+        <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/common_pass"
+                android:textColor="?attr/color6"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        <EditText
+                android:id="@+id/editPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="@string/pass"
+                style="?attr/style_edittext"
+                android:inputType="textPassword">
+        </EditText>
+        <CheckBox
+            android:id="@+id/checkPass"
+            android:button="?attr/check_style"
+            android:paddingLeft="@dimen/padding_checkbox"
+            android:layout_marginTop="10dp"
+            android:textColor="?attr/common_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"/>
+
+
+        <LinearLayout
+                android:id="@+id/viewOkCancel"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center">
+
+            <TextView
+                    android:id="@+id/tvCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:textColor="?attr/color3"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:text="@string/button_cancel"/>
+
+            <TextView
+                    android:id="@+id/tvOk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="?attr/color3"
+                    android:textSize="18dp"
+                    android:text="@string/button_ok"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

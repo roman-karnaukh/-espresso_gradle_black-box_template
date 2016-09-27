@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/alll"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="horizontal">
+
+    <LinearLayout
+            android:id="@+id/colorRow"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:background="#FF8800"
+            android:visibility="gone">
+    </LinearLayout>
+
+    <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/textId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="?attr/color4"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/summLay"
+                />
+
+        <TextView
+                android:id="@+id/textCard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="?attr/color4"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/summLay"
+                android:layout_below="@+id/textId"
+                />
+        <TextView
+                android:id="@+id/textDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="?attr/color4"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/summLay"
+                android:layout_below="@+id/textCard"
+                />
+
+        <LinearLayout
+                android:id="@+id/summLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textState"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:gravity="right|top"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:id="@+id/textCcy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:textColor="?attr/color4"
+                    android:textSize="14sp"
+                    android:gravity="right|top"
+                    android:textStyle="bold"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                      android:id="@+id/tickets_step3_name"
+                      android:gravity="left"
+                      android:layout_weight="1"
+                      android:textColor="?attr/common_text"
+                      android:textStyle="bold"
+                      android:text="№"
+                    />
+            <TextView android:text="@string/bplan_previous"
+                      android:textStyle="bold"
+                      android:layout_weight="2"
+                      android:textColor="?attr/common_text"
+                      android:id="@+id/tickets_step3_from"
+                      />
+            <TextView android:text="@string/bplan_current"
+                      android:textStyle="bold"
+                      android:layout_weight="3"
+                      android:textColor="?attr/common_text"
+                      android:id="@+id/tickets_step3_from"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView
+                    android:id="@+id/tvCounterNumber"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textColor="?attr/common_text"
+                    android:textStyle="bold"
+                    android:text="1"
+                    />
+            <EditText android:text=""
+                      android:textStyle="bold"
+                      android:inputType="number"
+                      android:layout_weight="2"
+                      style="?attr/style_edittext"
+                      android:id="@+id/etCounterPrev"
+                      android:layout_marginRight="20dp"
+                    />
+            <EditText android:hint=""
+                      android:layout_weight="3"
+                      android:inputType="number"
+                      android:textStyle="bold"
+                      style="?attr/style_edittext"
+                      android:id="@+id/etCounterCurr"
+                      android:layout_marginRight="20dp"
+                    />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="15dp"
+
+              android:background="?attr/dialog_background">
+
+    <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agreement_user"
+            android:textColor="?attr/color6"
+            android:gravity="center"/>
+
+    <TextView
+            android:id="@+id/textTerms"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_agreement"
+            android:textColor="@color/master_common_text"
+            android:textSize="12sp"
+            android:linksClickable="true"
+            android:gravity="left"
+            android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center">
+
+        <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="?attr/color3"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="@string/reject"/>
+
+        <TextView
+                android:id="@+id/tvOk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="?attr/color3"
+                android:textSize="18dp"
+                android:text="@string/accept_msg"/>
+
+    </LinearLayout>
+</LinearLayout>

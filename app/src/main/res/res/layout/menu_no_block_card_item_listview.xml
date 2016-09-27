@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/tvCountryItem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="?attr/master_common_text"
+            android:layout_gravity="left|center"
+            />
+
+    <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="0"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="right|center"
+            android:src="@drawable/btn_cross_icon"/>
+</LinearLayout>

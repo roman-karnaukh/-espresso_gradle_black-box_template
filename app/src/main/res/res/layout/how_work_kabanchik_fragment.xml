@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvNumber"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="27dp"-->
+        <!--android:text="1"-->
+        <!--android:textColor="?attr/color7"-->
+        <!--android:layout_gravity="center" />-->
+
+    <!--<ua.privatbank.ap24.beta.views.RobotoMediumTextView-->
+        <!--android:id="@+id/tvHeader"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Укажите вид работ и город"-->
+        <!--android:textColor="?attr/color6"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_gravity="center" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textRates"-->
+        <!--android:ellipsize="end"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="?attr/bar_header_text_color"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:textSize="16sp"-->
+        <!--android:text="Своими словами опишите, какую работу и когда нужно выполнить"-->
+        <!--android:visibility="visible"-->
+        <!--android:layout_marginTop="15dp" />-->
+
+</LinearLayout>

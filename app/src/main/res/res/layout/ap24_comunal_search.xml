@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <!--<AutoCompleteTextView
+            android:id="@+id/actvSearch"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/btnSearch" android:layout_gravity="center_horizontal"/>-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        <EditText
+                android:id="@+id/ap24_communal_search_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:imeOptions="actionSearch"
+                android:imeActionLabel="@string/action_search"
+                android:hint="@string/bplan_recipient_name"
+                android:inputType="text"
+                style="?attr/style_edittext"
+                android:textColor="?attr/common_text"
+                android:textSize="20dp"
+                />
+
+        <ImageView
+                android:id="@+id/ap24_communal_search_iv_search"
+                android:clickable="true"
+                android:layout_weight="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="bottom"
+                android:src="?attr/communal_search"/>
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/lvBplanReceivers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:id="@+id/ivMyDoc1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+            android:maxHeight="200dp"
+            android:background="@drawable/bg_discount_item"
+            android:layout_height="wrap_content"/>
+    <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:id="@+id/ivMyDoc2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+            android:maxHeight="200dp"
+            android:background="@drawable/bg_discount_item"
+            android:layout_height="wrap_content"/>
+    <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:id="@+id/ivMyDoc3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+            android:maxHeight="200dp"
+            android:background="@drawable/bg_discount_item"
+            android:layout_height="wrap_content"/>
+    <ua.privatbank.ap24.beta.components.ImageSquareView
+            android:id="@+id/ivMyDoc4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:maxHeight="200dp"
+            android:background="@drawable/bg_discount_item"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

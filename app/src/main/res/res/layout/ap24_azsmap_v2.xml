@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--атрибуты "android:name" и "class" - по сути одно и то же, но не на всех устройствах оба они обрабатываются-->
+    <fragment android:id="@+id/map"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:name="com.google.android.gms.maps.SupportMapFragment"
+              class="com.google.android.gms.maps.SupportMapFragment"
+            />
+</LinearLayout>

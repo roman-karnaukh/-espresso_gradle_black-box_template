@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lvSoapProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="?attr/color5"
+        android:dividerHeight="0.5dp"
+        android:paddingTop="15dp"
+        android:headerDividersEnabled="false"
+        android:drawSelectorOnTop="false" />
+</LinearLayout>

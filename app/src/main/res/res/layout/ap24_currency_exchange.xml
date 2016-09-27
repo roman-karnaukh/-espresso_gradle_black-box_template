@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/o_o"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#9925292A"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/buy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/common_text"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/eqchange_buy"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/sale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/common_text"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/eqchange_sold"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/eur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/common_text"
+                    android:gravity="left"
+                    android:paddingRight="5dp"
+                    android:text="@string/hardcode_eur"
+                    android:textStyle="bold"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:id="@+id/btnEurSell"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:enabled="false"
+                    android:text=""/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:id="@+id/btnEurBuy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="0.2"
+                    android:enabled="false"
+                    android:text=""/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/usd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/common_text"
+                    android:gravity="left"
+                    android:paddingRight="5dp"
+                    android:text="@string/hardcode_usd"
+                    android:textStyle="bold"
+                    />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:id="@+id/btnUsdSell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="0.2"
+                    android:enabled="false"
+                    android:text=""/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumButton
+                    android:id="@+id/btnUsdBuy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="0.2"
+                    android:enabled="false"
+                    android:text=""/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+
+        <TextView
+                android:id="@+id/textAction"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:textColor="?attr/common_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/click_to_course"/>
+    </LinearLayout>
+
+</ScrollView>

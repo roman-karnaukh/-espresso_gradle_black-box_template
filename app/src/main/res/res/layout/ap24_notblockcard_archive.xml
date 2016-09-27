@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginBottom="10dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textCount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="?attr/master_common_text"
+                android:text="@string/orders_"/>
+    </LinearLayout>
+
+    <!--<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF25292A"/>-->
+
+
+    <TextView
+            android:id="@+id/emptyElement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/no_data_to_display"/>
+
+    <ListView
+            android:id="@+id/lvContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true">
+    </ListView>
+
+</LinearLayout>

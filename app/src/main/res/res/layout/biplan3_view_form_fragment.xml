@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <android.support.design.widget.AppBarLayout
+                android:id="@+id/app_bar"
+                android:fitsSystemWindows="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="?attr/common_background"
+
+        >
+            <include layout="@layout/biplan3_toolbar_center_title"/>
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tvСompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:gravity="center"
+                    android:textColor="?attr/color2"
+
+            />
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/tvAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:gravity="center"
+                    android:textColor="?attr/color2"
+
+            />
+        </android.support.design.widget.AppBarLayout>
+        <ScrollView android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:id="@+id/llHeader"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                >
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/llServices"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                >
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                >
+                    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="?attr/color6"
+                            android:text="Сумма к оплате:"
+                            android:textSize="16sp"
+                    />
+
+                    <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                            android:id="@+id/tvAmt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textColor="?attr/color3"
+
+                    />
+                </LinearLayout>
+
+                <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                        android:id="@+id/buttonNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        p24:text="@string/common_continue"
+                        p24:textSize="@dimen/text_size_button_next"
+                        android:layout_gravity="right"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

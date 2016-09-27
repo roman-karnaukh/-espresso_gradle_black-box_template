@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                android:id="@+id/phoneNumberQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/phone_number"
+                android:textColor="@color/master_common_text"
+                android:textSize="14dp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+380665236523"
+                android:textColor="?attr/common_text"
+                android:textSize="30sp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/phone_operator"
+                android:textColor="@color/master_common_text"
+                android:textSize="14dp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/operatorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vodafone"
+                android:textSize="18dp" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/payment_for_one"
+                android:textColor="@color/master_common_text"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:id="@+id/llMinMaxValueRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="left"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/etAmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:paddingBottom="0dp"
+                        android:text="2050.45"
+                        android:textColor="?attr/color7"
+                        android:textSize="@dimen/text_size_amt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCcyMinMaxValueRange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="bottom"
+                        android:text="@string/ccy_ua"
+                        android:textColor="?attr/color7" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/llTotalAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/priceInUSD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="(1365.76 грн)"
+                        android:textColor="?attr/common_text"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:paddingTop="25dp"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:text="@string/button_details"
+                p24:textSize="@dimen/text_size_more_transfers" />
+
+            <LinearLayout
+                android:id="@+id/detailsLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/eo_fee"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/commissionLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/commissionPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textColor="?attr/color7"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/commissionCcy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="USD"
+                        android:textColor="?attr/color7" />
+
+                </LinearLayout>
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/summ_of_refill"
+                    android:textColor="@color/master_common_text"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/summToFillLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/priceToFill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:textColor="?attr/color7"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/priceToFillCcy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="Грн"
+                        android:textColor="?attr/color7"/>
+
+                </LinearLayout>
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/from_card"
+                    android:textColor="@color/master_common_text"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/nameOfCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="0dp"
+                    android:text="*4585 Кредитка"
+                    android:textColor="?attr/common_text"
+                    android:textSize="16sp" />
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="@string/description_info"
+                    android:textColor="@color/master_common_text"
+                    android:textSize="14dp" />
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/discription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="0dp"
+                    android:text="@string/payment_of_phone"
+                    android:textColor="?attr/color7"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editPass"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="@string/pass"
+                android:inputType="textPassword"
+                android:visibility="gone"/>
+
+            <CheckBox
+                android:id="@+id/checkPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/show_password"
+                android:textColor="?attr/common_text"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/editCvv"
+                style="?attr/style_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="@string/cvv"
+                android:inputType="number|textPassword"
+                android:password="true"
+                android:visibility="gone">
+
+            </EditText>
+
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="60dp"
+                p24:text="@string/confirm_action"
+                p24:textSize="@dimen/text_size_button_next" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

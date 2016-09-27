@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ll_icons"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ava_size"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="@dimen/auth_margin_top"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image_privat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:src="?attr/privat_ic_header"/>
+
+    <ImageView
+        android:id="@+id/image_p_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:src="?attr/p24_ic_header"/>
+
+    <ImageView
+        android:id="@+id/ivBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:src="@drawable/barcode" />
+
+    <ImageView
+        android:id="@+id/imagePushAr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="?attr/push"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image_exchange_rates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/usd" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="USD"
+                android:textColor="?attr/color4"
+                android:textSize="@dimen/small_text" />
+
+            <TextView
+                android:id="@+id/textUsdValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="?attr/color4"
+                android:textSize="@dimen/usd_textsize" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+

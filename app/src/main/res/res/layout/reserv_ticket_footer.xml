@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginBottom="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+      <TextView
+          android:ellipsize="end"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16dp"
+          android:textColor="?attr/master_common_text"
+          android:text="@string/ticket_price"
+          android:visibility="visible"
+          android:layout_margin="5dp"
+          android:layout_gravity="left"/>
+
+      <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+          android:id="@+id/tvAmmount"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:textColor="?attr/color7"
+          android:text="140 грн"
+          android:visibility="visible"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:layout_gravity="right"
+          android:gravity="right"
+          android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+      <TextView
+          android:ellipsize="end"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16dp"
+          android:textColor="?attr/master_common_text"
+          android:text="@string/ticket_price_with_comiss"
+          android:visibility="visible"
+          android:layout_margin="5dp"
+          android:lines="2"
+          android:layout_gravity="left"/>
+
+      <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+          android:id="@+id/tvAmmountWithComission"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:textColor="?attr/color7"
+          android:text="140 грн"
+          android:visibility="visible"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:singleLine="true"
+          android:layout_gravity="right"
+          android:gravity="right"
+          android:paddingLeft="10dp"/>
+    </LinearLayout>
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+        android:id="@+id/btnCancelReserv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        p24:iv_background="?attr/selector_button_next_small"
+        p24:text="@string/cancel_reserv"
+        p24:textSize="20dp"
+    />
+  </LinearLayout>
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="visible"
+      android:layout_marginTop="15dp">
+
+    <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+        android:id="@+id/btnPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        p24:text="@string/checkout_"
+        p24:textSize="@dimen/text_size_button_next"
+    />
+
+  </LinearLayout>
+
+</LinearLayout>

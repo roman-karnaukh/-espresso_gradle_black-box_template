@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/fuelColumn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/fuel_column"
+                android:textColor="?attr/common_text"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/payDesk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- fuel mark -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/fuelMark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/fuel_mark"
+                android:textColor="?attr/common_text"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/payItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/buySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/manualInputCnt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/trAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/summ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:text="@string/ammount"
+                    android:textColor="?attr/common_text"
+                    android:textSize="16sp" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                    android:id="@+id/cashAmount"
+                    style="?attr/style_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:inputType="numberDecimal"
+                    android:minWidth="70dp"
+                    android:paddingBottom="0dp"
+                    android:singleLine="true"
+                    android:textColor="?attr/color7"
+                    android:textSize="@dimen/text_size_amt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/trLitre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:text="@string/enter_litres"
+                    android:textColor="?attr/common_text"
+                    android:textSize="16sp" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                    android:id="@+id/litreAmount"
+                    style="?attr/style_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:minWidth="70dp"
+                    android:paddingBottom="0dp"
+                    android:singleLine="true"
+                    android:textColor="?attr/color7"
+                    android:textSize="@dimen/text_size_amt" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="60dp"
+            p24:text="@string/refuel"
+            p24:textSize="@dimen/text_size_button_next" />
+
+    </LinearLayout>
+</ScrollView>

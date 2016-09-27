@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/eurExchangeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selector_text_background"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/exchangeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="?attr/color4"
+        android:layout_alignParentLeft="true"
+        android:textSize="22sp" />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/buyExchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="?attr/color4"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp" />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/purchaseExchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="?attr/color4"
+        android:layout_alignParentRight="true"
+        android:textSize="22sp" />
+
+</RelativeLayout>

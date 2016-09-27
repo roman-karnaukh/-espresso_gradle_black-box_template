@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingBottom="5dp"
+          android:paddingTop="5dp">
+
+
+    <ua.privatbank.ap24.beta.views.RobotoLightTextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_weight="0"
+            android:gravity="right"
+            android:textColor="?attr/color4"
+            android:text="@string/common_date"/>
+
+    <ua.privatbank.ap24.beta.views.RobotoRegularEditText
+            android:id="@+id/etValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textColor="?attr/color4"/>
+</TableRow>

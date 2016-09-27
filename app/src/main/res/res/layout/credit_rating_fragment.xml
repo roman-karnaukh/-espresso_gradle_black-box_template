@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivCreditHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:src="?attr/credit_history" />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/tvCreditHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/credit_history"
+        android:textColor="?attr/listOper"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivStatusControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:src="?attr/status_control" />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/tvStatusControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/status_control"
+        android:textColor="?attr/listOper"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivCreditRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:src="?attr/credit_rating" />
+
+    <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+        android:id="@+id/tvCreditRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/credit_rating"
+        android:textColor="?attr/listOper"
+        android:textSize="16sp" />
+</LinearLayout>

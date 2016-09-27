@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:orientation="vertical">
+
+
+        <EditText
+                android:id="@+id/editIban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:textColor="?attr/common_text"
+                android:singleLine="true"
+                android:hint="@string/beneficiary_account_or_iban_code">
+        </EditText>
+
+        <EditText
+                android:id="@+id/editRecipient"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"
+                android:hint="@string/receivers_yur_name">
+        </EditText>
+
+        <EditText
+                android:id="@+id/editDetailsPayment"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"
+                android:hint="@string/payment_nazn">
+        </EditText>
+
+        <EditText
+                android:id="@+id/editSwiftCode"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"
+                android:hint="@string/recipient_bank_code">
+        </EditText>
+
+        <EditText
+                android:id="@+id/editNameBankRecipient"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:textColor="?attr/common_text"
+                android:hint="@string/recipient_bank_name">
+        </EditText>
+
+
+
+        <CheckBox
+                android:id="@+id/checkBoxBankCorrespondent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="?attr/common_text"
+                android:textSize="15sp"
+                android:button="?attr/check_style"
+                android:paddingLeft="13dp"
+                android:text="@string/сorrespondent_bank"/>
+
+
+        <LinearLayout
+                android:id="@+id/llBankCorrespondent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical"
+                >
+
+
+            <EditText
+                    android:id="@+id/editSwiftCodeCorrespondentBank"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/style_edittext"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text"
+                    android:hint="@string/bnf_bank_code">
+            </EditText>
+
+
+
+            <EditText
+                    android:id="@+id/editNameBankCorrespondent"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/style_edittext"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text"
+                    android:hint="@string/bnf_bank_name">
+            </EditText>
+
+
+
+
+            <EditText
+                    android:id="@+id/editAccountInBankCorrespondent"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/style_edittext"
+                    android:singleLine="true"
+                    android:textColor="?attr/common_text"
+                    android:hint="@string/correspondent_account">
+            </EditText>
+
+
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="50dp"
+                p24:textSize="@dimen/text_size_button_next"
+                android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+</ScrollView>

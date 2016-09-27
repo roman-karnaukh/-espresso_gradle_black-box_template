@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="18sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/color6"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/tvTextForClient"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thanks"
+                android:textSize="44dp"
+                android:textColor="?attr/color6"
+                android:id="@+id/tvThanks"/>
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="4dp"
+                android:src="?attr/smile"
+                android:id="@+id/imageView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_status_info"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="?attr/color6"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvClientActivationInfo"/>
+
+
+        <TableLayout
+            android:id="@+id/tablePay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TableRow
+                android:id="@+id/llFromCard"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_card"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvNameCard"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PayPass *4444 "
+                    android:textSize="15sp"
+                    android:textColor="?attr/color6"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tvCard"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/llToCard"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_name_pin"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvNamePin"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" *4444"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color6"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tvPin"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playmini"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imageView"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+
+                android:textSize="14sp"
+                android:textColor="?attr/master_ccy"
+                android:text="@string/text_FAQ_nfc"
+                android:id="@+id/tvFAQ"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/paypass"
+                android:id="@+id/imageView2"/>
+
+
+        </RelativeLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="right"
+            p24:text="@string/button_to_menu"/>
+
+    </LinearLayout>
+
+</ScrollView>

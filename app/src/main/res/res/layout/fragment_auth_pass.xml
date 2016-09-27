@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/ll_auth_header_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include
+                 layout="@layout/auth_pass_header_icon"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/editLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                style="?attr/style_edittext"
+                android:editable="false"
+                android:ems="10"
+                android:padding="10dp"
+                android:textSize="32sp"
+                android:textColor="?attr/common_text"/>
+
+        <EditText
+                android:id="@+id/editPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/style_edittext"
+                android:ems="10"
+                android:hint="@string/pass"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:imeOptions="actionNext"/>
+        <CheckBox
+                android:id="@+id/checkPass"
+                android:button="?attr/check_style"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:layout_marginTop="10dp"
+                android:textColor="?attr/common_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_password"/>
+
+
+        <!--<ua.privatbank.ap24.beta.apcore.components.ButtonNextView-->
+        <!--android:id="@+id/buttonForgotPass"-->
+        <!--xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--p24:iv_background="@drawable/selector_button_next_gray"-->
+        <!--p24:textColor="@color/colorLightGreen"-->
+        <!--p24:text="Забыли пароль?"-->
+        <!--p24:textSize="14dp"-->
+        <!--p24:showImage="false"/>-->
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="right"
+                p24:textSize="44sp"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/llRestorePassword"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/buttonRestorePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:textSize="20sp"
+                p24:text="@string/no_password"/>
+
+    </LinearLayout>
+</FrameLayout>

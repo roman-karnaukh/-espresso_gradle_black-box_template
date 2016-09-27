@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/archiveTaxiDetailsDateAndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="date and time"
+            android:textColor="?attr/color5" />
+
+        <TextView
+            android:id="@+id/way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Way:"
+            android:textColor="?attr/master_common_text" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:id="@+id/llPointA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pointA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/bg_ab_archive"
+                android:gravity="center"
+                android:text="@string/a_"
+                android:textColor="?attr/master_common_text"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvDescriptionA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:text="пр.Героев 18 под 2"
+                android:textColor="?attr/master_common_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPointB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pointB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/bg_ab_archive"
+                android:gravity="center"
+                android:text="@string/b_"
+                android:textColor="?attr/master_common_text"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvDescriptionB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:text="ул.Артема 56 под 5"
+                android:textColor="?attr/master_common_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPointC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/pointC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/bg_ab_archive"
+                android:gravity="center"
+                android:text="@string/c_"
+                android:textColor="?attr/master_common_text"/>
+
+            <TextView
+                android:id="@+id/tvDescriptionC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:text="пр.Героев 18 под 2"
+                android:textColor="?attr/master_common_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPointD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/pointD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/bg_ab_archive"
+                android:gravity="center"
+                android:text="@string/d_"
+                android:textColor="?attr/master_common_text"/>
+
+            <TextView
+                android:id="@+id/tvDescriptionD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:text="ул.Артема 56 под 5"
+                android:textColor="?attr/master_common_text" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="5dp"
+            android:shrinkColumns="1"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:id="@+id/tableRowSumm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/commonSummTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/common_summ"
+                    android:textColor="?attr/master_common_text" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/detSumText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="75"
+                    android:textColor="?attr/color7"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/tableRowCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:visibility="gone"
+                    android:paddingTop="5dp">
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/common_descr"
+                        android:textColor="?attr/master_common_text"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/tvDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:textColor="?attr/color4"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/stateTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/common_state"
+                    android:textColor="?attr/master_common_text" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/detStateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/held1"
+                    android:textColor="?attr/color7"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow
+                    android:id="@+id/tableRowCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+
+                <TextView
+                        android:id="@+id/cardNameAndNumbTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/text_card"
+                        android:textColor="?attr/master_common_text" />
+
+                <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                        android:id="@+id/cardNameAndNumb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:text="@string/cash"
+                        android:textColor="?attr/color4" />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/repeatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="60dp"
+                p24:text="@string/repeat"
+                p24:textSize="@dimen/text_size_button_next"/>
+    </LinearLayout>
+
+</ScrollView>

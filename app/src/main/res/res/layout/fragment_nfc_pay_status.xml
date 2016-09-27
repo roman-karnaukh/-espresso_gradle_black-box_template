@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="18sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/color6"
+
+            android:layout_marginBottom="25dp"
+            android:id="@+id/tvTextForClient"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thanks"
+                android:textSize="44dp"
+                android:textColor="?attr/color6"
+                android:id="@+id/tvThanks"/>
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="4dp"
+                android:src="?attr/smile"
+                android:id="@+id/imageView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nfc_successfully_activated"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="?attr/color6"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/tvDescription"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_status_info"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="?attr/color6"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvInfo"/>
+
+        <TableLayout
+            android:id="@+id/tablePay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TableRow
+                android:id="@+id/llSum"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sum"
+                    android:textSize="15sp"
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvSumNameField"/>
+
+                <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                    android:id="@+id/tvSum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/llFromCard"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/from_card"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvFromCardNemeField"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PayPass *4444 "
+                    android:textSize="15sp"
+                    android:textColor="?attr/color6"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tvFromCard"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/llToCard"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_card"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvToCardNemeField"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" *4444"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color6"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tvToCard"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/llDate"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_date"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color4"
+                    android:id="@+id/tvDateNemeField"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01.12.12 12:12"
+                    android:textSize="15sp"
+                    android:textColor="?attr/color6"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tvDate"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+            xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="right"
+            p24:text="@string/button_to_menu"/>
+
+    </LinearLayout>
+
+</ScrollView>

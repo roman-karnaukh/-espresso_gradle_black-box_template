@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/lvGiftBasket"
+        android:headerDividersEnabled="false"
+        android:divider="@null"
+        android:layout_weight="8" />
+
+    <TextView
+        android:id="@+id/emptyElement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="?attr/color6"
+        android:text="@string/no_added_products"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="@string/in_total"
+                android:textColor="?attr/common_text"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ua.privatbank.ap24.beta.apcore.components.TextSumView
+                android:id="@+id/tvSumBasket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--<Spinner-->
+            <!--android:id="@+id/cardToSpinner"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp" />-->
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonNextBasket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            p24:text="@string/text_givc_select_window_to_pay"
+            p24:textSize="@dimen/text_size_button_next" />
+
+        <ua.privatbank.ap24.beta.views.RobotoLightTextView
+            android:id="@+id/tvMinAmmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:textColor="?attr/color3"
+            android:text="@string/the_minimum_order"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

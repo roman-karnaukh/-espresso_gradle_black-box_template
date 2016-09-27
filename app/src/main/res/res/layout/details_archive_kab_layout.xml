@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="16dp">
+
+
+        <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                android:id="@+id/tvServiceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="?attr/master_common_text"
+                android:text="Уборка квартир"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+        />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+            <ua.privatbank.ap24.beta.views.RobotoLightItalicTextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="?attr/color6"
+                    android:text="21.02.2016"
+                    android:visibility="visible"
+                    android:layout_weight="1"
+            />
+
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                    android:id="@+id/tvSum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textColor="?attr/color7"
+                    android:text="400 грн"
+                    android:visibility="visible"
+            />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:ellipsize="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="?attr/master_common_text"
+                    android:text="@string/common_status"
+                    android:visibility="visible"/>
+
+            <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="?attr/color7"
+                    android:text="В работе"
+                    android:visibility="visible"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+            />
+
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/btnDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                p24:iv_background="?attr/selector_button_next_small"
+                p24:textSize="@dimen/text_size_more_transfers"
+                p24:text="@string/button_details"
+                android:layout_marginTop="15dp"
+                android:visibility="visible"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/llDetailInfo"
+                android:visibility="gone"
+                android:layout_marginTop="15dp">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                 <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvCity"
+                        android:ellipsize="end"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/city_m"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvCityName"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/color6"
+                        android:text="Киев"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                 <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvCategory"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/category_work_m"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="left"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvCategoryJob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/color6"
+                        android:text="Уборка квартир"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                 <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvDone"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/what_should_done_m"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="left"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvWhatDone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/color6"
+                        android:text="Убрать 2х комнатную квартиру на левом берегу"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvData"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/data_execution"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="left"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvDateExecution"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/color6"
+                        android:text="21.02.2016"
+                        android:visibility="visible"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/llAdres"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                        android:id="@+id/tvAdres"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="?attr/master_common_text"
+                        android:text="@string/adress"
+                        android:visibility="visible"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="left"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="?attr/color6"
+                        android:text="ул.Саксаганского, 16"
+                        android:visibility="visible"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llExecutorInfo"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp">
+
+            <mobi.sender.widgets.CircularImageView
+                    android:id="@+id/imAva"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/kaban1"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"/>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal">
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:textColor="?attr/color6"
+                        android:text="Иванов Иван Иванович"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:textIsSelectable="false"/>
+
+                <ua.privatbank.ap24.beta.views.RobotoRegularTextView
+                        android:id="@+id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="?attr/color7"
+                        android:text="+3809912345678"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"/>
+            </LinearLayout>
+            <ImageView
+                    android:id="@+id/call_to_driver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_call_taxi"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                p24:textSize="@dimen/text_size_button_next"
+                p24:text="@string/common_commit"
+        />
+
+
+        <LinearLayout
+                android:id="@+id/cancel_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="visible">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_close"/>
+
+            <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp"/>
+
+            <TextView
+                    android:id="@+id/cancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel"
+                    android:textColor="?attr/color16"
+                    android:textSize="30sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

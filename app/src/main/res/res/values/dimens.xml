@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pull_to_refresh_header_vertical_padding_top_bottop">12dp</dimen>
+    <dimen name="usd_textsize">17sp</dimen>
+    <dimen name="auth_margin_top">3dp</dimen>
+    <dimen name="margintop_entry_card">5dp</dimen>
+
+    <dimen name="padding_checkbox">25dp</dimen>
+    <dimen name="fr_deposits_menu_margin_top">100dp</dimen>
+    <dimen name="master_operation_margin">10dp</dimen>
+    <dimen name="padding_in_settings">0dp</dimen>
+    <integer name="all_service_fragment_count_element">12</integer>
+    <dimen name="padding_top_fragment_main">0dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="height_icons">120dp</dimen>
+    <dimen name="font_13">13sp</dimen>
+    <dimen name="font_medium">20sp</dimen>
+    <dimen name="font_medium2">16sp</dimen>
+    <dimen name="font_big">26sp</dimen>
+    <integer name="stock_size">150</integer>
+</resources>

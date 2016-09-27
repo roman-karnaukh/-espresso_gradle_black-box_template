@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:minWidth="1000dp"
+              android:background="?attr/dialog_background">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_margin="15dp">
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/textCaption"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:gravity="center_horizontal"
+                android:text="@string/sending_a_receipt_for_the_e_mail"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/confirmText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_dots"
+                android:layout_gravity="left|center_vertical"/>
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textEmail"
+                android:layout_gravity="left|center_vertical"/>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="34dp"
+                android:layout_gravity="right">
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonOk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    p24:textSize="@dimen/text_size_button_next"
+                    p24:text="@string/common_commit"
+                    android:layout_gravity="right"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:orientation="vertical">
+
+            <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="5dp"
+                    android:shrinkColumns="1"
+                    android:stretchColumns="1">
+                <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+
+                    <TextView
+                            android:id="@+id/dateTextTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="?attr/color4"
+                            android:text="@string/common_date"/>
+
+                    <TextView
+                            android:id="@+id/detDateText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:textColor="?attr/color4"
+                            android:text=""
+                            android:textStyle="bold"/>
+                </TableRow>
+                <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/stateTextTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:textColor="?attr/color4"
+                            android:gravity="right"
+                            android:text="@string/common_state"/>
+
+                    <TextView
+                            android:id="@+id/detStateText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/commonSummTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/common_summ"/>
+
+                    <TextView
+                            android:id="@+id/detSumText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                        android:id="@+id/tableRowCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/commissionTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/commission_"/>
+
+                    <TextView
+                            android:id="@+id/detFeeText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                        android:id="@+id/tableRowCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/receiverTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/text_western_receiver"/>
+
+                    <TextView
+                            android:id="@+id/detRecvText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+                </TableRow>
+                <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/commonDescrTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/common_descr"/>
+
+                    <TextView
+                            android:id="@+id/detDescText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                        android:id="@+id/tableRowOKPO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/okpoTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/det_okpo"/>
+
+                    <TextView
+                            android:id="@+id/detOkpoText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                        android:id="@+id/tableRowMFO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/mfoTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/det_mfo"/>
+
+                    <TextView
+                            android:id="@+id/detMfoText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow
+                        android:id="@+id/tableRowType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                    <TextView
+                            android:id="@+id/detNameTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/det_name"/>
+
+                    <TextView
+                            android:id="@+id/detNameText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/color4"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textStyle="bold"/>
+
+                </TableRow>
+            </TableLayout>
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/repeatButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="34dp"
+                    p24:textSize="@dimen/text_size_button_next"
+                    p24:text="@string/repeat"
+                    android:layout_gravity="right"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="34dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                        xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                        android:id="@+id/quittanceButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left"
+                        p24:textSize="@dimen/text_size_more_transfers"
+                        p24:iv_background="?attr/selector_button_next_small"
+                        p24:text="@string/payment_order"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,2212 @@
+<resources>
+
+    <string name="app_name_p24">Privat24</string>
+    <string name="error_inet_missing">Отсутствует интернет!</string>
+    <string name="error_connection_missing">Ошибка связи с сервером</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="amount1">Cумма</string>
+    <string name="from_card">С карты</string>
+    <string name="common_pass">Пароль:</string>
+    <string name="phone_operator">Оператор</string>
+    <string name="phone_operator_chat">Оператор</string>
+    <string name="summ_of_refill">Сумма к зачислению на телефон</string>
+    <string name="payment_of_phone">Оплата за мобильную связь</string>
+    <string name="credit_rating">Кредитный рейтинг</string>
+    <string name="credit_rating_ubki">Кредитный рейтинг УБКИ</string>
+    <string name="credit_history">Кредитная история</string>
+    <string name="status_control">СтатусКонтроль</string>
+    <string name="connect">Подключить</string>
+    <string name="deactivate">Отключить</string>
+    <string name="minimum">Минимальный</string>
+    <string name="maximum">Максимальный</string>
+    <string name="take_card">На всякий случай возьмите пластик с собой. К сожалению, не все магазины оборудованы устройствами, позволяющими считать штрих-код с телефона.</string>
+
+
+
+
+    <!--validator-->
+    <string name="fill_field">Заполните поле \'</string>
+    <string name="validator_incorrect_phone">Номер телефона введен некорректно!</string>
+    <string name="amount_should_be_less_than">Введенная сумма должна быть не больше</string>
+    <string name="input_must_be_greater_than_sum">Введенная сумма должна быть больше</string>
+    <string name="validator_acc_incorrect">Номер счета введен некорректно!</string>
+    <string name="validator_incorrect_card">Номер карты введен некорректно!</string>
+    <string name="incorrect_field_value">Неправильное значение поля</string>
+    <string name="no_card_in_the_required_currency">Нет карты в необходимой валюте!</string>
+    <string name="the_minimum_value_in_the_field">Минимальное значение в поле \'</string>
+    <string name="the_maximum_value_in_the_field">Максимальное значение в поле \'</string>
+    <string name="amount_must_be_equal">Сумма должна быть равна</string>
+    <string name="in_field">в поле</string>
+    <string name="field_incorrect">Некорректный ввод поля</string>
+    <string name="fill_field_">Заполните поле \'</string>
+    <string name="to_field">В поле \'</string>
+    <string name="not_selected_card_">\' не выбрана карта!</string>
+    <string name="you_can_not_give_the_same_card">Вы не можете указывать одну и ту же карту!</string>
+    <string name="email_is_invalid">E-mail введен некорректно!</string>
+    <string name="you_must_agree_to_the_terms_and_rules">Вы должны согласиться с Условиями и правилами предоставления
+        банковских услуг!</string>
+
+    <string name="game_login">Логин в игре</string>
+    <string name="code1">Внутренняя ошибка сервера</string>
+    <string name="code2">Не привязан телефон</string>
+    <string name="code3">Вы не являетесь клиентом ПАО \"Приватбанк\". Обратитесь в любое отделение.</string>
+    <string name="code4">Операция недоступна</string>
+    <string name="code5">Сервис отправки смс недоступен.</string>
+    <string name="code6">Неверный код смс!</string>
+    <string name="code7">Неверный номер карты</string>
+    <string name="code8">Пароль введен неверно. Возможно, Ваш аккаунт заблокирован, пожалуйста, обратитесь в службу
+        поддержки
+    </string>
+    <string name="code9">Ошибка при расчёте комиссии</string>
+    <string name="code10">Данный логин уже зарегистрирован</string>
+    <string name="code11">Ошибка пополнения счёта Liqpay</string>
+    <string name="code12">Ошибка отправки инвойса</string>
+    <string name="code13">Ошибка получения стран WU</string>
+    <string name="code14">Ошибка получения информации по стране WU</string>
+    <string name="code15">Ошибка получения валют, доступных для страны WU</string>
+    <string name="code16">Ошибка получения регионов, доступных для выбора в WU</string>
+    <string name="code17">Ошибка обмена данными с сервером ВКонтакте</string>
+    <string name="code18">Ошибка получения курсов валют П24</string>
+    <string name="code19">Неверный интервал при запросе точек для карты отделений и банкоматов</string>
+    <string name="code20">Ошибка в реквизитах получателя!</string>
+
+    <string name="code22">Ошибка получения списка кредитов</string>
+    <string name="code23">Ошибка получения списка депозитов</string>
+    <string name="code24">Ошибка открытия депозита</string>
+    <string name="code25">Ошибка загрузки даннных по задолженностям из ГИВЦ</string>
+    <string name="code26">Ошибка создания платежа ГИВЦ</string>
+    <string name="code27">Ошибка взаимодействия с сервером PrivatMoney</string>
+    <string name="code28">Ошибка взаимодействия с сервером билетов</string>
+    <string name="code29">Ошибка поиска перевода WU</string>
+    <string name="code30">Ошибка отправки перевода в WU</string>
+    <string name="code31">Ошибка получения счетов юрлиц</string>
+    <string name="code32">Ошибка получения остатков по счетам юрлиц</string>
+    <string name="code33">Ошибка получения выписок по счетам юрлиц</string>
+    <string name="code34">Неправильный ключ приложения</string>
+    <string name="code35">Неверные данные для покупки бензина</string>
+    <string name="code36">Ошибка при взаимодействии с АЗС</string>
+    <string name="code37">Ошибка при блокировке средств на карте</string>
+    <string name="code38">Выписки по привязанным картам недоступны</string>
+    <string name="code39">Ошибка закрепления карты - данная карта уже присутствует в аккаунте</string>
+    <string name="code40">Функционал не реализован</string>
+    <string name="code41">Ошибка пополнения лицевого счёта во внешней системе</string>
+    <string name="code42">Ошибка проверки пароля</string>
+    <string name="code43">Неверный способ подтверждения платежа</string>
+    <string name="code44">Ошибка проведения платежа</string>
+    <string name="code45">Превышен лимит на сумму платежа</string>
+    <string name="code46">Превышен дневной лимит на число операций</string>
+    <string name="code47">Превышен месячный лимит на число операций</string>
+    <string name="code48">Превышен дневной лимит на общую сумму операций</string>
+    <string name="code49">Превышен месячный лимит на общую сумму операций</string>
+    <string name="code50">Нарушен лимит на сумму одной операции</string>
+    <string name="code51">Ошибка получения перевода WU</string>
+    <string name="code52">Данный тип платежа не доступен</string>
+    <string name="code53">Ошибка добавления заявки в админ панель</string>
+    <string name="code54">Ошибка оплаты ж/д билетов</string>
+    <string name="code55">Ошибка бронирования ж/д билетов</string>
+    <string name="code56">Ошибка получения списка вагонов</string>
+    <string name="code57">Ошибка получения списка свободных мест</string>
+    <string name="code58">Ошибка получения списка маршрутов</string>
+    <string name="code59">Ошибка получения перечня станций</string>
+    <string name="code60">Ошибка получения архива ж/д билетов</string>
+    <string name="code61">Неоходимо указать контрольный вопрос</string>
+    <string name="code62">Указан неверный аккаунт Вконтакте</string>
+    <string name="code63">Ошибка авторизации на совещание</string>
+    <string name="code67">Ваши данные не совпадают с данными, указанными отправителем!</string>
+    <string name="code68">Ошибка создания шаблона</string>
+    <string name="code69">По одной из карт истек срок действия.</string>
+    <string name="code70">Транзакция имеет недопустимые атрибуты или не разрешена на данном терминале.</string>
+    <string name="code71">Карта имеет статус \"потеряна\" или \"украдена\"</string>
+    <string name="code72">Неверный номер карты.</string>
+    <string name="code73">Уважаемый клиент! Ваша карта имеет ограниченные возможности.</string>
+    <string name="code74">Невозможно авторизировать карту.\nПроверьте корректность данных карты.</string>
+    <string name="code75">Недостаточно средств на карте для проведения платежа.</string>
+    <string name="code76">Превышение лимита по сумме платежа.</string>
+    <string name="code77">Неправильный счет клиента</string>
+    <string name="code78">Введенная сумма некорректна</string>
+    <string name="code79">Неверное значение CVV2.</string>
+    <string name="code80">Неверный формат запроса.</string>
+    <string name="code81">Общая ошибка проведения платежа</string>
+    <string name="code82">По одной из карт истек срок действия.</string>
+    <string name="code83">Уважаемый клиент! Ваша карта заблокирована для оплаты.</string>
+    <string name="code84">Превышен лимит попыток по карте.</string>
+    <string name="code85">Общая ошибка проведения платежа.</string>
+    <string name="code87">Уважаемый клиент! Вам необходимо пройти процесс подтверждения Вашего телефонного номера.
+        Обратитесь в отделение, либо подтвердите свой номер в банкомате. После подтверждения необходимо будет перезайти
+        в приложение через кнопку \"выход\"
+    </string>
+    <string name="code88">Уважаемый клиент! Вам необходимо пройти процесс подтверждения Вашего телефонного номера.
+        Обратитесь в отделение, либо подтвердите свой номер в банкомате. После подтверждения необходимо будет перезайти
+        в приложение через кнопку \"выход\"
+    </string>
+    <string name="code89">Невозможно распознать отсканированный QR код</string>
+    <string name="code90">У Вас нет переводов Western Union!</string>
+    <string name="code92">Операция временно недоступна.</string>
+    <string name="code91">Перевод на карту этой страны не возможен. Перевод возможно совершить на карты MasterCard,
+        выпущенных в следующих странах: Азербайджан, Албания, Армения, Болгария, Босния и Герцеговина, Венгрия, Грузия,
+        Израиль, Казахстан, Кипр, Косово, Македония, Мальта, Молдова, Польша, Россия, Румыния, Сербия, Словакия,
+        Словения, Турция, Украина, Хорватия, Черногория, Чехия.
+    </string>
+    <string name="code93">Не удалось подписаться на рассылку уведомлений.</string>
+    <string name="code94">Ошибка выставления счета.</string>
+    <string name="code95">Получатель счета не найден.</string>
+    <string name="code96">Ваша заявка отменена.</string>
+    <string name="code97">Пистолет не снят.</string>
+    <string name="code98">Абонент не найден.</string>
+    <string name="code99">Оплата данной услуги запрещена для добавленных карт третьих лиц.</string>
+    <string name="code100">Направление перевода недоступно.</string>
+    <string name="code101">Ошибка отправки платежа.</string>
+    <string name="code102">Ошибка получения архива Western Union.</string>
+    <string name="code103">Операция временно недоступна.</string>
+
+    <string name="code105">Ошибка взаимодействия с API инвойсов!</string>
+    <string name="code106">Ошибка при удалении шаблона!</string>
+    <string name="code107">Ошибка при оплате инвойса!</string>
+    <string name="code108">Ошибка отмены бронирования</string>
+    <string name="code109">Ошибка запроса КийАвиа</string>
+    <string name="code110">Ошибка покупки авиабилета!</string>
+    <string name="code111">Карта не найдена в аккаунте</string>
+    <string name="code112">Дверь не найдена</string>
+    <string name="code113">Неверный тип банка!</string>
+    <string name="code114">Ошибка получения списка стран!</string>
+    <string name="code115">Ошибка при поиске авиабилетов!</string>
+    <string name="code116">Ошибка получения данных клиента!</string>
+    <string name="code117">Ошибка получения списка городов!</string>
+    <string name="code118">Ошибка получения тарифных правил!</string>
+    <string name="code119">Ошибка бронирования билета!</string>
+    <string name="code120">Ошибка получения архива авиабилетов!</string>
+    <string name="code121">Ошибка получения информации об аэропорте!</string>
+    <string name="code127">Карта уже отвязана от Вашего аккаунта!</string>
+    <string name="code128">Перевод не найден!</string>
+    <string name="code129">Получатель не найден!</string>
+    <string name="code130">Неверный секретный код!</string>
+    <string name="code132">Ошибка получения наличных</string>
+    <string name="code133">Ошибка бронирования и подготовки к оплате. Выберите другой билет.</string>
+    <string name="code135">Ошибка получения информации по счету</string>
+    <string name="code136">Ошибка отправки платежа</string>
+    <string name="code137">Невозможно получить квитанцию по данному типу платежа</string>
+    <string name="code138">Для текущего аккаунта услуга недоступна</string>
+    <string name="code141">Ошибка подачи заявки на открытие счетов (карт)</string>
+    <string name="code145">Некорректный номер карты</string>
+    <string name="code147">Истекло время подтверждения привязки карты, повторите операцию заново</string>
+    <string name="code148">Ошибка проверки карты</string>
+    <string name="code149">Контрольная сумма не совпадает</string>
+    <string name="code152">Ошибка получения задолженности по сервису</string>
+    <string name="code154">Вы ввели неверный ПИН-код. Если Вы забыли ПИН, Вы можете обновить его, отправив SMS с текстом
+        PIN+XXXX на номер 10060, где XXXX – последние 4 цифры номера карты.
+    </string>
+    <string name="code155">Превышен суточный лимит снятия наличных по операциям без карты (6 000 грн). Пожалуйста,
+        повторите операцию завтра.
+    </string>
+    <string name="code156">К сожалению, произошел технический сбой. Пожалуйста, повторите операцию.</string>
+    <string name="code157">К сожалению, произошел технический сбой. Пожалуйста, повторите операцию.</string>
+    <string name="code158">К сожалению, услуга заблокирована. Для разблокировки обратитесь в любое отделение
+        ПриватБанка.
+    </string>
+    <string name="code159">Услуга временно заблокирована. Пожалуйста, повторите платеж через 24 часа.</string>
+    <string name="code160">Превышен лимит количества подобных операций в сутки. Пожалуйста, повторите платеж завтра.
+    </string>
+    <string name="code161">Превышен лимит разового снятия наличных по операциям без карты. Попробуйте снять сумму меньше
+        2 000 грн.
+    </string>
+    <string name="code162">QR-код не считался. Пожалуйста, повторите попытку.</string>
+    <string name="code166">Ошибка проверки PIN-кода.</string>
+    <string name="code167">Ошибка восстановления доступа.</string>
+    <string name="code168">Услуга недоступна для данной страны.</string>
+    <string name="code169">Уважаемый Клиент, пожалуйста, проверьте правильность ввода 4-х последних цифр карты.</string>
+
+    <string name="code170">Превышено количество попыток ввода контрольной суммы</string>
+    <string name="code171">Невозможно добавить карту 3-го лица. Обратитесь, пожалуйста, в отделение.</string>
+    <string name="code172">Ошибка табелирования, попробуйте, пожалуйста, позже</string>
+    <string name="code173">Проведите первую транзакцию табелирования в pos терминале</string>
+    <string name="code174">Координаты не соответствуют рабочему месту</string>
+    <string name="code176">Ошибка получения последнего действия(вход/выход)</string>
+    <string name="code177">Данные приняты банком. Проверить результат операции возможно через некоторое время перейдя в
+        меню \'Табелирование\'
+    </string>
+    <string name="code178">Ошибка получения данных по paypass карте</string>
+    <string name="code179">Не установленна карта для оплаты через NFC</string>
+    <string name="code180">Ошибка получения данных по карте</string>
+    <string name="code181">Ошибка получения данных для проведения транзакции</string>
+    <string name="code182">По текущей карте услуга оплаты через NFC уже установлена</string>
+    <string name="code183">Ошибка получения данных, попробуйте, пожалуйста, позже</string>
+    <string name="code184">Ошибка активации NFC</string>
+    <string name="code185">Ошибка активации NFC. Пожалуйста, попробуйте позже</string>
+    <string name="code186">Ошибка активации NFC</string>
+    <string name="code187">Ошибка активации NFC</string>
+    <string name="code188">Ошибка сохранения  данных. Пожалуйста, попробуйте позже</string>
+    <string name="code194_ua">Ваш аккаунт заблокирован. Для разблокировки воспользуйтесь этой формой.</string>
+    <string name="code198">Ошибка проведения запроса, проверьте правильность ввода или попробуйте позже</string>
+
+
+    <string name="no_data_to_display">Нет данных для отображения</string>
+    <string name="personal_money">Личные средства</string>
+    <string name="pass_from_sms">Пароль из СМС</string>
+    <string name="to_exit_the_application_press_the_button_again">Для выхода из приложения нажмите кнопку \"Назад\" еще
+        раз.
+    </string>
+
+    <string name="cards">Карты</string>
+    <string name="accounts">Счета</string>
+    <string name="bonus_plus">Бонус +</string>
+    <string name="bonus_plus_">Бонус Плюс</string>
+    <string name="pension">Пенсия</string>
+
+    <string name="error_no_cards_in_cat">Нет привязанных карт/счетов в данной категории!</string>
+    <string name="error_statements_unavaiable">Выписки по привязанным картам недоступны</string>
+    <string name="need_process_authorization">Для отображения карт/счетов, Вам необходимо пройти процесс авторизации.
+    </string>
+
+    <string name="notifications_privat24">Уведомления Приват24</string>
+    <string name="pull_to_refresh_pull_label">Потяните для обновления…</string>
+    <string name="pull_to_refresh_release_label">Отпустите для обновления…</string>
+    <string name="pull_to_refresh_refreshing_label">Загрузка…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+    <string name="enter_the_password">Введите пароль</string>
+    <string name="the_password_must_be_at_least_6_characters">Пароль должен состоять не менее 6 - максимум 15 символов
+    </string>
+    <string name="the_password_should_not_contain_non_Latin_characters_and_special_characters">Пароль не должен
+        содержать нелатинские буквы и специальные символы() @#$ ^:;? и пр.
+    </string>
+    <string name="alphabetical_character">Пароль должен содержать хотя бы одну латинскую букву</string>
+    <string name="the_password_must_contain_at_least_2_numbers">Пароль должен содержать не менее 2 цифр</string>
+    <string name="you_confirm">"Количество платежей"</string>
+    <string name="payment_for">"Общая сумма составляет"</string>
+    <string name="payment_for_one">"Сумма платежа"</string>
+    <string name="operation_completed_successfully">Операция выполнена успешно!</string>
+    <string name="operation_postamat_completed_successfully">Ваш запрос отрабатывается, это может занять 2-3 минуты</string>
+    <string name="operation_comleted_error">Ошибка при выполнении операции.</string>
+    <string name="_total_pays">Платежей: -</string>
+    <string name="core_week_earlier">На неделю ранее</string>
+    <string name="no_data_for">"Нет данных за"</string>
+    <string name="date_for">"Данные за"</string>
+
+    <string name="arhive_mob">Мобильные пополнения</string>
+    <string name="archive_telecom">Телеком услуги</string>
+    <string name="archive_transfers">Платежи</string>
+    <string name="archive_communal">Коммуналка</string>
+    <string name="archive_tickets">Билеты</string>
+    <string name="archive_services">Новые услуги</string>
+    <string name="archive_mob_bread">Life, MTC, Киевстар</string>
+    <string name="archive_telec_bread">PEOPLEnet, Volya, Vega</string>
+    <string name="archive_to_acc_bread">На карту, на счет</string>
+    <string name="archive_communal_bread">Украина, Гивц</string>
+    <string name="arhive_western_bread">Отправленные, принятые переводы</string>
+    <string name="buses">Автобусы</string>
+    <string name="trains">Поезда</string>
+    <string name="bus_tickets">Билеты на автобус</string>
+    <string name="bus_tickets_to">На автобус</string>
+    <string name="bus_tickets_archive">Архив билетов на автобус</string>
+    <string name="air_tickets_archive">Архив билетов на самолет</string>
+    <string name="football_tickets_archive">Архив билетов на футбол</string>
+    <string name="train_tickets">Билеты на поезд</string>
+    <string name="train_tickets_to">На поезд</string>
+    <string name="privatmoney">PrivatMoney</string>
+    <string name="swift">Swift</string>
+    <string name="sushiya">Сушия</string>
+    <string name="swift_archive">Архив Swift платежей</string>
+    <string name="pay_archive">Архив платежей</string>
+    <string name="visa_internet">Visa internet</string>
+    <string name="archive_card_order">Архив заказанных карт</string>
+    <string name="notifications_archive">Архив сообщений</string>
+    <string name="do_not_block_the_card">Не блокировать карту</string>
+    <string name="shopping_center">Торговый центр</string>
+    <string name="stocks">Акции</string>
+    <string name="ordering">Оформление заказа</string>
+    <string name="_order">Заказ</string>
+    <string name="check_order">Посмотреть заказ</string>
+    <string name="delivery">Доставка</string>
+    <string name="pickup">Самовывоз</string>
+    <string name="menu_">Меню</string>
+    <string name="street">Улица</string>
+    <string name="address_delivery">адрес доставки</string>
+    <string name="flat">Квартира</string>
+    <string name="unable_to_get_a_list_of_contacts_perhaps_you_have_a_nonstandard_contacts_application">Unable to get a
+        list of contacts. Perhaps you have a nonstandard contacts application
+    </string>
+
+    <string name="lift_the_phone_to_pay_for_the_terminal">Для оплаты поднесите телефон к терминалу</string>
+    <string name="change_pin_code">Желаете сменить pin-код?</string>
+    <string name="nfc_module">Для оплаты по NFC Вам необходимо устройство со встроенным NFC модулем</string>
+    <string name="error_nfc_hce">Для оплаты по NFC Вам необходимо устройство со встроенным NFC модулем позволяющим проводить бесконтактную оплату</string>
+    <string name="nfc_module_and_version">Для оплаты по NFC Вам необходимо устройство со встроенным NFC модулем и версией андроид не ниже 4.4</string>
+    <string name="error_nfc_version">Для оплаты по NFC Вам необходимо обновить версию Android до 4.4</string>
+    <string name="information_on_paypass_card">Информация по PayPass карте</string>
+    <string name="nfc_successfully_activated">Услуга оплаты через NFC успешно активирована</string>
+    <string name="nfc_activated_enter_card">Вам будет активирована услуга оплаты через NFC. Для пополнения счёта NFC введите реквизиты карты</string>
+    <string name="nfc_replenishment">Пополнение PayPass карты</string>
+    <string name="you_will_be_enabled_through_nfc_payment_service">Вам будет активирована услуга оплаты через NFC</string>
+    <string name="change_card_to_pay_via_nfc">Сменить карту для оплаты через NFC</string>
+    <string name="select_the_card_to_pay_via_nfc">Выберите карту:</string>
+
+    <string name="duplicate_payment">За последние 3 часа Вы уже совершали этот платёж. Провести его ещё раз?</string>
+    <string name="invalid_card_expiry_date">Невозможно добавить карту с истекшим сроком действия</string>
+    <string name="expd">Срок действия</string>
+    <string name="entertainment">Развлечения</string>
+    <string name="expd_year_month">Срок действия (ММГГ)</string>
+    <string name="description_info">Описание</string>
+    <string name="subscription">Subscription</string>
+    <string name="instead">вместо</string>
+    <string name="validator_phone_incorrect">Номер телефона введен некорректно!</string>
+    <string name="add_counter">Добавить счетчик</string>
+    <string name="del_counter">Удалить счетчик</string>
+    <string name="online_games">Онлайн игры</string>
+    <string name="select_game_service">Выберите игровой сервис</string>
+    <string name="game">Игра</string>
+    <string name="type_card">Тип карты:</string>
+    <string name="payer_is_not_found">Плательщик не найден</string>
+    <string name="core_summ">Сумма</string>
+    <string name="volya_city">Выбор города</string>
+    <string name="volya_service_type">Вид услуги</string>
+    <string name="choose_game">Выберите игру:</string>
+    <string name="common_summ">Сумма:</string>
+    <string name="hardcode_uah">UAH</string>
+    <string name="common_from_card">C карты:</string>
+    <string name="common_continue">Продолжить</string>
+    <string name="company">Компания:</string>
+    <string name="common">Общее</string>
+
+
+
+
+
+
+    <!--Копилка-->
+    <string name="of_each_receipt">от каждого поступления.</string>
+    <string name="of_each_expenditure">от каждой траты.</string>
+    <string name="rounding_of_each_expenditure">округление от каждой траты.</string>
+    <string name="regular_payment">Регулярный платеж</string>
+    <string name="number_each_month">числа каждого месяца</string>
+    <string name="_of_each_receipt">% от каждого поступления</string>
+    <string name="rounding_up_to_10">Округление остатка до 10 грн</string>
+    <string name="rounding_up_to_100">Округление остатка до 100 грн</string>
+    <string name="rounding_up_to">Округление остатка до</string>
+    <string name="pay_amt">Сумма платежа</string>
+    <string name="percent_pay">Процент платежа</string>
+    <string name="date_first_payment_shall_not_be_later_than">Дата первого платежа не должна быть позже чем</string>
+    <string name="you_did_not_specify_the_date_of_payment">Вы не указали дату платежа!</string>
+    <string name="accumulation_conditions">Условия накопления</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="pay_pas">Пароль</string>
+    <string name="service_connected">Подключено</string>
+
+    <string name="you_have_not_connected_service_kopilka">У Вас не подключена услуга \'Копилка\'.</string>
+
+    <string name="connect_service">Подключить услугу</string>
+    <string name="validity_">Срок действия:</string>
+    <string name="num_acc_">№ счета:</string>
+
+    <string name="calendar">Календарь</string>
+    <string name="accept_msg">Принять</string>
+
+    <!--Шаблоны-->
+    <string name="select_image_for_template">Выберите картинку для шаблона</string>
+    <string name="select_another_name">Шаблон с таким именем существует. Выберите другое имя.</string>
+    <string name="template_del">Удалить шаблон</string>
+    <string name="template_removed_successfully">Шаблон успешно удален.</string>
+    <string name="mob_pay">Пополнение мобильного</string>
+    <string name="from_phone_book">Из телефонной книги</string>
+    <string name="from_history">Из истории пополнений</string>
+    <string name="buy_credit_for">" на "</string>
+    <string name="transfers_card">Перевод средств на карту</string>
+    <string name="select_template">Выбор шаблона</string>
+    <string name="rail_error_date_before_current">Дата ранее текущей недопустима!</string>
+    <string name="rail_error_date_before_current_air">Дата прилета не может быть раньше даты вылета!</string>
+    <string name="template_payment">Платёж по шаблону</string>
+    <string name="amount_of">на сумму</string>
+    <string name="payment_success">успешно отправлен</string>
+    <string name="template_create_success">Шаблон успешно создан</string>
+    <string name="template_edit_success">Шаблон успешно изменен</string>
+    <string name="template_create">Создание шаблона</string>
+    <string name="do_you_want_delete_template">Желаете удалить шаблон?</string>
+    <string name="template">Шаблон</string>
+    <string name="do_you_want_use_telephone_book">"Хотите использовать телефонную книгу?"</string>
+    <string name="no_story_renewals">"Отсутствует история пополнений"</string>
+    <string name="add_sause">"Добавить соус, имбирь, васаби"</string>
+
+
+    <!--Диалоги-->
+    <string name="button_close">Закрыть</string>
+    <string name="button_to_app">В приложение</string>
+    <string name="button_ok">Да</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="gallery">Взять из галереи</string>
+    <string name="photo">Сделать фото</string>
+    <string name="select_new_template">Выберите услугу для создания шаблона</string>
+    <string name="mob">Пополнить</string>
+    <string name="ccy_ua">грн</string>
+    <string name="add_cost">+ к стоимости</string>
+    <string name="photocassa">Фотокасса</string>
+
+    <!--Архив-->
+    <string name="commission">Комиссия:</string>
+
+    <!--Ввод карты-->
+    <string name="card_for_payment">Карта для выплат</string>
+    <string name="card_name">Имя карты</string>
+    <string name="refill_type">Как вы будете вносить средства?</string>
+    <string name="what_will_you_do">Что вы будете делать с процентами?</string>
+
+
+
+    <!--Biplan сервис-->
+    <string name="sum">Сумма</string>
+    <string name="biplan_ccy">грн.</string>
+    <string name="fee">0,5 грн</string>
+    <string name="default_description">Карта для выплат *4251</string>
+    <string name="pass">Пароль</string>
+    <string name="cvv">Cvv карты</string>
+    <string name="button_confirm">Подтвердить</string>
+    <string name="button_details">Подробнее</string>
+
+    <!--CorePayStatus-->
+    <string name="text_result">Спасибо</string>
+    <string name="pay_status_info">Платеж отправлен в обработку</string>
+    <string name="button_to_menu">В меню</string>
+    <string name="button_back">Назад</string>
+    <string name="save_as_template">Сохранить как шаблон</string>
+
+    <!--Косметика-->
+    <string name="cosmetics">Косметика</string>
+
+    <!--Депозиты-->
+    <string name="active_deposits">Активные депозиты</string>
+    <string name="archive_deposits">Архив депозитов</string>
+    <string name="moneybox">Копилка</string>
+    <string name="make_deposit">Оформить депозит</string>
+
+    <!--Копилка-->
+    <string name="text_deposits">Депозиты</string>
+    <string name="text_not_cond">Нет накопления</string>
+    <string name="rb_proc_out">% от каждой траты</string>
+    <string name="rb_amt">Фиксированная сумма</string>
+    <string name="rbrb_round_out">Округление остатка</string>
+    <string name="rb_not_replenish">Не пополнять</string>
+    <string name="button_install">Установить</string>
+    <string name="button_install_date">Установить дату</string>
+    <string name="kopilka_info_out">При оплате покупок с помощью карты в «Копилку» будет перечисляться процент,
+        фиксированная сумма, или сдача, получаемая при округлении суммы платежа до 1 грн, 10 грн или до 100 грн.</string>
+    <string name="kopilka_info_in">При каждом поступлении средств на карту, выбранная сумма или процент (от 1 до 100%)
+        от зачисленных средств будет автоматически направляться на пополнение «Копилки».</string>
+    <string name="text_inflow">Переводить от поступлений на карту</string>
+    <string name="text_empty">Нет</string>
+    <string name="text_expense">Переводить от расходов с карты</string>
+    <string name="text_rounding">Округление остатка по карте</string>
+    <string name="text_monthly_payment">Ежемесячный платеж</string>
+    <string name="balance">Баланс</string>
+    <string name="currency">Валюта</string>
+    <string name="interest_rate_name_field">Процентная ставка</string>
+    <string name="date_start_name_field">Дата открытия</string>
+    <string name="date_end_name_field">Дата окончания</string>
+    <string name="accumulation">Источники накопления</string>
+    <string name="button_statements">Выписка</string>
+    <string name="button_next">Далее</string>
+    <string name="repay_early">Погасить</string>
+    <string name="to_1_ua">до 1 грн</string>
+    <string name="to_10_ua">до 10 грн</string>
+    <string name="success_operation">Операция выполнена успешно</string>
+    <string name="replenishing_moneybox">Пополнение копилки</string>
+    <string name="kopilka_info_regular">При наступлении определённого дня каждый месяц «Копилка» будет автоматически пополняться на выбранную сумму.</string>
+    <string name="kopilka_info_round">В конце каждого дня баланс Вашей карты округляется до 10 грн или 100 грн, а «мелочь» автоматически поступает в «Копилку».</string>
+
+    <!--Фрагменты-->
+    <string name="default_text_send_sms">На номер +380501234567 отправлено SMS с паролем</string>
+    <string name="text_i_agree">Я подтверждаю, что ознакомлен и согласен с </string>
+    <string name="text_terms">Условиями и правилами предоставления банковских услуг</string>
+    <string name="text_terms_and_agreements">Условия и правила предоставления банковских услуг</string>
+    <string name="text_registration">Приват24 открыт для всех</string>
+    <string name="input_your_phone_number">Для этого введите свой номер телефона</string>
+    <string name="sms_commands">SMS команды</string>
+    <string name="commands">SMS команды</string>
+    <string name="text_templates">Шаблоны</string>
+    <string name="transfers">Переводы</string>
+    <string name="text_input_pin">Введите PIN карты *</string>
+    <string name="text_input_pin_4545">Введите PIN карты *4545</string>
+    <string name="more_connection">Еще связь</string>
+    <string name="call_with_bank">Связь с банком</string>
+    <string name="more">Еще</string>
+    <string name="connection">Связь</string>
+    <string name="more_services">Еще услуги</string>
+    <string name="phone_number_with_colon">Номер телефона:</string>
+    <string name="from_card_with_colon">С карты:</string>
+    <string name="last_4_numbers_your_card">Последние 4 цифры Вашей карты</string>
+    <string name="select_your_card">Выберите Вашу карту</string>
+    <string name="edit_pass">Придумайте пароль</string>
+    <string name="edit_pass2">Повторите пароль</string>
+    <string name="common_fee_from">Комиссия с отправителя:</string>
+    <string name="common_fee_to">Комиссия с получателя:</string>
+    <string name="template_name">Название шаблона</string>
+    <string name="button_save">Сохранить</string>
+    <string name="appearance">Внешний вид:</string>
+    <string name="sms_password">Усиленная авторизация</string>
+    <string name="admin">админ</string>
+    <string name="default_commission_sum">0.00 грн.</string>
+    <string name="edit_recipient_fio">Введите ФИО получателя</string>
+    <string name="recipient_card_number">№ карты получателя</string>
+    <string name="account_number"> Номер счета (Договор)</string>
+    <string name="pass_privat24">Пароль от privat24</string>
+    <string name="button_scan">Сканировать</string>
+    <string name="tv_Qr">QR код</string>
+    <string name="games">Игры</string>
+    <string name="text_settings">Настройки</string>
+    <string name="settings_of_chat">Настройки чата</string>
+    <string name="flag">ПРАПОР</string>
+    <string name="football">Футбол</string>
+    <string name="football_ukr">Украина</string>
+    <string name="football_alex">Александрия</string>
+    <string name="football_volyn">Волынь</string>
+    <string name="football_vorskla">Ворскла</string>
+    <string name="football_hoverla">Говерла</string>
+    <string name="football_dynamo">Динамо К</string>
+    <string name="football_dnipro">Днепр</string>
+    <string name="football_zorya">Заря</string>
+    <string name="football_karpaty">Карпаты</string>
+    <string name="football_metalist">Металлист</string>
+    <string name="football_olimpik">Олимпик Д</string>
+    <string name="football_stal">Сталь Д</string>
+    <string name="football_shakhtar">Шахтер</string>
+    <string name="football_chornomorets">Черноморец</string>
+    <string name="flags">Флаги</string>
+    <string name="add_card">Добавить карту</string>
+    <string name="more_statements">Еще выписки</string>
+    <string name="available">Доступно</string>
+    <string name="using_credit">Использованого кредита</string>
+    <string name="credit_limit">Кредитный лимит</string>
+    <string name="transfer">Перевести</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="replenishment">Пополнение</string>
+    <string name="date">числа</string>
+    <string name="select_card">Выберите карту</string>
+    <string name="transfer_between_cards">Перевод между картами</string>
+    <string name="administration">Администрирование</string>
+    <string name="my_cards">Мои карты</string>
+    <string name="chat">Чат</string>
+    <string name="other">Другой</string>
+    <string name="privat24_pass">Пароль</string>
+    <string name="exception">Ошибка</string>
+    <string name="result">Результат</string>
+    <string name="to_phone_number">На номер</string>
+    <string name="send_sms">отправлено SMS с паролем</string>
+    <string name="send_sms_to_user">Отправить SMS</string>
+    <string name="send_sms_">Отправлено SMS с паролем</string>
+    <string name="sign_in">Войти</string>
+    <string name="registration_and_login_to_Privat24">Регистрация и вход в Приват24</string>
+    <string name="enter_you_phone_number">Введите номер телефона</string>
+    <string name="sms_commands2">Смс-команды</string>
+    <string name="more_cards">ВСЕ КАРТЫ</string>
+    <string name="order_card_Privat">Заказать карту ПриватБанка</string>
+    <string name="error_retrieving_images">Ошибка при получении изображения</string>
+    <string name="passwords_not_coincide">Пароли не совпадают</string>
+    <string name="recipient_fio">Фио получателя</string>
+    <string name="payment_to_card">Перевод на карту</string>
+    <string name="communication_data">Данные о услуге связи</string>
+    <string name="contract_number">Номер договора</string>
+    <string name="you_did_not_enter_contract_number">Вы не ввели номер договора(счета)!</string>
+    <string name="invalid_format_of_sum">Неправильный формат суммы!</string>
+    <string name="payment_of_telecommunication">Оплата услуг телекомуникаций</string>
+    <string name="need_authorization">Необходима авторизация</string>
+    <string name="scan">Скан</string>
+    <string name="you_successfully_subscribed">Вы успешно подписались</string>
+    <string name="error_of_sending_data">Ошибка отправки данных, пожалуйста, попробуйте еще раз</string>
+    <string name="you_confirm_payment">Вы подтверждаете платеж?</string>
+    <string name="text_exit">Выход</string>
+    <string name="do_you_want_to_exit">Вы действительно хотите выйти из приложения?</string>
+    <string name="do_you_want_to_exit_from_sender">У вас остались непрочитанные сообщения. При отключении этой функции вы не сможете их прочитать.</string>
+    <string name="do_you_want_to_remove">Вы действительно хотите удалить дисконтную карту?</string>
+    <string name="more_translations">Еще платежи</string>
+    <string name="a_">А</string>
+    <string name="b_">Б</string>
+    <string name="c_">В</string>
+    <string name="d_">Г</string>
+
+
+
+    <!--NFC-->
+    <string name="thanks">Спасибо</string>
+    <string name="thanks_m">Спасибо!</string>
+    <string name="text_card">Карта:</string>
+    <string name="text_name_pin">Pin код:</string>
+    <string name="text_FAQ_nfc">Как работает NFC</string>
+    <string name="available_sum_label">Доступно на карте</string>
+    <string name="authorization">Авторизация…</string>
+    <string name="to_card">На карту</string>
+    <string name="text_date">Дата</string>
+    <string name="nfc_card">NFC карта</string>
+    <string name="fill_up_card">Пополнить карту</string>
+    <string name="change_card">Изменить карту</string>
+    <string name="get_new_pin">Получить новый PIN</string>
+    <string name="ccy_ru">руб</string>
+    <string name="ccy_usd">дол</string>
+    <string name="ccy_eur">евро</string>
+    <string name="contact_with_bank">Связаться с банком</string>
+    <string name="quantity_of_voices">Количество голосов должно быть больше 0</string>
+    <string name="hot_line">Горячая линия</string>
+    <string name="communication_via_inet">Связь через интернет</string>
+    <string name="write_the_letter">Написать письмо</string>
+    <string name="card_number">Номер карты:</string>
+    <string name="authorization_and_payment">Авторизация и оплата</string>
+    <string name="choice_card">Выбор карты</string>
+    <string name="no_cards_available">Нет доступных карт</string>
+    <string name="NFC_activation">Активация NFC</string>
+    <string name="no_cards_in_this_currency">Нет карт в данной валюте</string>
+    <string name="manual_input">Ручной ввод</string>
+    <string name="last_8_digits">8 последних цифр карты</string>
+    <string name="NFC_replenishment">Пополнение NFC</string>
+    <string name="change_pin">Смена PIN</string>
+    <string name="bring_phone_to_terminal">Пожалуйста, переподнесите телефон к терминалу повторно</string>
+    <string name="try_again">Ошибка получения данных, попробуйте еще раз</string>
+    <string name="repeat">Повторить</string>
+    <string name="total">Общее</string>
+    <string name="auth">Авторизация</string>
+    <string name="strong_authentication">Усиленная авторизация</string>
+    <string name="you_not_enter_card_number">Вы не указали номер карты</string>
+    <string name="incorrect_field_value_to_pay">Неправильное значение поля оплатить</string>
+    <string name="fill_in_this_field">Заполните поле</string>
+    <string name="i_want_to_pay">Хочу заплатить</string>
+    <string name="missing">Отсутствует</string>
+    <string name="month">Месяц:</string>
+    <string name="year">Год:</string>
+    <string name="ddmmyy">дд.мм.гггг</string>
+    <string name="mmyyyy">ММГГГГ</string>
+    <string name="amt_to_text">Сумма к зачислению:</string>
+
+
+    <!--Languages-->
+    <string name="rus">ru</string>
+    <string name="ukr">uk</string>
+    <string name="eng">en</string>
+    <string name="def">defaultLang</string>
+    <string name="choose_lang">Язык:</string>
+
+    <!--//табелирование-->
+    <string name="timesheet">Табелирование</string>
+    <string name="time_of_authorization">Время входа:</string>
+    <string name="time_of_leaving">Время выхода:</string>
+    <string name="start_of_day">НАЧАЛО ДНЯ</string>
+    <string name="end_of_day">КОНЕЦ ДНЯ</string>
+    <string name="registere_successfully">Регистрация выполнена успешно</string>
+    <string name="getting_the_current_coordinates_go_to_the_window">Получение текущих координат. Для более быстрого определения подойдите
+        к окну или выйдите на улицу.
+    </string>
+    <string name="getting_the_current_coordinates">Получение текущих координат.</string>
+    <string name="close_">Закрыть</string>
+    <string name="information_on_service">
+        <u>Узнать больше о сервисе</u>
+    </string>
+    <string name="error_gps_not_enabled">GPS не включено. Перейти к настройкам?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="telephone_format">Телефон в формате: +380111111111</string>
+
+    <string name="the_operation_requires_enable_gps">Для выполнения операции необходимо включить GPS или разрешить
+        определение местоположения по координатам сети
+    </string>
+    <string name="fictitious_coordinates">Снимите отметку о разрешении фиктивных координат в настройках телефона
+    </string>
+    <string name="error_cannot_get_coordinates">Не удалось получить координаты. Пожалуйста, включите определение местоположения по GPS, координатам сети и повторите попытку</string>
+
+    <!--Airplane-->
+    <string name="ticket_there">Туда:</string>
+    <string name="ticket_from">Оттуда:</string>
+    <string name="time_ticket_there">В пути(туда):</string>
+    <string name="time_ticket_from">В пути(оттуда):</string>
+    <string name="transfer_plane_there">Пересадки(туда):</string>
+    <string name="transfer_plane_from">Пересадки(оттуда):</string>
+    <string name="airplane_tickets">Билеты на самолет</string>
+    <string name="airplane_tickets_to">На самолет</string>
+    <string name="departure_time">Время вылета: </string>
+    <string name="arrival_time">Время прибытия: </string>
+    <string name="travel_time">Время в пути: </string>
+    <string name="the_airline">Авиалиния: </string>
+    <string name="common_status">Статус:</string>
+    <string name="locator">Локатор:</string>
+    <string name="cancel">Отменить</string>
+    <string name="air_ticket_details">Детальнее: </string>
+    <string name="forward_flight">Рейс(туда):</string>
+    <string name="backward_flight">Рейс(обратно):</string>
+    <string name="common_passport">Паспорт:</string>
+    <string name="common_passengers">Пассажиры:</string>
+    <string name="common_payment">Информация о платеже:</string>
+    <string name="country_of_citizenship_latinitsa">Гражданство (латиница)</string>
+    <string name="country_of_citizenship">Гражданство</string>
+    <string name="first_name_latinitsa">Имя (латиница)</string>
+    <string name="last_name_latinitsa">Фамилия (латиница)</string>
+    <string name="accept_conditions">Я принимаю условия возврата и обмена билета</string>
+    <string name="hours">" ч "</string>
+    <string name="minutes">" мин"</string>
+    <string name="ticket_day">" день "</string>
+    <string name="adult_number">Взрослый №</string>
+    <string name="child_number">Ребенок №</string>
+    <string name="infant_number">Младенец №</string>
+    <string name="series_num_document_latinitsa">Серия и № документа(латиница)</string>
+    <string name="series_num_document_cyrillic">Серия и № документа(кириллица)</string>
+    <string name="incorrectly_dated_adult">"Неверно указана дата. Взрослый - старше 12 лет "</string>
+    <string name="incorrectly_dated_children">"Неверно указана дата. Дети - 2-12 лет "</string>
+    <string name="incorrectly_dated_babies">Неверно указана дата. Младенцы - 0-2 года</string>
+    <string name="purchase_tickets">Покупка билетов </string>
+
+    <string name="share_with_friends">Поделиться с друзьями</string>
+    <string name="no_cards_in_that_currency">Нет карт в данной валюте</string>
+    <string name="button_delete">Удалить</string>
+    <string name="ccy">грн</string>
+    <string name="max_game_amt">Сумма пополнения не может быть более 2999 грн</string>
+    <string name="min_game_amt">Сумма пополнения не может быть менее </string>
+    <string name="min_game_credit_amt">Сумма пополнения игровой валюты не может быть менее </string>
+
+
+
+
+
+    <!--новые-->
+    <string name="payment_in_parts">Оплата частями</string>
+    <string name="early_redemption_payment">Досрочное погашение платежа</string>
+    <string name="instant_installment">Мгновенная рассрочка</string>
+    <string name="monthly_payment">Ежемесячный платеж</string>
+    <string name="monthly_comission_payment">Ежемесячная комиссия</string>
+    <string name="residue">Остаток</string>
+    <string name="charity">Добро</string>
+    <string name="donate">Пожертвовать</string>
+    <string name="enter_static_pass">Введите пароль от Приват24</string>
+    <string name="ukraine">Украина</string>
+    <string name="russia">Россия</string>
+    <string name="abank">А-Банк</string>
+    <string name="georgia">Грузия</string>
+    <string name="latvia">Латвия</string>
+    <string name="card_balance">Баланс карты</string>
+    <string name="transfers_card_">Перевод на карту</string>
+    <string name="lock_card">Заблокировать карту</string>
+    <string name="connect_kopilka">Подключить \"Копилку\"</string>
+    <string name="balance_of_kopilka">Сумма накоплений на \"Копилке\"</string>
+    <string name="balance_of_deposit">Сумма накопления:</string>
+    <string name="add_to_kopilka">Пополнить \"Копилку\"</string>
+    <string name="when_filling_out_mistakes">При заполнении допущены ошибки</string>
+    <string name="the_sum_must_be_more">Сумма должна быть не менее 5 грн</string>
+    <string name="sms_banking">SMS банкинг</string>
+
+
+    <!--единое окно-->
+    <string name="eo_id">Внутренний идентификатор перевода</string>
+    <string name="eo_reference">Контрольный номер перевода</string>
+    <string name="eo_status">Статус перевода</string>
+    <string name="eo_sum">Сумма перевода</string>
+    <string name="sms_text_operation">Выберите тип операции:</string>
+    <string name="eo_receive.sum">Сумма перевода в валюте выплаты</string>
+    <string name="eo_currency">Валюта перевода</string>
+    <string name="eo_receive.currency">Валюта выплаты перевода</string>
+    <string name="eo_transactionType">Тип транзакции</string>
+    <string name="eo_message">Сообщение для получателя</string>
+    <string name="eo_aim">Назначение перевода</string>
+    <string name="eo_info">Служебная информация</string>
+    <string name="eo_question">Тестовый вопрос</string>
+    <string name="eo_answer">Тестовый ответ</string>
+    <string name="last_card_digits">Последние четыре цифры номера карты:</string>
+    <string name="enter_amount">Введите сумму</string>
+    <string name="receivers_card_num">На Вашу карту:</string>
+    <string name="choose_amount">Выберите сумму:</string>
+    <string name="eo_send.findoc.number">Учетный номер финансовой операции отправки</string>
+    <string name="eo_sent.date">Дата отправки перевода</string>
+    <string name="eo_receive.date">Дата выплаты перевода</string>
+    <string name="eo_cancel.reason">Причина отмены перевода</string>
+    <string name="eo_sPoint.country">Страна отправки перевода</string>
+    <string name="eo_sPoint.region">Регион отправки перевода</string>
+    <string name="eo_sPoint.city">Город отправки перевода</string>
+    <string name="eo_sPoint.bank">Пункт(банк) отправки перевода, строковый идентификатор</string>
+    <string name="point_">"Пункт "</string>
+    <string name="eo_rPoint.country">Страна назначения перевода</string>
+    <string name="eo_rPoint.region">Регион назначения перевода</string>
+    <string name="eo_rPoint.city">Город назначения перевода</string>
+    <string name="eo_rPoint.bank">Пункт(банк) назначения перевода</string>
+    <string name="eo_rPoint.bank.name">Наименование отделения банка получения</string>
+    <string name="eo_rPoint.bank.name.english">Наименование отделения банка получения на английском языке</string>
+    <string name="eo_sender.firstName">Имя отправителя</string>
+    <string name="eo_sender.lastName">Фамилия отправителя</string>
+    <string name="eo_sender.middleName">Отчество отправителя</string>
+    <string name="eo_sender.doc.type">Тип документа отправителя</string>
+    <string name="eo_sender.doc.serises">Серия документа отправителя</string>
+    <string name="eo_sender.doc.number">Номер документа отправителя</string>
+    <string name="eo_sender.doc.issuer">Кем выдан документ отправителя</string>
+    <string name="eo_sender.doc.issueDate">Дата выдача документа отправителя</string>
+    <string name="eo_sender.doc.expireDate">Дата окончания срока действия документа отправителя</string>
+    <string name="eo_sender.doc.issuerCountry">Страна выдачи документа отправителя</string>
+    <string name="eo_sender.doc.issuerState">Штат выдачи документа отправителя</string>
+    <string name="eo_sender.legal.type">Тип легализации отправителя</string>
+    <string name="eo_sender.legal.number">Номер легализации отправителя</string>
+    <string name="eo_sender.account">Счет отправителя</string>
+    <string name="eo_sender.cardNumber">Номер карты отправителя</string>
+    <string name="eo_sender.residence">Гражданство отправителя</string>
+    <string name="eo_sender.isResident">Резидентность отправителя</string>
+    <string name="eo_sender.zip">Почтовый код отправителя</string>
+    <string name="eo_sender.country">Страна проживания отправителя</string>
+    <string name="eo_sender.region">Регион (штат) проживания отправителя</string>
+    <string name="eo_sender.city">Город проживания отправителя</string>
+    <string name="eo_sender.city.string">Город проживания отправителя</string>
+    <string name="eo_sender.address">Адрес отправителя</string>
+    <string name="eo_sender.address.street">Адрес отправителя. Улица</string>
+    <string name="eo_sender.address.house">Адрес отправителя. Дом</string>
+    <string name="eo_sender.address.flat">Адрес отправителя. Квартира</string>
+    <string name="eo_sender.phone">Телефон отправителя</string>
+    <string name="eo_sender.occupation">Род занятий отправителя</string>
+    <string name="eo_sender.birthDate">Дата рождения отправителя</string>
+    <string name="eo_sender.birthPlace">Место рождения отправителя</string>
+    <string name="eo_receiver.firstName">Имя получателя</string>
+    <string name="eo_receiver.lastName">Фамилия получателя</string>
+    <string name="eo_receiver.middleName">Отчество получателя</string>
+    <string name="eo_receiver.doc.type">Тип документа получателя</string>
+    <string name="eo_receiver.doc.series">Серия документа получателя</string>
+    <string name="eo_receiver.doc.number">Номер документа получателя</string>
+    <string name="eo_receiver.doc.issuer">Кем выдан документ получателя</string>
+    <string name="eo_receiver.doc.issueDate">Дата выдача документа получателя</string>
+    <string name="eo_receiver.doc.expireDate">Дата окончания срока действия документа получателя</string>
+    <string name="eo_receiver.doc.issuerCountry">Страна выдачи документа получателя</string>
+    <string name="eo_receiver.doc.issuerState">Штат выдачи документа получателя</string>
+    <string name="eo_receiver.legal.type">Тип легализации получателя</string>
+    <string name="eo_receiver.legal.number">Номер легализации получателя</string>
+    <string name="eo_receiver.account">Счет получателя</string>
+    <string name="eo_receiver.cardNumber">Номер карты получателя</string>
+    <string name="eo_receiver.residence">Гражданство получателя</string>
+    <string name="eo_receiver.isResident">Резидентность получателя</string>
+    <string name="eo_receiver.zip">Почтовый код получателя</string>
+    <string name="eo_receiver.country">Страна проживания получателя</string>
+    <string name="eo_receiver.region">Регион (штат) проживания получателя</string>
+    <string name="eo_receiver.city">Город проживания получателя</string>
+    <string name="eo_receiver.city.string">Город проживания получателя</string>
+    <string name="eo_receiver.address">Адрес получателя</string>
+    <string name="eo_receiver.address.street">Адрес получателя. Улица</string>
+    <string name="eo_receiver.address.house">Адрес получателя. Дом</string>
+    <string name="eo_receiver.address.flat">Адрес получателя. Квартира</string>
+    <string name="eo_receiver.phone">Телефон получателя</string>
+    <string name="eo_receiver.occupation">Род занятий получателя</string>
+    <string name="eo_receiver.birthDate">Дата рождения получателя</string>
+    <string name="eo_receiver.birthPlace">Место рождения получателя</string>
+    <string name="eo_sms.sender.phone">Телефон отправителя для получения смс-уведомления</string>
+    <string name="eo_sms.receiver.phone">Телефон получателя для получения смс-уведомления</string>
+    <string name="eo_provider">Название системы переводов</string>
+    <string name="eo_receiver.phone.code">Код оператора телефона получателя</string>
+    <string name="eo_deferre.pay">Желаете отправить перевод по сниженным тарифам с отсрочкой выплаты на 12 часов?
+    </string>
+    <string name="eo_need.exchange">Желаете зафиксировать сумму отправки в валюте выплаты?</string>
+
+    <string name="eo_selec_value">Выберите значение</string>
+    <string name="eo_select_previous_elements">Выберите предыдущие элементы</string>
+    <string name="eo_info_transfer">Информация о переводе</string>
+    <string name="eo_name_translation">Название перевода</string>
+    <string name="eo_no_translation_available">Нет доступных переводов</string>
+    <string name="eo_transfer_sent_successfully">Перевод успешно отправлен</string>
+    <string name="eo_transfer_successfully_obtained">Перевод успешно получен</string>
+    <string name="eo_payment_for_the_transfer">Оплата перевода</string>
+    <string name="eo_fee">Комиссия</string>
+
+    <string name="confirm">Подтверждение</string>
+    <string name="check_number">Контрольный номер</string>
+
+
+    <string name="text_western_sender">Отправитель:</string>
+    <string name="text_western_receiver">Получатель:</string>
+    <string name="text_western_gross">Общая сумма:</string>
+    <string name="text_western_sum">Сумма отправки</string>
+    <string name="text_western_type_send">Отправлен</string>
+
+    <string name="common_confirm">Подтверждение платежа:</string>
+    <string name="not_selected_in_the_field">Не выбрано значение в поле</string>
+    <string name="get1">Получение</string>
+    <string name="dispatch">Отправка</string>
+    <string name="urgent_translations">Срочные переводы</string>
+    <string name="no_password">Нет пароля</string>
+    <string name="no_card">Нет карты</string>
+    <string name="archive_urgent_translations">Архив срочных переводов</string>
+    <string name="incorrect_value">Неверно введен логин или пароль</string>
+
+    <string name="eo_pm">PM</string>
+    <string name="eo_unistream">Unistream</string>
+    <string name="eo_golden_crown">Золотая корона</string>
+    <string name="eo_wu">Western Union</string>
+    <string name="eo_contact">Contact</string>
+    <string name="eo_coinstar">Coinstar</string>
+    <string name="eo_mg">MoneyGram</string>
+    <string name="eo_mi">Migom</string>
+    <string name="eo_an">Anelik</string>
+
+    <string name="common_receive">Получить</string>
+    <string name="culled">Забракован</string>
+    <string name="returned">Возвращен</string>
+    <string name="order_processed">На обработке</string>
+    <string name="paid">Оплачен</string>
+    <string name="cod_">Код:</string>
+
+    <!-- Общие строковые константы, не специфичные для плагинов -->
+    <string name="common_settings">Настройки</string>
+    <string name="common_to_card">На карту:</string>
+    <string name="common_card">Карта:</string>
+    <string name="common_descr">Описание:</string>
+    <string name="common_sum">Сумма</string>
+    <string name="common_pay">Платить</string>
+    <string name="common_send">Отправить</string>
+    <string name="info_about_fee">Информация о комисии</string>
+    <string name="total_amount">Общая сумма</string>
+    <string name="enrollment_sum">Сумма зачисления</string>
+    <string name="exchange_rate">Курс валют</string>
+    <string name="remittance">Денежный перевод</string>
+    <string name="sent_translations">Отправленные переводы</string>
+    <string name="receiving_transfer">Полученные переводы</string>
+
+    <!-- Строки из четвертой версии -->
+
+    <!-- Билеты -->
+
+    <string name="rail_error_no_places">На данном направлении не осталось билетов на указанную дату</string>
+    <string name="rail_error_no_tickets_selected">Необходимо добавить хотя бы один билет</string>
+    <string name="common_pay_pass">Пароль</string>
+    <string name="tickets_from">Откуда:</string>
+    <string name="tickets_to">Куда:</string>
+    <string name="date_arr">Дата отправл.:</string>
+    <string name="tickets_train">Поезд:</string>
+    <string name="tickets_places">Места:</string>
+    <string name="to_perform_that_action_must_first_login">Для выполнения данного действия необходимо авторизоваться.</string>
+    <string name="sitting_1_class">Сидячий 1 клас</string>
+    <string name="sitting_2_class">Сидячий 2 клас</string>
+    <string name="sitting_3_class">Сидячий 3 клас</string>
+    <string name="common_train">Общий вагон</string>
+    <string name="reserved_seat">Плацкарт</string>
+    <string name="reserved_seat_firm">Плацкарт фирменный</string>
+    <string name="coupe">Купе</string>
+    <string name="coupe_firm">Купе фирменный</string>
+    <string name="soft_train">Мягкий вагон</string>
+    <string name="lux">Люкс</string>
+    <string name="soft_bus">Мягкий автобус</string>
+    <string name="train_">Поезд:</string>
+    <string name="ticket_pay">Оплата билетов</string>
+    <string name="passenger">Пассажир:</string>
+    <string name="establish">Установить</string>
+    <string name="child_ticket">Детский билет</string>
+    <string name="stud_ticket">Студенческий билет</string>
+    <string name="series_stud_card">Серия и номер студенческого билета:</string>
+    <string name="train_success">Оплата Ж/Д билета:</string>
+    <string name="train_child_age_error_future">Дата позже текущей недопустима</string>
+    <string name="train_child_age_error">Возраст ребенка на момент отправления поезда будет больше 14 лет</string>
+    <string name="set_date_child_birth">Установите дату рождения ребенка</string>
+    <string name="train_ticket_fee_bank_part1">Клиентская плата при оплате 1 билета:\n- 9 грн (cервисный сбор РЦ Министерства транспорта и связи Украины)</string>
+    <string name="train_ticket_fee_bank_part2">- 3 грн +2,5% от стоимости билета (комиссия банка).</string>
+    <string name="you_buy_electronic_ticket">Вы покупаете электронный билет с QR-кодом</string>
+    <string name="transit_from_to">Проезд из %1$s (%2$s %3$s) в %4$s (%5$s %6$s)</string>
+    <string name="sleeping_car">СВ</string>
+    <string name="place_number">место №</string>
+    <string name="car_number">Вагон №</string>
+
+    <string name="travel_options">Варианты проезда</string>
+    <string name="no_availability_for_this_flight">Нет свободных мест на этот рейс</string>
+    <string name="travel_options_not_found">Варианты проезда не найдены</string>
+    <string name="select_place">Выбор места</string>
+    <string name="of">от</string>
+    <string name="bus_success">Оплата автобилета:</string>
+
+    <string name="from">Из:</string>
+    <string name="to">В:</string>
+    <string name="common_price">Цена:</string>
+    <string name="bus_">Автобус:</string>
+
+    <string name="thankyou">Спасибо!</string>
+    <string name="error_error">Ошибка</string>
+    <string name="ammount">На сумму:</string>
+    <string name="main_menu">В главное меню</string>
+    <string name="to_card_">На карту:</string>
+    <string name="save_template">Сохранить как шаблон</string>
+    <string name="save_template1">Сохранить шаблон</string>
+    <string name="from_card_">С карты:</string>
+    <string name="date_">Дата:</string>
+    <string name="cash_success">Выдача наличных через мобильное приложение \"Приват 24\"</string>
+    <string name="monetary_system">Денежная система:</string>
+    <string name="type_transfer_">Тип перевода:</string>
+    <string name="data_transfer">Данные перевода:</string>
+    <string name="common_date">Дата:</string>
+    <string name="common_state">Статус:</string>
+    <string name="payment_details">Детали платежа</string>
+
+    <string name="unable_to_get_contacts_list_msg">Не удалось получить список контактов. Возможно, у вас установлено нестандартное приложение \"Контакты\"</string>
+    <string name="to_phone">На телефон</string>
+    <string name="transfers_to_phone">На номер телефона</string>
+    <string name="rest">Остаток:</string>
+    <string name="summ_cur_card">Сумма в валюте карты:</string>
+    <string name="original_summ_cur_card">Оригинальная сумма:</string>
+
+    <!--Swift-->
+    <string name="common_payment_password">Пароль</string>
+    <string name="receivers_yur_name">Наименование получателя:</string>
+    <string name="payment_nazn">Назначение платежа:</string>
+    <string name="state_">Состояние:</string>
+    <string name="recipient_bank_name">Наименование банка получателя:</string>
+    <string name="recipient_bank_code">Swift Код банка получателя:</string>
+    <string name="bnf_bank_name">Наименование банка - корреспондента:</string>
+    <string name="bnf_bank_code">Swift Код банка - корреспондента:</string>
+    <string name="about_the_commission"><u>О комиссии</u></string>
+    <string name="swift_commission">Клиентская плата:</string>
+    <string name="swift_agreement_">Вы должны подтвердить, что данная операция не связана с предпринимательской и инвестиционной деятельностью</string>
+    <string name="swift_agreement">Я подтверждаю, что данная операция не связана с предпринимательской и инвестиционной деятельностью</string>
+    <string name="beneficiary_account_or_iban_code">Счет получателя или Iban-код:</string>
+    <string name="correspondent_account">Счет получателя в банке-корреспонденте:</string>
+    <string name="сorrespondent_bank">Банк-корреспондент (Не обязательно)</string>
+    <string name="cred_dep_error_state">Ошибка</string>
+    <string name="payment">Платеж</string>
+    <string name="held1">Проведен</string>
+    <string name="error1">Ошибка</string>
+    <string name="new1">Новый</string>
+    <string name="prepared">Подготовлен</string>
+
+    <string name="defhard">Описание</string>
+
+    <!--Card menu-->
+    <string name="menu_card">Меню карт</string>
+    <string name="menu_order_card">Заказать карту</string>
+    <string name="menu_add_card">Добавить карту</string>
+    <string name="menu_lock_card">Заблокировать карту</string>
+    <string name="menu_unlock_card">Разблокировать карту</string>
+    <string name="menu_unlock_pin">Разблокировать ПИН</string>
+    <string name="time_at">в</string>
+    <string name="menu_inet_limit">Лимит оплаты в Интернете</string>
+    <string name="menu_unlink_card">Отвязать карту</string>
+    <string name="default_card">Карта по умолчанию</string>
+    <string name="card_num">Номер карты</string>
+    <string name="statement_successfully_submitted">Заявка успешно подана</string>
+    <string name="_16_digits">16 Цифр</string>
+    <string name="date_format">ММГГ</string>
+    <string name="information_order">Информация о заявке</string>
+    <string name="common_name">Наименование:</string>
+    <string name="common_currency">Валюта:</string>
+    <string name="show_password">Показать пароль</string>
+    <string name="new_order">Подать заявку</string>
+    <string name="new_taxi_order">Новый заказ</string>
+    <string name="dont_close_new_order">У Вас есть незакрытые заявки</string>
+    <string name="card_order">Заказать</string>
+    <string name="card_was_unlinked">Карта будет отвязана от Вашего аккаунта в течение суток.</string>
+    <string name="card_to_unlink">Карта для отвязки:</string>
+    <string name="we_didnt_find_a_car">Извините, мы не нашли для вас машину</string>
+    <string name="unlink_card">Отвязать карту</string>
+    <string name="block_the_card">Блокировать карту</string>
+    <string name="unblock_the_card">Разблокировать карту</string>
+    <string name="your_request_has_been_successful">Ваша заявка принята успешно.</string>
+    <string name="common_execute">Выполнить</string>
+    <string name="common_note">Примечание</string>
+    <string name="internet_limit">Интернет лимит</string>
+    <string name="set_limit">Установить лимит в грн</string>
+    <string name="common_error_date_before_today">Дата не может быть ранее текущей!</string>
+    <string name="common_error_date_before_thither">Дата прилета не может быть раньше даты вылета</string>
+    <string name="information_about_overseas_contact_phone">При необходимости банк сможет связаться с Вами по этому
+        номеру для подтверждения операций, проводимых по карте за рубежом. По умолчанию - Ваш текущий логин
+    </string>
+    <string name="stay_in_several_countries">В случае пребывания в нескольких странах,укажите последовательность
+        пребывания
+    </string>
+    <string name="select_date">Установите дату</string>
+    <string name="text_western_choose_country">Выберите страну</string>
+    <string name="choose_region">Выберите область</string>
+    <string name="choose_city">Выберите город</string>
+    <string name="responsibility_for_card_transaction">Вы должны взять ответственность за операции по карте</string>
+    <string name="do_not_block_the_card_info">Для безопасности денег на картах своих клиентов ПриватБанк следит за
+        операциями по картам. При возникновении подозрительных расходов (например, снятие крупных сумм или частые
+        операции за границей) банк, если его не предупредить, может заблокировать Вашу карту. Чтобы этого не случилось,
+        заранее сообщите банку о времени и маршруте своего путешествия через эту форму.
+    </string>
+    <string name="not_more_than_60_days">Не более 60 дней</string>
+    <string name="incorrectly_specified_period">Дата \'С\' не может быть позже даты \'ПО\'</string>
+    <string name="card_for_not_blocking">Карта для не блокировки:</string>
+    <string name="period_not_be_blocked">Период на который необходимо не блокировать карту:</string>
+    <string name="from_date">С</string>
+    <string name="from_date_">с</string>
+    <string name="to_date">По</string>
+    <string name="to_date_">по</string>
+    <string name="to_date_1">до</string>
+    <string name="inclusive">(включительно)</string>
+    <string name="the_country_where_cards_should_not_be_blocked">Страна, для которой необходимо не блокировать карту:
+    </string>
+    <string name="add_another_country">
+        <u>Добавить еще одну страну</u>
+    </string>
+    <string name="your_telephone_number_abroad">Контактный номер телефона за рубежом:</string>
+    <string name="responsibility_for_the_operation">Я беру на себя ответственность за операции по карте в указанный
+        период
+    </string>
+    <string name="card">Карта</string>
+    <string name="card_is_installed_by_default">Карта по умолчанию установлена!</string>
+    <string name="conditions">Условия</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="send_to_address">Отправьте оригинал чека по адресу:</string>
+    <string name="google_receipt_address_to_send">Направление Back-Office(Приват24), ул. Набережная Победы 50,</string>
+    <string name="get_money">Получить деньги</string>
+    <string name="google_cash_get_way_money">Выберите способ получения денег:</string>
+    <string name="load_check">Загрузка чека</string>
+    <string name="choose_sector">Выберите сектор в билете №</string>
+    <string name="choose_seat">Выберите место в билете №</string>
+
+    <string name="card_to_receive">Карта для зачисления средств:</string>
+    <string name="camera_is_not_detected">Камера не обнаружена</string>
+    <string name="you_need_to_auth">Для выполнения данного действия необходима авторизация</string>
+    <string name="error_loading_image">Ошибка при загрузке изображения</string>
+
+    <string name="google_checks">Google чеки</string>
+    <string name="google_cash_3days">Получить деньги в течение 3-х дней (комиссия 5%)</string>
+    <string name="google_cash_30days">Получить деньги в течение 30-ти дней (комиссия 3%)</string>
+    <string name="way_get_money">Способ получения денег</string>
+
+    <string name="deleted">Удален</string>
+    <string name="check_new">Оригинал Чека получен</string>
+    <string name="check_send">Отправка чека в Банк - корреспондент</string>
+    <string name="check_processing">Одобрен.Выплата по чеку формируется</string>
+    <string name="check_complite">Выплата по чеку проведена</string>
+    <string name="check_failure">Отказ в выплате возмещения</string>
+    <string name="refer_to_maker">Отказ.Обратиться к чекодателю</string>
+    <string name="objection">Отказ.Дефект чека</string>
+    <string name="forged">Отказ.Чек поддельный</string>
+    <string name="cheque_revoked">Отказ.Чек аннулирован</string>
+    <string name="countermanded">Отказ.Чек отменен</string>
+    <string name="payment_countermanded">Отказ.Оплата отменена Банком-корреспондентом</string>
+    <string name="not_sufficient_funds">Отказ.Не достаточно средств</string>
+    <string name="closed_account">Отказ.Закрытый счет</string>
+    <string name="check_default">Уточнение статуса</string>
+    <string name="check_default_confirm">Возмещение чека произведено</string>
+
+    <string name="amt_">Сумма:</string>
+
+    <string name="open_date">Дата открытия:</string>
+    <string name="close_date">Дата окончания (включительно):</string>
+    <string name="received_persents">% начисленные после последней выплаты:</string>
+    <string name="saved_persents">% полученные на карту или добавленные к депозиту:</string>
+    <string name="what_to_do_persents">Что делать с %:</string>
+    <string name="percent">Ставка, годовых:</string>
+    <string name="percent_bp">Из них на счет \"Бонус Плюс\":</string>
+    <string name="account_num">Номер счета:</string>
+    <string name="dep_info">Информация о депозите</string>
+    <string name="dep_archive">Архив депозитов</string>
+    <string name="active_dep">Активные депозиты</string>
+    <string name="longirovan">Продлен</string>
+    <string name="longirovan_">Будет продлен с </string>
+    <string name="terminated">Расторгнут</string>
+    <string name="close">Закрыт</string>
+    <string name="cred_dep_open_state">Открыт</string>
+
+    <string name="From_card">Выберите карту</string>
+    <string name="vk_acc">Аккаунт ВКонтакте</string>
+    <string name="buy_votes_vkontakte">Купить голоса ВКонтакте</string>
+    <string name="acc_vk">Аккаунт Вконтакте</string>
+    <string name="cash_withdraw">Снятие наличных</string>
+    <string name="amount_must_be_multiple_of_10">Сумма должна быть кратна 10.</string>
+    <string name="amt">Сумма</string>
+    <string name="game_amt">Игровая валюта</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="X">X</string>
+    <string name="error_happened">Произошла ошибка</string>
+    <string name="enter_pin_code_">Введите ПИН-код</string>
+    <string name="enter_pin_code">Введите пин-код используя клавиатуру ниже</string>
+    <string name="to_scan_QR_place_it_in_the_viewfinder_rectangle">Чтобы сканировать QR - код, поместите его в прямоугольник видоискателя.</string>
+    <string name="to_scan_barcode_place_it_in_the_viewfinder_rectangle">Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.</string>
+    <string name="get_cash_info">Для получения наличных нажмите кнопку \"Операции без карты\" в любом банкомате</string>
+
+
+    <!--Ticket's server response-->
+    <string name="serv_resp_any">Любое</string>
+    <string name="serv_resp_top">Верхнее</string>
+    <string name="serv_resp_bottom">Нижнее</string>
+    <string name="votes">Голосов</string>
+    <string name="serv_resp_lower_side">Боковое нижнее</string>
+    <string name="serv_resp_lateral_total">Боковое общее</string>
+    <string name="serv_resp_sitting">Сидя</string>
+    <string name="serv_resp_near_the_window">Возле окна</string>
+    <string name="serv_resp_in_the_passage">В проходе</string>
+    <string name="serv_resp_standing">Стоя</string>
+    <string name="serv_resp_left_lane_at_the_window">В левом ряду у окна</string>
+    <string name="serv_resp_in_the_left_lane_in_the_middle">В левом ряду по центру</string>
+    <string name="serv_resp_in_the_left_lane_aisle">В левом ряду возле прохода</string>
+    <string name="serv_resp_in_the_right_lane_in_the_aisle">В правом ряду в проходе</string>
+    <string name="serv_resp_in_the_right_lane_at_the_window">В правом ряду у окна</string>
+
+    <!--NotBlockCard archive-->
+    <string name="application_for_non_blocking_card_for_the_period">Заявка на неблокировку карты на период</string>
+    <string name="successfully_processed">Обработана</string>
+    <string name="notifications">Уведомлений:</string>
+    <string name="countries">Страны:</string>
+    <string name="phone">Телефон</string>
+    <string name="phone_">Телефон:</string>
+    <string name="orders_">Заявок: -</string>
+    <string name="orders_archive">Архив заявок</string>
+    <string name="core_month_earlier">На месяц ранее</string>
+
+    <!--CardOrder archive-->
+    <string name="google_check_order">Заявка №</string>
+    <string name="error_cannot_account_opened">Не удалось открыть счет</string>
+    <string name="in_processing">Новая</string>
+    <string name="account_opened">Счет открыт</string>
+    <string name="check_default_refuse">Отказ</string>
+    <string name="orders">Заявок</string>
+    <string name="archive">Архив</string>
+    <string name="request_clarification_Cvv2">Заявка на уточнение Cvv2-код карты успешно подана. Результат обработки Вы
+        получите в смс сообщении
+    </string>
+    <string name="period_of_validity">Срок действия:</string>
+    <string name="cvv2_cod">Узнать CVV2-код карты</string>
+    <string name="number_order">Номер заявки:</string>
+
+    <!--Экстренные деньги-->
+    <string name="extra_money">Экстренные деньги</string>
+    <string name="amt_uah_">Сумма, грн</string>
+    <string name="common_receivers_phone">Номер получателя</string>
+    <string name="amount_must_be_multiple_of_50">Сумма должна быть кратна 50.</string>
+    <string name="one_hundred_grivnas">100 грн</string>
+    <string name="two_hundred_grivnas">200 грн</string>
+    <string name="five_hundred_grivnas">500 грн</string>
+    <string name="one_thousand_grivnas">1000 грн</string>
+    <string name="send_a_code_to_your_phone">Отправить код на свой телефон</string>
+    <string name="send_a_code_to_another_phone">Отправить код на другой телефон</string>
+    <string name="ccy_gel">лари</string>
+
+
+    <string name="where_from">Откуда</string>
+    <string name="where_to">Куда</string>
+
+    <string name="common_commit">Подтвердить</string>
+    <string name="back">Назад</string>
+    <string name="bank">Банк:</string>
+    <string name="enter_the_last_4_digits_of_the_card">Введите 4 последние цифры карты:</string>
+    <string name="come_up_with_your_login_password">Придумайте пароль входа:</string>
+    <string name="must_contain_letters_and_numbers">(Должен содержать буквы и цифры. Не менее 6 - максимум 15 символов):</string>
+    <string name="recover_password">Восстановить</string>
+    <string name="restore_password">Восстановление пароля</string>
+    <string name="successfully_recovered_password">Поздравляем! Вы успешно восстановили пароль в Приват24.</string>
+  <!--Map-->
+    <string name="map_menu_object">Объекты</string>
+    <string name="places_not_found">Адреса не найдены</string>
+    <string name="map_menu_find">Поиск</string>
+    <string name="geo_dialog_caption">Поиск адреса</string>
+    <string name="geo_dialog_button_find">Искать</string>
+    <string name="atm">Банкомат</string>
+    <string name="ofice">Отделение</string>
+    <string name="terminal">Терминал</string>
+    <string name="bonus_">Бонус+</string>
+    <string name="map_">Карта</string>
+    <string name="firefighters">Служба спасения МЧС Украины</string>
+    <string name="police">Полиция</string>
+    <string name="ambulance">Скорая помощь</string>
+    <string name="salvation">Спасение</string>
+    <string name="gas_service">Аварийная служба газа</string>
+    <string name="transfer_to_card">Перевести на карту</string>
+    <string name="how_does_it_work">Как это работает?</string>
+
+    <string name="all_services_str">Все услуги</string>
+    <string name="info_str">Инфо</string>
+
+    <string name="add_place">Добавить</string>
+    <string name="place_number_">Место №</string>
+    <string name="passenger_name">Имя пассажира:</string>
+    <string name="passenger_surname">Фамилия пассажира:</string>
+    <string name="train_tickets_">ЖД билеты</string>
+    <string name="date_of_birth">Дата рождения:</string>
+    <string name="seats">Мест:</string>
+    <string name="car_list">Вагон </string>
+    <string name="services">Сервисы</string>
+    <string name="lingerie">Бельё</string>
+    <string name="tea">Чай</string>
+    <string name="two_tea">Два чая</string>
+    <string name="meal">Питание</string>
+    <string name="data_of_passengers">Данные пассажиров</string>
+    <string name="seat_1_class">сидячий 1 класс</string>
+    <string name="seat_2_class">сидячий 2 класс</string>
+    <string name="seat_3_class">сидячий 3 класс</string>
+    <string name="seat_lux">люкс</string>
+    <string name="seat_carriage">купейный</string>
+    <string name="seat_platskart">плацкарт</string>
+    <string name="seat_mutal">общий</string>
+
+    <string name="for_payment_confirmation">Для подтверждения платежа на сумму</string>
+    <string name="for_payment_from_card">Для подтверждения платежа с карты</string>
+    <string name="need_your_photo">необходима Ваша фотография</string>
+    <string name="thnk_photo_confirm">Спасибо! В течение нескольких минут Ваш платеж будет проведен. По всем вопросам обращайтесь в службу поддержки: звонок на номер 3700 (бесплатно с мобильных на территории Украины).</string>
+    <string name="send_photo">Oтправить</string>
+    <string name="take_a_photo_">Сфотографироватьcя</string>
+    <string name="retake_a_photo">Перефотографироватьcя</string>
+    <string name="make_a_photo">Сделайте фотографию</string>
+    <string name="enter_pin_of_card"> введите PIN-код карты</string>
+    <string name="confirm_pin_code">Подтверждение PIN-кода</string>
+    <string name="error_pin_confirmation">Ошибка подтверждения PIN-кода</string>
+    <string name="error_photo_confirmation">Ошибка подтверждения платежа</string>
+    <string name="core_wait">Пожалуйста, подождите…</string>
+    <string name="pin_approved">Pin код успешно подтвержден</string>
+
+    <string name="choose_place">Выберите хотя бы одно место</string>
+    <string name="quantity_of_place">Количество мест должно быть не более 4-х</string>
+
+    <string name="common_cancel">Отмена</string>
+    <string name="sending_a_ticket_to_mail">Отправка билета на E-mail</string>
+    <string name="sending_a_ticket_to_mail_successful">Отправка билета на E-mail прошла успешно. Письмо прийдет в течении 15 минут</string>
+    <string name="sending_a_receipt_for_the_e_mail">Отправка квитанции на E-mail</string>
+    <string name="cancel_ticket">Отменить билет</string>
+    <string name="comment_not_defined">Комментарий не указан</string>
+    <string name="ticket_successfully_canceled">Билет успешно отменен</string>
+    <string name="email_dots">Email:</string>
+    <string name="comment">Комментарий</string>
+
+    <string name="dep_descr">Общая сумма на карте может отличаться от доступной для оформления услуги \"%1$s\". Для оформления услуги доступны только те средства, которые поступили как пенсия, заработная плата, стипендия или другая социальная выплата, и ранее Вами с карты не снимались.</string>
+    <string name="dep_descr_convert">Валюта карты отличается от валюты депозита, конвертация будет произведена по курсу для карт и вкладов</string>
+
+    <string name="total_cost">Общая стоимость:</string>
+    <string name="send_to_mail_ticket_code">Отправить код на почту</string>
+    <string name="send_sms_ticket_code">Отправить код через SMS</string>
+    <string name="subject_code_mail_train">Код жд/авто билета на дату</string>
+    <string name="content_code_mail_train">Покупка жд/авто билета через мобильное приложение Privat24 для Android.</string>
+    <string name="code">Код</string>
+    <string name="sms_fail">Для данного устройства отправка смс невозможна</string>
+    <string name="send_mail">Отправка письма…</string>
+    <string name="city_not_found">Город не найден</string>
+
+    <!-- Строковые константы для коммуналки (Биплан) -->
+    <string name="city">Город</string>
+
+    <string name="description">Description</string>
+    <string name="search">Search</string>
+    <string name="error">error</string>
+
+
+
+    <string name="starting_point_exception">Точку отправления необходимо выбрать из списка!</string>
+    <string name="arrival_point_exception">Точку прибытия необходимо выбрать из списка!</string>
+    <string name="can_not_coincide_city">Город отправления не может совпадать с городом прибытия!</string>
+    <string name="passangers_quant">Общее число пассажиров не может быть более 9 человек</string>
+    <string name="select_a_station">Необходимо выбрать станции из выпадающих списков!</string>
+    <string name="set_the_date_of_departure">Установите дату отправления!</string>
+    <string name="set_return_date">Установите дату возврата!</string>
+    <string name="select_class_ticket">Выберите класс билета!</string>
+    <string name="train">Поезд</string>
+    <string name="bus">Автобус</string>
+
+    <string name="telecom_mtc">МТС</string>
+    <string name="telecom_life">Life:)</string>
+    <string name="telecom_peoplenet">PEOPLEnet</string>
+    <string name="telecom_intertelecom">Интертелеком</string>
+    <string name="telecom_utel">Utel</string>
+    <string name="telecom_kyivstar_internet">Kyivstar Internet</string>
+    <string name="telecom_viasat">Viasat</string>
+
+    <string name="telecoms">Телеком услуги</string>
+    <string name="change_user">Сменить пользователя</string>
+    <string name="user_exit">Выйти</string>
+
+    <string name="departures">Отправление</string>
+    <string name="arrivals">Прибытие</string>
+    <string name="places">Мест</string>
+
+    <string name="cvv_">Cvv</string>
+    <string name="copy">Копировать</string>
+    <string name="remains_payments">Осталось платежей</string>
+    <string name="debt">Задолженность</string>
+    <string name="limit">Доступный лимит</string>
+    <string name="bplan_search">Поиск</string>
+    <string name="bplan_filling_form">Заполнение реквизитов</string>
+    <string name="bplan_confirm_payment">Подтверждение</string>
+    <string name="bplan_ccy">грн</string>
+    <string name="minimum_amt">Минимальная сумма заказа</string>
+    <string name="bplan_recipient_name">Название получателя</string>
+    <string name="bplan_previous">Предыдущие</string>
+    <string name="bplan_current">Текущие</string>
+    <string name="bplan_to_menu">В меню</string>
+    <string name="bplan_next">Далее</string>
+    <string name="confirm_action">Подтвердить</string>
+    <string name="status_payment_for">Оплата за</string>
+    <string name="class_ticket">Класс билета</string>
+    <string name="any_ticket">Любой</string>
+    <string name="economy_ticket">Эконом</string>
+    <string name="business_ticket">Бизнес</string>
+    <string name="there_and_back">Туда и обратно</string>
+    <string name="one_way">Только туда</string>
+    <string name="adults">Взрослые (старше 12 лет)</string>
+    <string name="children">Дети (2-12 лет)</string>
+    <string name="infants">Младенцы (0-2 года)</string>
+    <string name="find_btn">Найти</string>
+    <string name="failed_to_get_data">Ошибка получения данных. Пожалуйста, попробуйте позже</string>
+    <string name="to_write_off">К списанию</string>
+    <string name="return_and_exchange">Вы соглашаетесь с условиями возврата и обмена.</string>
+    <string name="error_return_and_exchange">Вы должны согласится с условиями возврата и обмена.</string>
+    <string name="condition">"Условие "</string>
+    <string name="passenger_data">Данные о пассажирах</string>
+    <string name="fill_in_the_data_for">Заполните данные для \'</string>
+    <string name="select_your_gender">Пожалуйста, укажите ваш пол</string>
+    <string name="select_the_type_of_document">Пожалуйста, выберите тип документа</string>
+    <string name="choose_from_the_list_of_citizenship">Пожалуйста, выберете гражданство из списка</string>
+    <string name="select_dates_of_birth">Пожалуйста, укажите дату рождения</string>
+    <string name="select_your_dates_of_birth">Пожалуйста, укажите дату Вашего рождения</string>
+    <string name="specify_the_validity_of_the_document">Пожалуйста, укажите срок действия документа</string>
+    <string name="last_name">Фамилия</string>
+    <string name="first_name">Имя</string>
+    <string name="series_num_document">Серия, № документа</string>
+    <string name="add_passenger">Добавить пассажира</string>
+    <string name="gender">Пол</string>
+    <string name="men">Мужской</string>
+    <string name="woman">Женский</string>
+    <string name="type_doc">Тип документа</string>
+    <string name="national_passport">Гражданский паспорт</string>
+    <string name="international_passport">Заграничный паспорт</string>
+    <string name="birth_certificate">Свидетельство о рождении</string>
+    <string name="date_of_birth_">Дата рождения</string>
+    <string name="is_not_filled">Не заполнено</string>
+    <string name="direct">Без пересадок</string>
+    <string name="action_search">Поиск</string>
+    <string name="soylent">Сойлент</string>
+
+    <string name="write_off">Списание </string>
+    <string name="scheduled_delivery">Запланированный платеж</string>
+    <string name="receipt_successfully_sent">Квитанция успешно отправлена!</string>
+    <string name="receipt_unsuccessfully_sent">Квитанция не была отправлена</string>
+    <string name="payment_order">Платежное поручение</string>
+    <string name="get_money_from_ATM">Выдача наличных через мобильное приложение \"Приват 24\". Операция отправлена в обработку. Дождитесь выдачи средств из банкомата.</string>
+    <string name="transfer_from_friend">Перевод от друга</string>
+    <string name="fbtransfers">Переводы на Facebook</string>
+    <string name="send_code_">Отправить код</string>
+    <string name="common_receiver">Получатель</string>
+    <string name="receipt">Квитанция</string>
+    <string name="fuel_litrage">Литров:</string>
+    <string name="fuel_type">Топливо:</string>
+    <string name="ticket_information">Информация о билете</string>
+    <string name="stadium">Стадион:</string>
+    <string name="match">Матч:</string>
+    <string name="start_time">Время начала:</string>
+    <string name="get_a_ticket">Получить билет</string>
+    <string name="det_okpo">ОКПО:</string>
+    <string name="det_mfo">МФО:</string>
+    <string name="det_name">Наименование:</string>
+    <string name="receivers_bik">БИК:</string>
+    <string name="inn_">ИНН:</string>
+    <string name="data_synchronization">Идет синхронизация данных. Пожалуйста, попробуйте позже</string>
+    <string name="agreement_user">Для регистрации пользователем услуг Вы соглашаетесь предоставить нам номер мобильного телефона. Вы соглашаетесь предоставить нам доступ к списку контактов мобильного телефона с целью поиска и уведомления Вас о других пользователях услуг и упрощения процедуры обмена сообщениями. Мы гарантируем, что полученные Нами таким образом сведения будут использованы только с указанной целью и не будут разглашены третьим лицам без Вашего отдельного разрешения. В случае прекращения Вами использования услуг путем удаления приложения, эти данные будут удалены из программного обеспечения.</string>
+    <string name="reject">Отклонить</string>
+    <string name="user_agreement">Соглашение с пользователем</string>
+    <string name="postcard">Открытки</string>
+    <string name="notification_received">Получено уведомление</string>
+    <string name="confirm_tras_by_photo">Подтвердите транзакцию фотографией</string>
+    <string name="confirm_tras_by_pin">Подтвердите транзакцию PIN-кодом</string>
+    <string name="new_notifications">Новых уведомлений:</string>
+    <string name="accept_payment_card_v_mc">Принять платеж с карты Visa/MC</string>
+    <string name="cash">Наличные</string>
+    <string name="vk_golosov">Голосов:</string>
+    <string name="set_series_stud_card">Установите серию и номер студенческого билета!</string>
+    <string name="length_of_stud_card">Номер студенческого билета должен быть от 6 до 16 символов!</string>
+    <string name="hide_cards">Скрытые карты</string>
+    <string name="commission_">Комиссия:</string>
+    <string name="did_not_match_any_enterprise">По Вашему запросу не найдено ни одного предприятия.</string>
+    <string name="checkout_">Оплатить</string>
+    <string name="portion">порция</string>
+    <string name="portion_">порции</string>
+    <string name="portion_1">порций</string>
+    <string name="bottle">бутылка</string>
+    <string name="bottle_">бутылки</string>
+    <string name="bottle_1">бутылок</string>
+    <string name="you_should_be_eighteen">Вам должно быть 18 лет</string>
+    <string name="fio">ФИО</string>
+    <string name="do_you_want_to_delete_template">Вы хотите удалить шаблон?</string>
+    <string name="template_deleted_successfully">Шаблон удален успешно</string>
+    <string name="account_balance">Остаток на счету:</string>
+    <string name="other_templates">Другие шаблоны</string>
+    <string name="personal_account_">лицевой счет:</string>
+    <string name="payment_templates">Оплата по шаблонам</string>
+    <string name="payment_for_requisites">Оплата по реквизитам</string>
+    <string name="pers_account_">Лицевой счет:</string>
+    <string name="last_payment_">Последний платеж:</string>
+    <string name="account_balance_at_">Состояние счета на:</string>
+    <string name="the_last_operation">Время последней операции:</string>
+    <string name="entrance_at">Вход в</string>
+    <string name="output_at">Выход в</string>
+
+    <!--Платеж по Украине-->
+    <string name="receivers_yur_acc">Счет получателя</string>
+    <string name="common_inn">ЕГРПОУ(или ИНН)</string>
+    <string name="bank_mfo">МФО банка</string>
+    <string name="fio_payer">ФИО плательщика</string>
+    <string name="inn_payer">Код плательщика</string>
+    <string name="ua_payment_purpose">(ФИО плательщика, ИНН, и дата подтянутся в назначение платежа автоматически)</string>
+    <string name="payment_description">Назначение платежа</string>
+    <string name="bank_mfo1">МФО банка</string>
+    <string name="to_acc_ukr">На счет по Украине</string>
+    <string name="account_recipient_">Счет получателя</string>
+    <string name="all_ukraine">Вся Украина</string>
+
+
+
+    <!--Телекомы-->
+    <string name="kyivstar_internet">Киевстар интернет</string>
+    <string name="telecom_num_dog">Номер договора</string>
+    <string name="volya">Воля</string>
+    <string name="ukrtelecom">Укртелеком</string>
+    <string name="telecom_service_type">Тип сервиса</string>
+    <string name="vega">Vega</string>
+    <string name="viasat">Viasat</string>
+    <string name="freenet">FreeNet</string>
+    <string name="mobile_bilink">Bilink</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="pers_account">Лицевой счет</string>
+    <string name="home_telecom">Домашний телеком</string>
+    <string name="button_check">Проверить</string>
+    <string name="you_did_not_enter_an_account_number">Вы не указали номер счета</string>
+    <string name="account_number_is_invalid">Номер счета введен некорректно!</string>
+    <string name="current_account_balance">Текущий баланс счета: </string>
+    <string name="kiev">Киев</string>
+    <string name="zaporozhye">Запорожье</string>
+    <string name="telecom_search_type">Способ поиска</string>
+    <string name="address">Адрес:</string>
+    <string name="new_post">Отделение Новой почты №</string>
+    <string name="client_">Клиент:</string>
+    <string name="summtopay">Начислено:</string>
+    <string name="receivers_yur_name_">Наименование получателя</string>
+
+    <string name="email">E-mail</string>
+    <string name="validator_incorrect_phone_auth">Номер телефона должен быть введен в международном формате (Пример: +380YYХХХХХХХ)</string>
+    <string name="create_new_static_pass">Создание пароля для Приват24</string>
+
+    <!--Такси-->
+    <string name="taxi">Такси</string>
+    <string name="taxi_premium">Премиум</string>
+    <string name="taxi_micro">Микроавтобус</string>
+    <string name="taxi_standard">Стандарт</string>
+    <string name="taxi_house">Дом</string>
+    <string name="taxi_porch">Подъезд</string>
+    <string name="taxi_calculate">Рассчитать</string>
+    <string name="taxi_cost">Стоимость</string>
+    <string name="taxi_payment_type">Тип оплаты</string>
+    <string name="taxi_attention">Внимание! Сумма заказа будет автоматически списана с карты в случае если автомобиль будет найден.</string>
+    <string name="taxi_text_pay_cash">Отдадите указанную сумму водителю такси.</string>
+    <string name="taxi_not_found">Объект не найден.</string>
+    <string name="taxi_not_valid">Введены неверные данные.</string>
+    <string name="taxi_point_A">А</string>
+    <string name="taxi_point_B">Б</string>
+    <string name="taxi_h">д.</string>
+    <string name="taxi_p">под.</string>
+    <string name="taxi_change_summ_order">Во время оформления заказа изменилась сумма поездки. Согласны - нажмите \'Заказать\'</string>
+    <string name="calling_taxi">Вызываем такси</string>
+    <string name="finding_cars">Идет поиск машины. Для отмены заказа нажмите кнопку \'Отменить\'</string>
+    <string name="driver">Позвонить водителю</string>
+    <string name="your_taxi">Ваше такси</string>
+    <string name="order_canceling">Заказ отменен</string>
+    <string name="sorry">Извините</string>
+    <string name="fare_paid">Проезд оплачен!</string>
+    <string name="adresses_cant_match">Адреса отправления и прибытия не могут совпадать!</string>
+    <string name="wait_auto">В течение 10 минут мы найдем Вам такси.Ожидайте сообщение с номером автомобиля.</string>
+    <string name="wait_auto_new">Ваш заказ принят!Поиск авто начнется за 30 минут до указанного времени.</string>
+    <string name="status_in_archive">Статус заказа можете увидеть в АРХИВЕ </string>
+
+
+
+    <string name="taxi_time">Время</string>
+    <string name="confirm_pay_gift">Для подтверждения покупки на сумму %1$s %2$s - выберите карту и введите пароль</string>
+    <string name="taxi_now">Как можно скорее</string>
+    <string name="taxi_onTime">Заказать на время</string>
+    <string name="taxi_date_not_be_later_than">Дата предзаказа такси не должна быть позже чем</string>
+    <string name="no_avaliable_products">Нет доступной продукции в данной категории</string>
+    <string name="taxi_error_time_before_current">Время ранее текущего недопустимо!</string>
+    <string name="taxi_error_time_not_choice">Время не выбрано!</string>
+    <string name="make_order">Оплатите покупку в</string>
+    <string name="receive_bonus">и получайте повышенный бонус!</string>
+
+    <!--Цветы-->
+    <string name="flowers">Цветы</string>
+    <string name="flowers_order">Заказ цветов</string>
+    <string name="recipient_phone">Телефон получателя</string>
+    <string name="recipient_name">ФИО получателя</string>
+    <string name="recipient_email">E-mail получателя</string>
+
+    <!--Депозиты-->
+    <string name="deposit_open_success">Депозит успешно открыт</string>
+    <string name="deposit_term">Срок</string>
+    <string name="deposit_term_">Срок:</string>
+    <string name="deposit_name_">Название:</string>
+    <string name="deposit_rate">Ставка, % годовых</string>
+    <string name="deposit_rate_">Ставка, % годовых:</string>
+    <string name="deposit_month">мес</string>
+    <string name="deposit_charge">возможность пополнения депозита</string>
+    <string name="deposit_reg_payment">возможность подключить регулярный платёж при пополнении</string>
+    <string name="deposit_withdraw">возможность частичного снятия</string>
+    <string name="deposit_from_cash">возможность открытия/пополнения с налички</string>
+    <string name="deposit_capitalization">Возможность капитализации</string>
+    <string name="deposit_name">Название вклада</string>
+    <string name="deposit_no_card">Нет карт для данной операции</string>
+    <string name="deposit_no_card_error">К сожалению, у Вас нет Карты для выплат, к которой можно подключить \"%1$s\". Обратитесь, пожалуйста, в любое отделение.</string>
+    <string name="deposit_renewal_bonus">Надбавка при продлении</string>
+    <string name="depo_deposit_plus">Депозит Плюс</string>
+    <string name="depo_deposit_plus_term">Депозит Плюс срочный</string>
+    <string name="depo_standard_term">Стандарт срочный</string>
+    <string name="depo_standard">Стандарт</string>
+    <string name="depo_private_deposit">Приват-вклад</string>
+    <string name="depo_poste_restante">До востребования</string>
+    <string name="depo_deposit_without_tax">Услуга \"Стандарт безналоговый для пенсионеров, получателей зарплаты и социальных выплат\"</string>
+    <string name="depo_certificate">Депозитный сертификат</string>
+    <string name="deposit_from_card">С карты/счета</string>
+    <string name="deposit_cash">Наличными</string>
+    <string name="deposit_add_to_deposit_sum">Прибавлять % к сумме депозита</string>
+    <string name="deposit_monthly_transfer_percent_to_card">Переводить % на карту</string>
+    <string name="deposit_created">Создана заявка на оформление вклада</string>
+    <string name="control_deposit">Контролируйте и пополняйте вклад в Приват24</string>
+    <string name="deposit_you_can_pay_for_application_in_cash">До %1$s внесите наличные на депозит через терминал самообслуживания или в отделении. Если до внесения наличных изменятся условия по депозиту, он будет открыт на новых условиях.</string>
+
+
+    <string name="hardcode_eur">EUR</string>
+    <string name="hardcode_usd">USD</string>
+    <string name="dol">Долл</string>
+    <string name="evr">Евро</string>
+    <string name="hrn">Грн</string>
+
+    <string name="search_btn">Поиск</string>
+    <string name="show_all_refills"><![CDATA[Отобразить все <big><font color=#468E06>пополнения</font></big>]]></string>
+    <string name="show_all_refills_bigger"><![CDATA[<big>Отобразить все <big><font color=#468E06>пополнения</font></big></big>]]></string>
+    <string name="show_all_expenses"><![CDATA[Отобразить все <big><font color=#C74B4B>траты</font></big>]]></string>
+    <string name="show_all_expenses_bigger"><![CDATA[<big>Отобразить все <big><font color=#C74B4B>траты</font></big></big>]]></string>
+
+    <string name="exchange_buy">Покупка</string>
+    <string name="exchange_sale">Продажа</string>
+    <string name="exchange">Курс валют</string>
+    <string name="exchange_course_nbu">Курс обмена НБУ</string>
+    <string name="exchange_course_pb">Курс обмена ПБ</string>
+
+    <string name="determinate_location">Невозможно определить Ваше местоположение</string>
+    <string name="disable_location_name">Нельзя определить название местоположения</string>
+    <string name="disable_identity_your_place">Включите определение местоположения</string>
+
+    <!-- Строковые константы для покупки топлива -->
+    <string name="buy_tank">Полный бак</string>
+    <string name="buy_litres">Ввод литров</string>
+    <string name="buy_amount">Ввод суммы</string>
+    <string name="fuel_mark">Марка топлива</string>
+    <string name="enter_litres">Введите литры</string>
+    <string name="quantity_litres">л</string>
+
+    <string name="refuel">Заправиться</string>
+    <string name="refueling">Заправка</string>
+
+    <string name="you_can_refuel">Вы можете заправиться</string>
+    <string name="gun_unlocked">Пистолет разблокирован</string>
+    <string name="unlock_gun">Включить пистолет еще раз</string>
+    <string name="support_team">Служба поддержки</string>
+
+    <string name="litres">Литров:</string>
+    <string name="amount">Сумма:</string>
+    <string name="pay_games">Оплата игр</string>
+
+    <string name="fuel_x_lit">{0} л</string>
+
+    <string name="not_azs_msg">По текущим координатам не удалось найти АЗС. Выберите, пожалуйста, АЗС на карте</string>
+
+
+    <string name="error_cannot_get_coords">Не удалось получить координаты. Попробуйте позже</string>
+    <string name="fuel_litre_hint">От 1 литра</string>
+    <string name="fuel_amt_hint">От 1 грн.</string>
+    <string name="fuel_column">Колонка</string>
+
+    <string name="fuel_error_call_help">Ошибка. Обратитесь в службу поддержки</string>
+    <string name="cvv_of_card">CVV2 карты:</string>
+    <string name="scan_card">Сканировать карту</string>
+    <string name="accept_payment_card">Принять платеж</string>
+    <string name="validity">Срок действия</string>
+    <string name="validity_is_incorrect">Срок действия указан неверно</string>
+
+    <string name="vk_sum">Сумма:</string>
+    <string name="eqchange_buy">Купить</string>
+    <string name="eqchange_sold">Продать</string>
+    <string name="currency_exchange">Обмен валют</string>
+    <string name="for_sell">для продажи</string>
+    <string name="for_buy">для покупки</string>
+
+    <string name="click_to_course">Нажмите на выбранный курс для осуществления операции</string>
+
+    <string name="common_cvv_of_card">Cvv карты</string>
+    <string name="payment_gasoline_Charge">Оплата бензина. Заправка</string>
+    <string name="payment_of_petrol">АЗС</string>
+    <string name="error_during_the_operation">Ошибка при проведении операции.</string>
+    <string name="ap24_successfully_refuel">Вы успешно заправились :)</string>
+    <string name="sp_off_gps">Для выполнения операции требуется включить GPS</string>
+    <string name="positioning_is_not_included_go_settings">Определение местоположения не включено. Перейти к настройкам?</string>
+    <string name="refills">Заправки:</string>
+    <string name="error_send_order">Ошибка подачи заявки</string>
+    <string name="mess_">Сообщение:</string>
+    <string name="operation_failed_try_again">Ошибка выполнения операции. Пожалуйста, попробуйте еще раз</string>
+    <string name="petrol_station_temporarily_unavailable">Данная АЗС временно недоступна</string>
+    <string name="error_retrieving_data">Ошибка получения данных, попробуйте позже</string>
+    <string name="azs_map">Карта АЗС</string>
+    <string name="azs_wait">Подождите, идет заправка.</string>
+
+    <!--Мои реквизиты-->
+    <string name="recipient_acc1">ACCOUNT:</string>
+    <string name="recipient_acc2">Счет в банке получателя (номер пластиковой карты или текущий счет в ПриватБанке)</string>
+    <string name="zip_requsites">Реквизиты</string>
+    <string name="for_swift_paymenet">SWIFT платежом</string>
+    <string name="for_ua_payment">Наличными в других украинских банках</string>
+    <string name="for_cash_payment">Наличными в отделении Приватбанка</string>
+    <string name="recipient_info">Получатель платежа:</string>
+    <string name="card_to_fill">Карта для заполнения:</string>
+    <string name="fill_card_data">Заполнить данными карты</string>
+    <string name="select_type_payment">Способ пополнения вашей карты:</string>
+    <string name="recipient_name1">BENEFICIARY:</string>
+    <string name="recipient_name2">Получатель (Ф. И. О. владельца счета латиницей)</string>
+    <string name="swift_bank_name1">BANK OF BENEFICIARY:</string>
+    <string name="swift_bank_name2">Банк получателя</string>
+    <string name="swift_bnf_bank_name1">INTERMEDIARY BANK:</string>
+    <string name="swift_bnf_bank_name2">Банк-корреспондент</string>
+    <string name="swift_correspondent_account1">CORRESPONDENT ACCOUNT:</string>
+    <string name="swift_correspondent_account2">Счет банка получателя в банке-корреспонденте</string>
+    <string name="swift_iban">IBAN:</string>
+    <string name="swift_code_">SWIFT CODE:</string>
+    <string name="swift_code_ru">SWIFT-КОД БАНКА-КОРРЕСПОНДЕНТА:</string>
+    <string name="swift_bik_ru">БИК БАНКА-КОРРЕСПОНДЕНТА:</string>
+    <string name="swift_inn_ru">ИНН:</string>
+    <string name="swift_kpp_ru">КПП:</string>
+    <string name="swift_okpo_ru">ОКПО:</string>
+    <string name="swift_okato_ru">ОКАТО:</string>
+    <string name="swift_bnf_corresp_acc_ru">КОРРЕСПОНДЕНТСКИЙ СЧЕТ БАНКА-КОРРЕСПОНДЕНТА В ОТДЕЛЕНИИ 1 ГЛАВНОГО УПРАВЛЕНИЯ ЦЕНТРАЛЬНОГО БАНКА РОССИЙСКОЙ ФЕДЕРАЦИИ ПО ЦЕНТРАЛЬНОМУ ФЕДЕРАЛЬНОМУ ОКРУГУ Г.МОСКВА
+        (ОТДЕЛЕНИЕ 1 МОСКВА):</string>
+    <string name="swift_banking_institution">Учреждение банка:</string>
+    <string name="swift_rec_account">Счет получателя:</string>
+    <string name="swift_common_okpo">ЕГРПОУ(или ОКПО):</string>
+    <string name="swift_bank_mfo">МФО банка:</string>
+    <string name="swift_error_card">Выберите валютную карту/счет!</string>
+    <string name="sharing_message">Заполните данными выбранной карты</string>
+
+    <!--gios-->
+    <string name="text_givc_enter_values_JEK">ЖЭК</string>
+    <string name="text_givc_enter_values_next">Далее</string>
+    <string name="givc_error_month_is_to_far">Выбранная дата не должна превышать текущую</string>
+    <string name="givc_fill_edits">Необходимо заполнить поля "ЖЭК" и "Счет"</string>
+    <string name="comunal_kiev">Коммунальные платежи (Киев)</string>
+    <string name="text_givc_select_window_sum">Сумма:</string>
+    <string name="text_givc_select_window_card">С карты</string>
+    <string name="text_givc_select_window_util_type">Услуга</string>
+    <string name="text_givc_select_window_tariff">Тариф</string>
+    <string name="text_givc_select_window_fee">Задолженность</string>
+    <string name="text_givc_select_window_prev_value">Предыдущее значение</string>
+    <string name="text_givc_select_window_new_value">Новое значение</string>
+    <string name="text_givc_select_window_to_pay">Оплатить</string>
+    <string name="common_min_sum">Минимальная сумма:</string>
+    <string name="gios_address">Адрес:</string>
+    <string name="payments">Платежи</string>
+    <string name="common_error_no_card">Не выбрана подходящая карта!</string>
+    <string name="common_cat">Категория:</string>
+    <string name="mobipay_country">стран</string>
+    <string name="sender_version">Полная версия Sender</string>
+
+
+    <!--Дисконтные карты-->
+    <string name="discount">Дисконт</string>
+    <string name="discount_cards">Дисконтные карты</string>
+    <string name="discounts">Дисконты</string>
+    <string name="sent_from">Отправлено из</string>
+    <string name="add_your_first_discount_card">Добавьте свою первую дисконтную карту</string>
+    <string name="search_store">Поиск магазина</string>
+    <string name="enter_name_of_shop">Введите имя магазина</string>
+    <string name="other_shop">Другой магазин</string>
+    <string name="name">Название</string>
+    <string name="card_is_successfully_kept">Карта успешно сохранена</string>
+    <string name="card_is_successfully_removed">Дисконтная карта успешно удалена</string>
+    <string name="popular">ПОПУЛЯРНЫЕ</string>
+    <string name="mine">МОИ</string>
+    <string name="available1">ДОСТУПНЫЕ</string>
+    <string name="you_have_successfully_shared_discount_card">Вы успешно поделились дисконтной картой</string>
+    <string name="received_from">Получено от</string>
+    <string name="enter_your_card_number">Введите номер карты</string>
+    <string name="beer_order">Заказ пива</string>
+    <string name="you_do_not_have_credit_limit">У Вас нет доступного лимита.</string>
+    <string name="share">Поделиться</string>
+    <string name="archive_of_taxi">Архив заказов такси</string>
+    <string name="route">Маршрут</string>
+    <string name="not_approved">Не проведен</string>
+    <string name="in_progress">В обработке</string>
+
+
+
+
+    <string name="gift_card_sent_successfully">Gift карта успешно отправлена</string>
+    <string name="enter_your_message">Введите текст сообщения</string>
+    <string name="add_message">Добавить сообщение</string>
+    <string name="archive_gift_card">Архив подарочных карт</string>
+    <string name="archive_gift_card_war">Архив подарочных карт Wargaming</string>
+
+    <string name="taxi_change_summ_order_please_repeat">Во время оформления заказа изменилась сумма поездки. Пожалуйста, повторите заказ</string>
+
+    <string name="Sender_confirmation_is_sent_you">Вам отправлено Sender подтверждение</string>
+    <string name="confirmation_by_phone">Подтверждение по телефону</string>
+    <string name="expired_confirmation_time">Истекло время подтверждения. Пожалуйста, повторите попытку еще раз.</string>
+    <string name="Privatbank_causes">Вызывает ПриватБанк</string>
+
+
+    <string name="cost_of_the_order_is_increased_to">Стоимость заказа увеличена до</string>
+    <string name="bothered_to_wait">Надоело ждать?</string>
+    <string name="average_time_of_response_2">Среднее время отклика 2:00</string>
+    <string name="add_UAH_to_order_cost">Добавьте к стоимости заказа 5–10 грн, и это ускорит отклик водителя</string>
+    <string name="give_tip_to_the_driver">Добавьте чаевые</string>
+    <string name="accelerate_the_order">Ускорить заказ</string>
+    <string name="taxi_upperCase_uah">ГРН</string>
+    <string name="in_the_currency_of_recipient_account">в валюте карты получателя</string>
+
+
+    <string name="no_added_products">Нет добавленных товаров</string>
+    <string name="ordering_food">Еда</string>
+    <string name="the_product_is_added">Продукт добавлен в корзину</string>
+    <string name="conventional_sticks">Обычные палочки</string>
+    <string name="number_of_persons">Количество персон</string>
+    <string name="training_sticks">Учебные палочки</string>
+    <string name="in_total">Итого</string>
+    <string name="checkout">Оформить</string>
+    <string name="the_minimum_order">Минимальная сумма заказа 100 грн</string>
+    <string name="working_schedule">График работы: </string>
+    <string name="delivery_within_hour">Доставка в течение часа</string>
+    <string name="comment_to_the_order">Комментарий к заказу</string>
+    <string name="order_confirmation">Необходимо подтверждение заказа оператором</string>
+    <string name="are_you_eighteen">Мне 18 и более лет</string>
+    <string name="are_you_should_be_eighteen">Вам должно быть 18 и более лет</string>
+    <string name="delivery_costs">Стоимость доставки по Киеву составляет 30 грн. Заказ на сумму больше 600 грн - доставка бесплатная.</string>
+    <string name="delivery_costs_flowers_descr">Доставка в течение 2-х суток с момента оплаты.</string>
+    <string name="to_time">до 20.00</string>
+    <string name="from_time">с 10.00</string>
+    <string name="delivery_date">Дата доставки</string>
+    <string name="delivery_costs_flowers">Стоимость доставки:</string>
+    <string name="delivery_costs_new_post">Доставка согласно тарифам Новой Почты при получении</string>
+    <string name="free_delivery">Доставка бесплатная</string>
+    <string name="archive_services_bread">Бензин, Яндекс, Вконтакте</string>
+    <string name="exhibited_invoices">Выставленные инвойсы</string>
+    <string name="tied_cards">Привязанные карты</string>
+    <string name="free">Бесплатно</string>
+
+
+    <!--Гифт карты-->
+    <string name="gift_name">Подарочные карты</string>
+    <string name="gift_name_war">Подарочные карты Wargaming</string>
+    <string name="name_reciver">Имя получателя</string>
+    <string name="in_basket">В корзину</string>
+    <string name="for_woman">женщинам</string>
+    <string name="for_man">мужчинам</string>
+    <string name="for_children">детям</string>
+    <string name="gift_cards_shop">Покупка подарочных карт</string>
+    <string name="data_archive">Архив подарочных карт</string>
+    <string name="your_certificate">Ваш сертификат</string>
+    <string name="how_use_certificate">Как пользоваться сертификатом</string>
+    <string name="email_to_send">Email для отправки</string>
+    <string name="text_message">Текст сообщения</string>
+    <string name="amount_delivery">Сумма с доставкой:</string>
+    <string name="basket">Корзина</string>
+    <string name="reset">Сбросить</string>
+    <string name="apply">Применить</string>
+    <string name="all_field_needed_filling">Все поля должны быть заполнены!</string>
+    <string name="the_goods_is_added">Товар добавлен в корзину</string>
+    <string name="the_goods_is_added_earlier">Товар добавлен в корзину ранее</string>
+    <string name="product">Товар</string>
+    <string name="pay_block">Покупка заблокирована</string>
+    <string name="products">Товары</string>
+    <string name="all_products">Все товары</string>
+    <string name="similar_prod">Похожие товары</string>
+    <string name="if_summ_more">Если сумма заказа превышает %1$s %2$s - доставка бесплатная</string>
+    <string name="archive_soap">Архив покупок</string>
+    <string name="empthy_gift">Архив гифт карт пуст</string>
+    <string name="dont_add_more_4">Извините, но Вы не можете добавить более 5 гифт карт</string>
+    <string name="succes_soap_pay">Платеж осуществлен успешно </string>
+    <string name="good_not_found">Товар не найден</string>
+    <string name="good_not_found_sim">Товар не найден, рекомендуем похожие товары</string>
+    <string name="success_to_email">Подарочный сертификат успешно отправлен на указанный e-mail адрес</string>
+    <string name="add_certificate_to_basket">Подарочный сертификат добавлен в корзину</string>
+    <string name="error_pay_card">Произошла ошибка при покупке подарочной карты</string>
+    <!--<string name="">Товар не найден</string>-->
+    <string name="payment_gift_cards">Платеж осуществлен успешно,подарочный сертификат будет отправлен на указанный e-mail адрес</string>
+    <string name="mydocs_pass">Паспорт гражданский</string>
+    <string name="mydocs_business_cards">Визитки</string>
+    <string name="mydocs_name_template">Название шаблона</string>
+    <string name="mydocs_foreign_pass">Паспорт заграничный</string>
+    <string name="mydocs_drivers_license">Права</string>
+    <string name="mydocs_osago">ОСАГО</string>
+    <string name="mydocs_pensionersId">Пенсионное удостоверение</string>
+    <string name="mydocs_other">Другое</string>
+    <string name="docs">Документы</string>
+    <string name="expired_qr">Истек срок действия QR-кода. Пожалуйста, попробуйте еще раз</string>
+    <string name="сategory_already_exists">Категория уже существует</string>
+    <string name="to_delete_a_document">Удалить документ?</string>
+    <string name="new_group">Новая группа</string>
+    <string name="name_group">Название</string>
+    <string name="add_plus">Добавить +</string>
+    <string name="add_group">Добавить</string>
+
+    <!--Ads-->
+    <string name="auction">Торги</string>
+    <string name="list_ads">Список объявлений</string>
+    <string name="add_ads">Добавить объявление</string>
+
+
+    <!--taxi-->
+    <string name="in_transit">В пути</string>
+    <string name="failure_of_client">Отказ клиента</string>
+    <string name="failure_of_driver">Отказ водителя</string>
+    <string name="cancel_fault_manager">Отмена по вине диспетчера</string>
+    <string name="failure_client_not_fare">Отказ, клиента не устроил тариф</string>
+    <string name="failure_client_not_time">Отказ, клиента не устроило время</string>
+    <string name="success">Успех</string>
+    <string name="not_car">Нет машины</string>
+    <string name="total_sum">Итоговая сумма</string>
+    <string name="car_on_way">Автомобиль уже в пути</string>
+    <string name="car_filed">Автомобиль подан</string>
+    <string name="phone_driver">Водитель:</string>
+    <string name="car_in_you">Автомобиль будет у Вас</string>
+    <string name="time_in">%1$s в %2$s</string>
+    <string name="you_order">Ваш заказ принят</string>
+    <string name="pick_up_auto">Подбираем Вам автомобиль</string>
+
+
+    <!--divanTV-->
+    <string name="divan_tv">DivanTV</string>
+
+    <!--throw_boar-->
+    <string name="orders_services">Заказ услуг на сервисе "Метнись Кабанчиком"</string>
+    <string name="services_m">Услуги</string>
+    <string name="orders_services_m">Заказ услуг </string>
+    <string name="category_work">Категория работы</string>
+    <string name="what_should_done">Что нужно сделать?</string>
+    <string name="describe_detail">Подробно опишите Ваше задание</string>
+    <string name="conf_data">Конфиденциальные данные</string>
+    <string name="further">Далее</string>
+    <string name="info_performer">Информация только для исполнителя</string>
+    <string name="city_m">Город:</string>
+    <string name="category_work_m">Категория работы:</string>
+    <string name="what_should_done_m">Что нужно сделать:</string>
+    <string name="data_execution">Дата выполнения:</string>
+    <string name="adress">Адрес:</string>
+    <string name="order_accepted">Заявка принята.</string>
+    <string name="searches_performer">Выполняется поиск исполнителя.</string>
+    <string name="area_premises">Площадь помещения:</string>
+    <string name="suma_m">Сумма:</string>
+    <string name="how_work">Как работает "Метнись Кабанчиком"</string>
+    <string name="how_work_m">Как это работает</string>
+    <string name="adress_m">Адрес</string>
+    <string name="adress_from">Адрес от</string>
+    <string name="activate_action">Подключайтесь к акции и зарабатывайте бонусы</string>
+    <string name="adress_to">Адрес до</string>
+    <string name="pop_serv">Популярные услуги</string>
+    <string name="support">Поддержка</string>
+    <string name="online_service">Онлайн сервис заказа услуг</string>
+    <string name="i_accept">Я принимаю условия оферты</string>
+    <string name="i_accept_depo">Я ознакомлен(а) с нормами <![CDATA[<u>ст.26 Закона Украины \"О системе гарантирования вкладов физических лиц\"</u></font>]]></string>
+    <string name="archive_service">Архив услуг</string>
+    <string name="more_spec">Более 100 000 проверенных специалистов для выполнения Ваших бытовых или бизнес задач</string>
+    <string name="clean_apart">Уборка квартир</string>
+    <string name="plumber">Сантехник</string>
+    <string name="electrician">Электрик</string>
+    <string name="want_work">Хочу работать</string>
+    <string name="notes">Примечания</string>
+    <string name="crim_record">Судимость</string>
+    <string name="enter_series_pass">Введите серию и номер паспорта</string>
+    <string name="residence_address">Адрес проживания</string>
+    <string name="your_email">Введите Ваш e-mail</string>
+    <string-array name="gender">
+        <item>Мужской</item>
+        <item>Женский</item>
+        </string-array>
+    <string name="address_registr">Адрес прописки</string>
+    <string name="gen_male">Мужской</string>
+    <string name="gen_female">Женский</string>
+    <string name="rail_error_date_after">Дата позднее текущей недопустима!</string>
+    <string name="enter_date_ord">Выберите дату</string>
+    <string name="choose_category">Выберите категорию</string>
+    <string name="stat_serv">Статус заявки Вы можете посмотреть в архиве</string>
+    <string name="hw_spec_city">Укажите вид работы</string>
+    <string name="type_of_deposit">Вид вклада:</string>
+    <string name="hw_spec_city_det">Своими словами опишите, какую работу нужно выполнить</string>
+    <string name="hw_choice_spec">Поиск специалиста</string>
+    <string name="hw_choice_spec_det">Сервис "Kabanchik.ua" автоматически подберет подходящего специалиста для выполнения Вашего задания</string>
+    <string name="hw_task_comleted">Подтвердите выполнение задания</string>
+    <string name="hw_task_comleted_det">Когда работа сделана, подтвердите выполнение в деталях Вашего задания</string>
+    <string name="shortly_orders">Вскоре Вы сможете принимать заказы</string>
+    <string name="statement_successfully_validated">Заявка успешно подтверждена</string>
+    <string name="statement_successfully_cancelled">Заявка успешно отменена</string>
+    <string name="middle_name">Отчество</string>
+    <string name="data_not_more_day">Дата не может быть установлена больше 19-ти дней</string>
+    <string name="errors_order">При оформлении заявки были допущены следующие ошибки. Пожалуйста, повторите Ваш заказ</string>
+    <string name="ver_message">Последним этапом верификации профиля является подтверждение паспортных данных в режиме видеоконференции в Skype. Обычно это занимает не более 3-х минут.</string>
+    <string name="call_manager">Для согласования удобного времени позвоните нашему менеджеру по номеру +38(067)823-8983 (Пн-Пт с 09:00 до 18:00).</string>
+    <string name="your_success_anket">Ваша анкета успешно отправлена!</string>
+    <string name="your_adress_resid">Адрес проживания совпадает с адресом прописки</string>
+    <string name="for_city_not_service">Для данного города выбранная услуга недоступна</string>
+    <string name="mistaqe_in_phone">Ошибка в поле \"Телефон\"</string>
+    <string name="mistaqe_in_email">Ошибка в поле \"E_mail\"</string>
+    <string name="mistaqe_in_amt">Ошибка в поле \"Цена\"</string>
+    <string name="mistaqe_in_address">Ошибка в поле \"Адрес\"</string>
+    <string name="mistaqe_in_data">Ошибка в поле \"Дата\"</string>
+    <string name="mistaqe_in_description">Ошибка в поле \"Подробно опишите ваше задание\"</string>
+    <string name="mistaqe_in_title">Ошибка в поле Что нужно сделать</string>
+    <string name="mistaqe_in_last_name">Ошибка в поле \"Фамилия\"</string>
+    <string name="mistaqe_in_first_name">Ошибка в поле \"Имя\"</string>
+    <string name="mistaqe_in_middle_name">Ошибка в поле \"Отчество\"</string>
+    <string name="mistaqe_in_passport">Ошибка в поле \"Паспорт\"</string>
+    <string name="other_serv">Другие</string>
+    <string name="city_not_serv">В данном городе выбранная категория недоступна</string>
+    <string name="fingerprint">Отпечаток пальца</string>
+     <string name="you_must_agree_to_the_offert">Вы должны согласиться с условиями оферты!</string>
+     <string name="you_must_agree_to_the_norms">Вы должны согласиться с условиями!</string>
+
+    <string name="waiting_for_cash">Ожидает оплаты до</string>
+
+    <string name="kabanchik_status_0">Ожидает исполнителя</string>
+    <string name="kabanchik_status_1">В работе</string>
+    <string name="kabanchik_status_2">Исполнитель не был найден</string>
+    <string name="kabanchik_status_3">Выполнено</string>
+    <string name="kabanchik_status_4">Отменено</string>
+    <string name="kabanchik_status_5">Необходимо подтверждение</string>
+
+    <!--credit pay month-->
+    <string name="compulsory_payment">Обязательный платеж</string>
+    <string name="amount_full_repayment">Сумма до полного погашения</string>
+    <string name="you_no_debt">У вас нет задолженности</string>
+    <string name="accured_percent">Начисленные проценты:</string>
+    <string name="prepayments_enough_one">На сегодняшний день Вы погасили сумму задолженности с учетом процентов, начисленных за пользование кредитным лимитом в этом месяце</string>
+    <string name="prepayments_enough_two">Сумма до полного погашения с учетом процентов составляет %1$s %2$s</string>
+    <string name="prepayments_enough_three">Списание процентов в сумме %1$s %2$s будет произведено в конце месяца</string>
+    <string name="msg_full_payment_one">Если Вы внесёте %1$s %2$s до 25-го октября, не нужно будет платить никакие проценты.</string>
+    <string name="msg_full_payment_two">Если Вы не внесете эту сумму, Вам нужно внести до 25 минимум %1$s %2$s.Затем Вам нужно будет вносить обязательный платёж до 25-го числа каждого месяца, пока не погасится весь кредит. На сумму кредита будет начислятся %3$s %4$s в месяц(в конце месяца)</string>
+    <string name="no_pay_percent_one">На сегодняшний день Вы погасили сумму текущей задолженности без учета процентов, начисленных за пользование кредитом в текущем месяце.</string>
+    <string name="not_privileged_one">Вы не погасили задолженность до окончания льготного периода, поэтому на Ваш долг начисляются проценты по ставке <b>%1$s %2$s</b> в месяц. Списание происходит в конце месяца</string>
+    <string name="not_privileged_two">На сегодняшний день, сумма до полного погашения составляет %1$s %2$s (эта сумма состоит из %3$s %4$s Вашей текущей задолженности и %5$s %6$s процентов, которые начислены и будут списаны в конце месяца).)</string>
+    <string name="not_privileged_three">Если Вы внесете на карту %1$s %2$s сегодня, то Вы полностью рассчитаетесь с кредитом, Ваша карта \"выйдет в ноль\", и Вы сможете снова пользоваться кредитным лемитом с льготным периодом</string>
+    <string name="privileged_period_one">Чтобы не платить процентов за пользование кредитным лимитом, все траты, которые Вы сделали, нужно погасить до %1$s +29 дней включительно</string>
+    <string name="privileged_period_two">Если вы не погасите задолженность, то %1$s+30 день будет списана комиссия %2$s %3$s от суммы долга.</string>
+    <string name="privileged_period_three">После окончания льготного периода на сумму кредита начисляется %1$s %2$s в месяц. Списание происходит в конце месяца</string>
+    <string name="privileged_period_start">Дата старта льготного периода</string>
+
+    <string name="i_like_football">Я люблю футбол</string>
+
+    <!--Octopus-->
+    <string name="sport_tickets_to">Спорт</string>
+    <string name="afisha_tickets_to">Афиша</string>
+    <string name="footbal_tickets_to">На футбол</string>
+    <string name="cinema_tickets_to">В кино</string>
+    <string name="cinema">Кино</string>
+    <string name="concert_tickets_to">На концерт</string>
+    <string name="hockey_tickets_to">На хоккей</string>
+    <string name="basket_tickets_to">На баскетбол</string>
+    <string name="enter_events">Введите название события</string>
+    <string name="date_from">Дата от</string>
+    <string name="date_to">Дата по</string>
+    <string name="msg_three_symbols">Вы должны ввести не менее 3 символов</string>
+    <string name="show_sheme_stad">Посмотреть схему стадиона</string>
+    <string name="show_sheme_concert">Посмотреть схему концертного зала</string>
+    <string name="show_sheme_cinema">Посмотреть схему кинозала</string>
+    <string name="show_sheme">Подивитися схему стадіону</string>
+    <string name="free_seats">Свободных мест</string>
+    <string name="price_tickets">Цена (ГРН)</string>
+    <string name="price_tickets_m">Цена билета:</string>
+    <string name="qounts_free_seats">Количество свободных мест:</string>
+    <string name="add_ticket">Добавить билет</string>
+    <string name="remove_ticket">Удалить билет</string>
+    <string name="schema_stad">Схема стадиона</string>
+    <string name="payment_tickets">Оплата билетов</string>
+    <string name="schema_sector">Схема сектора</string>
+    <string name="sector">Сектор</string>
+    <string name="seat">Место </string>
+    <string name="sector_m">Сектор: %1$s</string>
+    <string name="sector_n">Сектор №</string>
+    <string name="seat_n">Место №</string>
+    <string name="row_n">Ряд №</string>
+    <string name="seat_m">Место: %1$s</string>
+    <string name="info_cinema">Информация о фильме</string>
+    <string name="numb_ticket">Билет №%1$s</string>
+    <string name="reserv_message">Вы забронировали билеты. Подтвердите оплату или отмените бронь</string>
+    <string name="ticket_success_submit">Билеты отправлены на указанный Вами E-mail</string>
+    <string name="ticket_happynes">Желаем Вам хорошо провести время!</string>
+    <string name="ticket_price">Цена билетов:</string>
+    <string name="ticket_price_with_comiss">Итого с учетом комиссии:</string>
+    <string name="cancel_reserv">Отменить бронь</string>
+    <string name="tick_unit">шт.</string>
+    <string name="reject_order">Покупка билетов отменена</string>
+    <string name="ticket">билет</string>
+    <string name="ticket2">билета</string>
+    <string name="ticket3">билетов</string>
+    <string name="ticket_match">на матч </string>
+    <string name="ticket_concert">на концерт </string>
+    <string name="ticket_cinema">в кино </string>
+    <string name="row"> ряд </string>
+    <string name="row_">Ряд</string>
+    <string name="resrv_ticket">Бронь билетов</string>
+    <string name="pay_ticket">Оплата билетов</string>
+    <string name="search_vendors">Поиск по вендорам</string>
+    <string name="search_cities">Поиск по городам</string>
+    <string name="choice_seat">Выберите место</string>
+    <string name="show_ticket">Просмотреть билет</string>
+    <string name="your_name">Введите Ваше имя</string>
+    <string name="сhanges_will_take_effect_after_restarting_the_application">Изменения вступят в силу после перезапуска приложения</string>
+    <string name="decline_payment">Платеж отменен</string>
+    <string name="qr_failure">Помилка виконання операції. Будь ласка, спробуйте ще раз</string>
+    <string name="qr_success">Операція успішно виконана</string>
+    <string name="need_update_application_msg">Версия приложения устарела. Пожалуйста, обновите версию на Google play</string>
+    <string name="cs_determine_how_to_confirm">Определяется способ подтверждения</string>
+    <string name="approve_acton">Подтвердите действие</string>
+    <string name="phone_validation_msg">Возможно Вы ошиблись \nпри вводе номера телефона</string>
+    <string name="el_certificate">Электронный сертификат</string>
+    <string name="game_center">Game centrer</string>
+    <string name="i_want_to_pay_a_commission_instead_of_the_recipient">Я хочу оплатить комиссию вместо получателя
+    </string>
+
+
+    <!--confirm service-->
+    <string name="cs_captcha_info">Для подтверждения платежа отправьте смс с текстом <b>%1$s</b>  на номер <b>%2$s</b> с финансового номера телефона. После отправки ожидайте todo</string>
+    <string name="cs_ivr_captcha_info">Для подтверждения платежа позвоните на номер <b>%1$s</b> с финансового номера телефона. После звонка ожидайте todo</string>
+
+    <string name="cs_dialog_name_password">Подтвердить cтатическим паролем</string>
+    <string name="cs_dialog_name_pin">Подтвердить PIN-кодом</string>
+    <string name="cs_dialog_name_sms">Подтвердить паролем из смс</string>
+    <string name="cs_dialog_name_ivr">Подтвердить звонком</string>
+    <string name="cs_dialog_name_sender">Подтвердить через Sender</string>
+    <string name="cs_dialog_name_captcha">Подтвердить отправкой смс</string>
+    <string name="cs_dialog_name_email">Подтвердить через финансовый email</string>
+
+    <string name="cs_errorCode_wrong_password">пароль введен неверно</string>
+    <string name="cs_errorCode_limit_wrong_password">превышено кол-во попыток ввода</string>
+    <string name="cs_errorCode_blocked_wrong_password">превышено кол-во попыток ввода + аккаунт заблокирован</string>
+    <string name="cs_errorCode_wrong_pin">пин введен неверно</string>
+    <string name="cs_errorCode_enter_pin_timeout">таймаут ожидания ввода пин</string>
+    <string name="cs_errorCode_sender_on_phone_needed">нет телефонов с сендером</string>
+    <string name="cs_errorCode_error_gps_coordinates_is_absent"> не переданы gps координаты с утройства</string>
+    <string name="cs_errorCode_message_not_send">уведомление не отправилось</string>
+    <string name="cs_errorCode_expire_sms">Максимальная попытка использования пароля</string>
+    <string name="cs_errorCode_wrong_sms_password">введен неправильный отп пароль</string>
+    <string name="cs_errorCode_expire_captcha">Максимальная попытка использования пароля</string>
+    <string name="cs_errorCode_canceled_request">Подтверждение прервано</string>
+    <string name="cs_errorCode_timeout">Истекло время подтверждения. Пожалуйста, повторите попытку еще раз</string>
+
+
+   <!--ads-->
+    <string name="status_active">Активно</string>
+    <string name="status_new">Новое</string>
+    <string name="status_moderation">На модерации</string>
+    <string name="status_not_active">Не активно</string>
+    <string name="status_rejected">Отклонено</string>
+    <string name="you_want_remove_img">Удалить изображение?</string>
+    <string name="new_ads">Новое обьявление</string>
+    <string name="ad_successfully_added">Обьявление успешно добавлено</string>
+    <string name="select_at_least_one_image">Выберите минимум одно изображение</string>
+    <string name="header">Заголовок</string>
+    <string name="categories">Категории</string>
+    <string name="ads">Обьявления</string>
+    <string name="minimum_number_of_characters_to_search_4">Минимальная кол-во символов для поиска - 4</string>
+    <string name="your_search_unknown">К сожалению, по Вашему запросу нет данных.</string>
+    <string name="my_templates">Мои шаблоны</string>
+    <string name="other_payments">Прочие платежи</string>
+    <string name="create_payment">Создать платеж</string>
+    <string name="find_company">Найти компанию</string>
+    <string name="fill_requisites">Заполнить реквизиты</string>
+    <string name="creating_payment">Создание платежа</string>
+    <string name="good_time">Желаем Вам хорошо провести время!</string>
+
+
+    <!--biplan v 3-->
+
+</resources>
+
+
+
+
+

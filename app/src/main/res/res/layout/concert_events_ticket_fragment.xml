@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp">
+
+
+  <Spinner
+      android:id="@+id/spCities"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginBottom="10dp"/>
+
+  <!--<Spinner-->
+  <!--android:id="@+id/spCategories"-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_gravity="center_horizontal"-->
+  <!--android:layout_marginTop="10dp"-->
+  <!--android:layout_marginBottom="10dp"/>-->
+
+  <!--<ua.privatbank.ap24.beta.components.MultiSpinner android:id="@+id/multi_spinner"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_marginTop="10dp"
+                                                   android:layout_marginBottom="10dp" />-->
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/etSearchEvent"
+        android:layout_weight="1"
+        android:hint="@string/enter_events"/>
+    <!--<Button-->
+    <!--android:id="@+id/btnSearch"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="3"-->
+    <!--android:background="@drawable/left_bt_active"-->
+    <!--android:text="@string/map_menu_find"-->
+    <!--android:textSize="18dp" />-->
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnDateFrom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="?attr/bg_round_sides"
+        android:padding="8dp"
+        android:text="@string/date_from"
+        android:textColor="?attr/color6"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnDateTo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="?attr/bg_round_sides"
+        android:padding="8dp"
+        android:text="@string/date_to"
+        android:textColor="?attr/color6"
+        android:textSize="16sp"/>
+  </LinearLayout>
+  <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+      xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+      android:id="@+id/btnSearch"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left"
+      p24:text="@string/map_menu_find"
+      p24:textSize="@dimen/text_size_button_next"
+      android:layout_marginTop="60dp"
+      android:layout_marginLeft="15dp"/>
+  <TextView
+      android:id="@+id/emptyElement"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:textColor="?attr/color6"
+      android:text="@string/no_data_to_display"
+      android:visibility="gone"/>
+</LinearLayout>

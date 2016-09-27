@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="35dp">
+
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                style="?attr/style_edittext"
+                android:inputType="textEmailAddress"/>
+
+
+        <ua.privatbank.ap24.beta.views.RobotoMediumEditText
+            android:id="@+id/editPass"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pass"
+            style="?attr/style_edittext"
+            android:inputType="textPassword"/>
+
+        <CheckBox
+            android:id="@+id/checkPass"
+            android:button="?attr/check_style"
+            android:paddingLeft="@dimen/padding_checkbox"
+            android:layout_marginTop="10dp"
+            android:textColor="?attr/common_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"/>
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonNext"
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    p24:textSize="@dimen/text_size_button_next"
+                    p24:text="@string/button_confirm"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

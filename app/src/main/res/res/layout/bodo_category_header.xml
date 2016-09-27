@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinSoapHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/color15"
+            android:gravity="center"
+            android:popupBackground="@color/color15"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="3dp"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/ivSoapBasket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:focusableInTouchMode="true"
+            android:padding="3dp"
+            android:src="@drawable/basket" />
+    </LinearLayout>
+
+    <ua.privatbank.ap24.beta.views.RobotoCondensedLightTextView
+        android:id="@+id/tvSoupTitle"
+        style="@style/singleLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="@string/product"
+        android:textColor="?attr/bar_header_text_color"
+        android:textSize="@dimen/text_size_title"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvSoapBasketCount"
+        style="@style/text_white_size_small_bg_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:minHeight="18dp"
+        android:minWidth="18dp"
+        android:singleLine="true"
+        android:text="0" />
+
+</RelativeLayout>

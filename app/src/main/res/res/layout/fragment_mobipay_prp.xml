@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:id="@+id/imageUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="?attr/world"/>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+                    <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/master_common_text"
+                            android:textSize="22sp"
+                            android:text="140"/>
+                    <ua.privatbank.ap24.beta.views.RobotoLightTextViewWithoutColor
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/master_common_text"
+                            android:textSize="18sp"
+                            android:text="@string/mobipay_country"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <EditText
+                        android:id="@+id/etPhone"
+                        style="?attr/style_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/phone_number"
+                        android:text="+"
+                        android:textColor="?attr/common_text"
+                        android:textSize="@dimen/text_size_mob_pop" />
+
+
+                <ImageView
+                        android:id="@+id/imageViewKontakt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0"
+                        android:background="?attr/kontakt"
+                        android:textColor="?attr/common_text" />
+
+            </LinearLayout>
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/telephone_format"
+                android:textColor="?attr/color4"
+                    android:textStyle="normal"/>
+
+
+            <Spinner
+                    android:id="@+id/spinOperators"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+
+            <LinearLayout
+                    android:id="@+id/llDenominations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                <Spinner
+                        android:id="@+id/spinDenominations"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                <TextView
+                        android:id="@+id/tvCcyDenominations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="0"
+                        android:paddingLeft="10dp"
+                        android:text="@string/ccy_usd"
+                        android:textColor="?attr/common_text"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/llMinMaxValueRange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="18dp"
+                    android:orientation="horizontal">
+
+                <EditText
+                        android:id="@+id/etAmt"
+                        style="?attr/style_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="70dp"
+                        android:paddingBottom="0dp"
+                        android:text="45"
+                        android:textColor="?attr/color7"
+                        android:textSize="@dimen/text_size_amt"
+                        android:textStyle="bold"/>
+
+                <TextView
+                        android:id="@+id/tvCcyMinMaxValueRange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="0"
+                        android:gravity="bottom"
+                        android:text="@string/ccy_ua"
+                        android:textColor="?attr/common_text"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                <Spinner
+                        android:id="@+id/cardFromSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/buttonNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="60dp"
+                    p24:textSize="@dimen/text_size_button_next"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

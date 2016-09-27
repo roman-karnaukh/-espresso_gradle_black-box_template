@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:minWidth="1000dp"
+              android:background="?attr/dialog_background" android:weightSum="1">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_margin="15dp">
+
+        <TextView
+                android:id="@+id/tvSearchLocCaption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/common_pass"
+                android:textColor="?attr/common_text"
+                android:gravity="center"/>
+
+        <EditText
+                android:id="@+id/etGeoSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                style="?attr/style_edittext">
+        </EditText>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="right">
+            <ua.privatbank.ap24.beta.apcore.components.ButtonNextView
+                    xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+                    android:id="@+id/bGeoSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    p24:textSize="@dimen/text_size_button_next"
+                    p24:text="@string/geo_dialog_button_find"
+                    android:layout_gravity="right"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ListView
+            android:id="@+id/lvAddrResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="3dp">
+
+    </ListView>
+
+</LinearLayout>

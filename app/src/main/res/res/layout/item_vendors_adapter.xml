@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/ivVendorLogo"
+            android:visibility="visible"
+            android:scaleType="centerInside"
+            android:layout_weight="1.8"
+            android:src="@drawable/ava"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_gravity="center">
+            <ua.privatbank.ap24.beta.views.RobotoMediumTextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Шампунь WELLA густые и крепкие"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

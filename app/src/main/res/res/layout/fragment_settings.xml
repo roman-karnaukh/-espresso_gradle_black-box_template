@@ -1,0 +1,551 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/top_half"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvCancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding_in_settings"
+                            android:padding="10dp"
+                            android:text="@string/cancel"
+                            android:textColor="?attr/color3"
+                            android:visibility="gone" />
+
+                        <mobi.sender.widgets.CircularImageView
+                            android:id="@+id/civAvatar"
+                            android:layout_width="@dimen/d_big_avatar"
+                            android:layout_height="@dimen/d_big_avatar"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/contact_info_add_photo_sender" />
+
+                        <TextView
+                            android:id="@+id/tvAccept"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/padding_in_settings"
+                            android:gravity="right"
+                            android:padding="10dp"
+                            android:text="@string/accept"
+                            android:textColor="?attr/color3"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/nameLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="50dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvUserName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:ellipsize="end"
+                                android:fontFamily="@string/font_family_sans_serif_light"
+                                android:gravity="center"
+                                android:lines="2"
+                                android:singleLine="true"
+                                android:textColor="?attr/color3"
+                                android:textSize="24sp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+
+                            <EditText
+                                android:id="@+id/etUserName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="50dp"
+                                android:background="@drawable/bg_edit_gray"
+                                android:ellipsize="end"
+                                android:fontFamily="@string/font_family_sans_serif_light"
+                                android:gravity="center"
+                                android:hint="@string/enter_your_name"
+                                android:inputType="textCapSentences"
+                                android:singleLine="true"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nameLayout"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvUserInfo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="50dp"
+                                android:ellipsize="end"
+                                android:fontFamily="@string/font_family_sans_serif_thin"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:textColor="?attr/color3"
+                                android:textSize="16sp"
+                                android:visibility="visible" />
+
+                            <EditText
+                                android:id="@+id/etUserInfo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="50dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/bg_edit_gray"
+                                android:ellipsize="end"
+                                android:fontFamily="@string/font_family_sans_serif_thin"
+                                android:gravity="center"
+                                android:hint="@string/enter_your_status"
+                                android:singleLine="true"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ivEdit"
+                            android:layout_width="@dimen/header_outer"
+                            android:layout_height="@dimen/header_outer"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="8dp"
+                            android:src="@drawable/_edit_g" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/sender_alpha_22" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/appearance"
+                android:textColor="?attr/master_common_text"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerTheme"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/spinner_default_sender"
+                android:gravity="top"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/langTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/choose_lang"
+                android:textColor="?attr/master_common_text"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerLang"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/spinner_default_sender"
+                android:gravity="top"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAuthorization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:text="@string/sms_password"
+                android:textColor="?attr/master_common_text"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="?attr/checkbox_of_settings"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvSenderVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:text="@string/sender_version"
+                android:textColor="?attr/master_common_text"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbSenderVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="?attr/checkbox_of_settings"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlFullVersion"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/sender_alpha_22" />
+
+            <TextView
+                android:id="@+id/tvFullVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/sender_version"
+                android:textColor="?attr/master_common_text"
+                android:textSize="20sp" />
+
+
+            <CheckBox
+                android:id="@+id/sFFullVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="?attr/checkbox_of_settings"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="?attr/common_text"
+                android:textSize="15sp" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvFullVersion"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="@string/synchronized_contacts"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="?attr/master_common_text"-->
+            <!--android:textSize="20sp" />-->
+
+            <!--<CheckBox-->
+            <!--android:id="@+id/sFFullVersion"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:button="?attr/checkbox_of_settings"-->
+            <!--android:textColor="?attr/common_text"-->
+            <!--android:textSize="15sp" />-->
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:id="@+id/rlFingerprint"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/sender_alpha_22" />
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/fingerprint"
+                    android:textColor="?attr/master_common_text"
+                    android:textSize="20sp" />
+
+
+            <CheckBox
+                    android:id="@+id/sFingerprint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="?attr/checkbox_of_settings"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="?attr/common_text"
+                    android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+        <LinearLayout
+            android:id="@+id/llTimesheet"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tvTimesheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/timesheet"
+                android:textColor="?attr/color3"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+        <LinearLayout
+            android:id="@+id/llCreditRating"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ua.privatbank.ap24.beta.views.RobotoLightTextView
+                android:id="@+id/tvCreditRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/credit_rating"
+                android:textColor="?attr/color3"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" android:id="@+id/llRestorePassword">
+
+            <TextView
+                android:id="@+id/tvRestorePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/restore_password"
+                android:textColor="?attr/color3"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sender_alpha_22" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" android:id="@+id/llsettingsOfChat">
+
+            <TextView
+                android:id="@+id/settingsOfChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/settings_of_chat"
+                android:textColor="?attr/color3"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ua.privatbank.ap24.beta.apcore.components.ButtonNextView xmlns:p24="http://schemas.android.com/apk/res/ua.privatbank.ap24"
+            android:id="@+id/buttonAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0"
+            android:visibility="gone"
+            p24:iv_background="?attr/selector_button_next_small"
+            p24:text="@string/admin"
+            p24:textSize="@dimen/text_size_more_transfers" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
