@@ -5,7 +5,7 @@
     <instrumentation
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:label="Tests"
-        android:targetPackage="your.package" />
+        android:targetPackage="ua.privatbank.ap24" />
 
     <application></application>
 

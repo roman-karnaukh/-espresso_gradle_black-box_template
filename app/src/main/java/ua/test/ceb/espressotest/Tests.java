@@ -15,6 +15,7 @@ import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
 
 /**
@@ -22,15 +23,19 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
  */
 public class Tests {
 
-    String packagePath = "your.package.Activity";
+    String packagePath = "ua.privatbank.ap24.beta.SplashActivity";
 
     @Rule
-    public ActivityTestRule<?> mActivityRule = myActivityTestRule("your.package.Activity");
+    public ActivityTestRule<?> mActivityRule = newActivityTestRule(packagePath);
 
     @NonNull
-    private ActivityTestRule myActivityTestRule(String className) {
+    private ActivityTestRule newActivityTestRule(String className) {
+        return new ActivityTestRule(activityClass(className));
+    }
+
+    private static Class<? extends Activity> activityClass(String className) {
         try {
-            return new ActivityTestRule(Class.forName(className));
+            return (Class<? extends Activity>) Class.forName(className);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -45,8 +50,7 @@ public class Tests {
     }
 
     public int getId(String id){
-
-        Context targetContext = InstrumentationRegistry.getContext();
+        Context targetContext = mActivityRule.getActivity().getApplicationContext();
         String packageName = targetContext.getPackageName();
         int viewId = targetContext.getResources().getIdentifier(id, "id", packageName);
         return viewId;
